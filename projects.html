@@ -24,44 +24,44 @@
 
 
         <!-- Project Summary Cards -->
-        <div class="flex flex-col items-center">     <!-- Container for whole section --> 
+        <div class="flex flex-col items-center" id="vue1">     <!-- Container for whole section --> 
 
-          <div class="flex flex-row flex-wrap justify-center" id="vue1"> 
+          <div class="flex flex-row flex-wrap justify-center"> 
 
-            <!-- <div class="h-10 sm:h-20 w-full"></div> Spacer, full width -->
 
             <!-- Start of Summary Card -->
-            <div class=" mt-10 sm:mt-20 mx-10 flex flex-col flex-wrap justify-center items-center
-              bg-backgnd-card rounded-lg shadow-lg  border border-bord-std" 
-              v-for="alias in sum_card_data">  <!-- Start vue loop through sum_card_data array in main.js -->
+            <div class="mt-6 sm:mt-12 mx-4 sm:mx-6  flex flex-col flex-wrap justify-between items-center
+                      bg-backgnd-card rounded-lg shadow-lg  border border-bord-std" 
+              v-for="alias in sum_card_data"
+            >
+              <div class="w-full mt-5 mb-1  text-md md:text-lg font-600 text-center">{{ alias.title }} </div>
 
-              <div class="w-full mt-5 mb-1  text-md md:text-lg lg:text-xl  font-600 text-center">{{ alias.title }} </div>
+              <div class="px-3  flex flex-col md:flex-row items-center">
+                <div class="w-24 md:w-28 h-24 md:h-28  mx-4 mt-4 mb-2">
+                  <img class="rounded-lg" :src="alias.image_url" :alt="alias.altText">
+                </div>
 
-              <div class="flex flex-row items-center">
-                  <div class="w-24 h-24 md:w-28 md:h-28  m-4 ml-6">
-                    <img class="rounded-lg" :src="alias.image_url" :alt="alias.altText">
-                  </div>
+                <div class="m-3 flex flex-col justify-start w-48 md:w-40 lg:w-48">
+                  <!-- lg:pr-6 -->
+                  <p class="text-xs sm:text-sm"> {{ alias.description }} </p>
+                  <p class="text-2xs sm:text-xs pt-2 text-bord-std"> {{ alias.languages}} </p>
+                </div>
+              </div>
 
-                  <div class="flex flex-col justify-start p-4 lg:pr-6">
-                    <p class="w-40 md:w-44 lg:w-48 pb-2 text-sm lg:text-md"> {{ alias.description }} </p>
-                        <p class="w-40 md:w-44  text-xs text-bord-std"> {{ alias.languages}} </p>
-                    </div>
-                  </div>
+              <div class="flex justify-center font-400 mt-3 mb-6 text-xs md:text-sm text-center">  <!-- Link buttons -->
+                <a href="">    <!-- Todo: Add link to jump to project detail card below! -->
+                  <button class="standardButton">
+                    {{ alias.link1Text }}
+                  </button>        
+                </a>
 
-                  <div class="flex justify-center font-400 mt-3 mb-6 text-xs md:text-sm">  <!-- Link buttons -->
-                    <a href="">
-                        <button class="px-4 py-1 rounded shadow-lg
-                        bg-gray-200 border border-bord-std hover:bg-white hover:text-gray-900 transition duration-300">
-                        Learn More</button>           <!-- Todo: Add link to jump to project detail card below! -->
-                    </a>
+                <a href="">   <!--   Todo: Add link to run this app somehow! -->
+                  <button class="standardButton">
+                     {{ alias.link2Text }}
+                  </button>   
+                </a>
 
-                    <a href="">
-                        <button class="px-8 py-1 mx-4 rounded shadow-lg
-                        bg-gray-200 border border-bord-std hover:bg-white hover:text-gray-900 transition duration-300">
-                        Run It</button>               <!-- Todo: Add link to run this app somehow! -->
-                    </a>
-                  </div>
-              </div> 
+              </div>
 
             </div>  <!-- End of Summary Card -->
 
@@ -86,16 +86,16 @@
               <img class="mb-10  w-3/4 lg:w-140  object-contain  rounded-lg" :src="alias.image_url" :alt="alias.altText">
 
               <div>
-                  <p class="md:px-2 pb-2  text-sm sm:text-md lg:text-lg"> {{ alias.description }} </p>
-                  <p class="md:px-2 pb-6  text-sm sm:text-md lg:text-lg"> {{ alias.features }}</p>
-                  <p class="md:px-2 pb-6  text-center  text-xs md:text-sm text-gray-600"> {{ alias.languages }} </p>
+                <p class="md:px-2 pb-2  text-sm sm:text-md lg:text-lg"> {{ alias.description }} </p>
+                <p class="md:px-2 pb-6  text-sm sm:text-md lg:text-lg"> {{ alias.features }}</p>
+                <p class="md:px-2 pb-6  text-center  text-xs md:text-sm text-gray-600"> {{ alias.languages }} </p>
               </div>
             </div>
 
             <div class="flex justify-center font-400  text-xs md:text-sm">  <!-- Link buttons -->
               <a href="">
-                  <button class="px-3 py-1 mx-3  rounded shadow-lg
-                  bg-gray-200 border border-bord-std  hover:bg-white hover:text-gray-900  transition duration-300">
+                <button class="px-3 py-1 mx-3  rounded shadow-lg
+                bg-gray-200 border border-bord-std  hover:bg-white hover:text-gray-900  transition duration-300">
               Link to GitHub</button>           <!-- Todo: Add link to jump to project detail card below! -->
           </a>
 
@@ -120,12 +120,26 @@
 
   </body>
 
+  <script src="./vue.js"></script>   <!-- Loads Vue.js -->
 
+  <!-- <script>
+    var alias = new Vue({
+      data: {
+        title: "",
+        image_url: "",
+        altText: "",
+        description: "",
+        languages: "",
+        link1Visibility: "",
+        link1Text: "",
+        link2Visibility: "",
+        link2Text: "",
+      },
+      template: '<div>{{ message }}</div>'
+    })
+  </script> -->
 
-
-  <script src="https://unpkg.com/vue"></script>   <!-- Loads Vue.js -->
-  <script src="vue_data.js"></script>                 <!-- Loads vue script -->
-
+  <script src="vue_data.js"></script>             <!-- Loads vue script -->
   <script> includeHTML(); </script>      <!-- Function to load in Navbar and Footer HTML -->
 
 </html>

@@ -3,11 +3,12 @@ const blue600 = "#3182ce";   // etc
 const blue700 = "#2b6cb0";
 const blue800 = "#2c5282";
 const vibrantBlue = "#0939c2";
-const chosenBlue = vibrantBlue;
+const chosenHighlightColor = vibrantBlue;
 
 
 const onloadFunction = (param) => {             
-   document.getElementById(param).style.color = chosenBlue;    // Coloring for Home/About page
+   document.getElementById(param).style.color = chosenHighlightColor;    // Styling for link to current page
+   document.getElementById(param).style.fontWeight = "500";
 }
 
 const toggle_nav_pulldown = () => {

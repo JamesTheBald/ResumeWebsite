@@ -1,51 +1,50 @@
 
 <body>
-   <!-- Note: Navbar width is defined on parent html file  -->
-   <div class="bg-backgnd-card  border border-bord-std rounded-lg  shadow-lg">
+  <!-- Note: Navbar width is defined on parent html file  -->
+  <div class="bg-backgnd-card  border border-bord-std rounded-lg  shadow-lg">
      
-      <div class="py-3  flex flex-row justify-between items-center">    <!-- Main column container -->
-         <!-- Add this for full-width bottom-border: w-11/12 xs:w-5/6 sm:w-3/4 max-w-screen-xl mx-auto -->
+    <div class="py-3  flex flex-row justify-between items-center">    <!-- Main column container -->
+     <!-- Add this for full-width bottom-border: w-11/12 xs:w-5/6 sm:w-3/4 max-w-screen-xl mx-auto -->
 
-         <!-- My name -->
-         <a class="ml-3 lg:ml-6 my-1  inline-flex  hover:bg-gray-300 transition duration-300 rounded" href="index.html">    <!-- Icon & name -->
-            <!-- if adding in icon, increase px-2 above to px-4 -->
-            <div class="px-3 py-1 pt-1 whitespace-no-wrap  font-soft_sans font-500 text-sm sm:text-md lg:text-lg">
-              James M. Murphy
-            </div>
-         </a>
+      <!-- My name -->
+      <a class="ml-3 lg:ml-6 my-1  inline-flex  hover:bg-gray-300 transition duration-300 rounded" href="index.html">    <!-- Icon & name -->
+        <!-- if adding in icon, increase px-2 above to px-4 -->
+        <div class="px-2 py-1 pt-1 whitespace-no-wrap  font-soft_sans font-500 text-sm sm:text-md md:text-lg">
+          James M. Murphy
+        </div>
+      </a>
       
-         <!-- Nav links for bigger screens --> 
-         <div class="hidden lg:inline-block text-gray-600 w-7/12 max-w-lg">
-            <ul class="flex justify-around  pt-1 mr-3  text-xs lg:text-sm">
-               <!-- NB: .nav_link is defined with @apply methods in tailwind.css -->
-               <li><a id="about" class="nav_link" href="index.html#about"> About </a></li>
-               <li><a id="projects" class="nav_link" href="projects.html"> Projects </a></li>  
-               <li><a id="resume" class="nav_link" href=""> Resume </a></li>
-               <li><a id="contact" class="nav_link" href=""> Contact </a></li>
-            </ul>
-         </div>
-
-         <!-- 'Hamburger' Icon -->
-         <div class="lg:hidden">
-            <a href="javascript:void(0);" onclick="toggle_nav_pulldown()" 
-               class="icon px-3 py-2 mr-3 text-sm md:text-md  rounded hover:bg-gray-300 transition duration-300">
-               <i class="fa fa-bars"></i>
-            </a>
-         </div>
-
-         <!-- Nav links for smallest screens -->
-         <div id="my_links" class="bg-backgnd-card text-gray-900 rounded-b rounded-lg lg:hidden" 
-              style="visibility: hidden; position: absolute; right: 80px; top:70px">   
-            <ul class="text-sm text-center w-24">     <!-- RHS container for list -->
-               <li class="nav_link"><a class="px-6 nav_link_about" href="index.html#about"> About </a></li>
-               <li class="nav_link"><a class="px-6 nav_link_projects" href="projects.html"> Projects </a></li> 
-               <li class="nav_link"><a class="px-6 nav_link_resume" href=""> Resume </a></li>
-               <li class="nav_link"><a class="px-6 nav_link_contact" href=""> Contact </a></li>
-            </ul>
-         </div>
-
+      <!-- Nav links for bigger screens --> 
+      <div class="hidden lg:inline-block text-gray-600 w-7/12 max-w-lg pb-1">
+        <ul class="flex justify-around  pt-1 mr-3  text-xs lg:text-sm">
+          <!-- NB: .nav_link is defined with @apply methods in tailwind.css -->
+          <li><a id="about" class="nav_link" href="index.html#about"> About </a></li>
+          <li><a id="projects" class="nav_link" href="projects.html"> Projects </a></li>  
+          <li><a id="resume" class="nav_link" href=""> Resume </a></li>
+          <li><a id="contact" class="nav_link" href=""> Contact </a></li>
+        </ul>
       </div>
 
-   </div>
+      <!-- 'Hamburger' Icon -->
+      <div class="lg:hidden">
+        <a href="javascript:void(0);" onclick="toggle_nav_pulldown()" 
+          class="icon px-3 py-2 mr-3 text-sm md:text-md  rounded hover:bg-gray-300 transition duration-300">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    
+      <!-- Nav links for smallest screens -->
+      <div id="my_links" class="bg-backgnd-card text-gray-900 rounded-b rounded-lg lg:hidden" 
+        style="visibility: hidden; position: absolute; right: 80px; top:70px">   
+        <ul class="text-sm text-center w-24">     <!-- RHS container for list -->
+          <li class="nav_link"><a class="px-6 nav_link_about" href="index.html#about"> About </a></li>
+          <li class="nav_link"><a class="px-6 nav_link_projects" href="projects.html"> Projects </a></li> 
+          <li class="nav_link"><a class="px-6 nav_link_resume" href=""> Resume </a></li>
+          <li class="nav_link"><a class="px-6 nav_link_contact" href=""> Contact </a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
 </body>
 </html>

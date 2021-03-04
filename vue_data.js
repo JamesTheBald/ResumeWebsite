@@ -7,12 +7,12 @@ var vm = new Vue ({
       sum_card_data: [
          {
             title: "Resume Website",
-            image_url: "/content/Cookie Monster cropped.png",
+            image_url: "/content/James smiling - recolored, square.jpg",
             altText: "Profile Photo",
-            description: "You're looking at it - it's this resume website. Built with HTML, CSS and Tailwind, with touches of JS and Vue. Designed to be fully mobile responsive.",
+            description: "You're looking at it. This website was built with HTML, CSS and Tailwind, with touches of JS and Vue. I took care to make it fully mobile responsive.",
             languages: "HTML, CSS, Tailwind CSS, Javascript, Vue.js",
-            link1: "TBD",
-            link2: "TBD",
+            link1Text: "Learn More",
+            link2Text: "GitHub",
          },
          {
             title: "Catalog of EvolveU Student Projects",
@@ -20,8 +20,8 @@ var vm = new Vue ({
             altText: "Lists picture",
             description: "This CRUD app was a team effort, and used React (with Tailwind and CSS formatting) on a 'MERN' stack.",
             languages: "React, Javascript, Tailwind CSS, Express, Axios, Node.js, mongoDB",
-            link1: "TBD",
-            link2: "TBD",
+            link1Text: "Learn More",
+            link2Text: "GitHub",
          },
          {
             title: "'Project 42'",
@@ -29,8 +29,8 @@ var vm = new Vue ({
             altText: "Friendly Alien",
             description: "Project 42 is a '2.5-dimensional' mind map that allows easy informal sharing of information. Also built on React+MERN, it features a fluid zoom-pan and drag-and-drop interface.",
             languages: "React, Javascript, Tailwind CSS, Express, Axios, Node.js, mongoDB",
-            link1: "TBD",
-            link2: "TBD",
+            link1Text: "Learn More",
+            link2Text: "Run It",
          },
       ]
 

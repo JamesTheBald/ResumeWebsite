@@ -7,6 +7,9 @@
 .tooltip {@apply text-blue-bright}
 .tooltip .tooltiptext {@apply text-gray-100 bg-gray-800 p-2}
 
+.standardButton {@apply mx-3 px-2 py-1 rounded shadow-lg bg-gray-200 border border-bord-std  transition duration-300}
+.standardButton:hover {@apply bg-white text-gray-900}
+
 
 .color_patch {@apply h-20 rounded-lg border border-gray-500 }
 
