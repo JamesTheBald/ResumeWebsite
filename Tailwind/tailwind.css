@@ -5,7 +5,7 @@
 .nav_link:hover {@apply bg-gray-300 }
 
 .tooltip {@apply text-blue-bright}
-.tooltip .tooltiptext {@apply text-gray-100 bg-gray-800 p-2}
+.tooltip .tooltiptext {@apply text-gray-100 bg-gray-800 px-2 py-3}
 
 .standardButton {@apply mx-3 px-2 py-1 rounded shadow-lg bg-gray-200 border border-bord-std  transition duration-300}
 .standardButton:hover {@apply bg-white text-gray-900}
