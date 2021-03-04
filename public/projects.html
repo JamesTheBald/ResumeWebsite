@@ -3,9 +3,9 @@
   <head>
     <title>James M. Murphy</title>
 
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="./Tailwind/tailwind.css">
-    <link rel="stylesheet" href="./Tailwind/tailwind_built.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/tailwind.css">
+    <link rel="stylesheet" href="../styles/tailwind_built.css">
 
     <script src="index.js"> </script>
     <script src="https://use.fontawesome.com/1c118bfd95.js"></script>
@@ -16,33 +16,33 @@
   </head>
 
 
-  <body class="text-gray-900 w-full bg-backgnd-screen" onload="onloadFunction('projects')">    <!-- Set backgnd_screen color in tailwind.config.js -->
+  <body class="text-gray-900 w-full bg-backgnd-screen" onload="onloadFunction('projects')">
 
-    <div class="max-w-screen-lg mx-auto px-8 sm:px-12 xl:px-12">       <!-- Main column container -->
+    <!-- Main column container -->
+    <div class="max-w-screen-lg mx-auto flex flex-col">
 
-        <nav w3-include-html="navbar.html"></nav>         <!-- Navbar -->
+        <nav w3-include-html="navbar.html"></nav>
 
 
-        <!-- Project Summary Cards -->
-        <div class="flex flex-col items-center" id="vue1">     <!-- Container for whole section --> 
+        <!-- Summary Cards -->
+        <div id="vue1">     <!-- Container for page content section --> 
 
-          <div class="flex flex-row flex-wrap justify-center"> 
+          <div class="flex flex-row flex-wrap justify-center"> <!-- Container for Summary Card section --> 
 
 
             <!-- Start of Summary Card -->
-            <div class="mt-6 sm:mt-12 mx-4 sm:mx-6  flex flex-col flex-wrap justify-between items-center
+            <div class="mt-6 sm:mt-12 mx-6  flex flex-col flex-wrap justify-between items-center
                       bg-backgnd-card rounded-lg shadow-lg  border border-bord-std" 
               v-for="alias in sum_card_data"
             >
               <div class="w-full mt-5 mb-1  text-md md:text-lg font-600 text-center">{{ alias.title }} </div>
 
               <div class="px-3  flex flex-col md:flex-row items-center">
-                <div class="w-24 md:w-28 h-24 md:h-28  mx-4 mt-4 mb-2">
+                <div class="w-28 md:w-32 object-contain  mx-4 mt-4 mb-2">
                   <img class="rounded-lg" :src="alias.image_url" :alt="alias.altText">
                 </div>
 
-                <div class="m-3 flex flex-col justify-start w-48 md:w-40 lg:w-48">
-                  <!-- lg:pr-6 -->
+                <div class="p-4 flex flex-col justify-start w-48">
                   <p class="text-xs sm:text-sm"> {{ alias.description }} </p>
                   <p class="text-2xs sm:text-xs pt-2 text-bord-std"> {{ alias.languages}} </p>
                 </div>
@@ -50,13 +50,13 @@
 
               <div class="flex justify-center font-400 mt-3 mb-6 text-xs md:text-sm text-center">  <!-- Link buttons -->
                 <a href="">    <!-- Todo: Add link to jump to project detail card below! -->
-                  <button class="standardButton">
+                  <button class="cardButton">
                     {{ alias.link1Text }}
                   </button>        
                 </a>
 
                 <a href="">   <!--   Todo: Add link to run this app somehow! -->
-                  <button class="standardButton">
+                  <button class="cardButton">
                      {{ alias.link2Text }}
                   </button>   
                 </a>
@@ -120,25 +120,7 @@
 
   </body>
 
-  <script src="./vue.js"></script>   <!-- Loads Vue.js -->
-
-  <!-- <script>
-    var alias = new Vue({
-      data: {
-        title: "",
-        image_url: "",
-        altText: "",
-        description: "",
-        languages: "",
-        link1Visibility: "",
-        link1Text: "",
-        link2Visibility: "",
-        link2Text: "",
-      },
-      template: '<div>{{ message }}</div>'
-    })
-  </script> -->
-
+  <script src="../vue.js"></script>   <!-- Loads Vue.js -->
   <script src="vue_data.js"></script>             <!-- Loads vue script -->
   <script> includeHTML(); </script>      <!-- Function to load in Navbar and Footer HTML -->
 

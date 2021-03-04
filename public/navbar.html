@@ -1,0 +1,49 @@
+
+<body>
+  <!-- Note: Navbar width is defined on parent html file  -->
+  <div class="bg-backgnd-card  border border-t-0 border-bord-std rounded-lg rounded-t-none shadow-lg">
+     
+    <!-- Main column container -->
+    <div class="py-3  flex flex-row justify-between items-center"> 
+     <!-- Add this for full-width bottom-border: w-11/12 xs:w-5/6 sm:w-3/4 max-w-screen-xl mx-auto -->
+
+      <a class="ml-3 lg:ml-6 my-1  inline-flex  hover:bg-gray-300 transition duration-300 rounded" href="index.html"> 
+        <div class="px-2 py-1 pt-1 whitespace-no-wrap  font-soft_sans font-500 text-sm sm:text-md md:text-lg">
+          James M. Murphy
+        </div>
+      </a>
+      
+      <!-- Nav links for bigger screens --> 
+      <div class="hidden lg:inline-block text-gray-600 w-7/12 max-w-lg pb-1">
+        <ul class="flex justify-around  pt-1 mr-3  text-xs lg:text-sm">
+          <!-- NB: .navLink is defined with @apply methods in tailwind.css -->
+          <li><a id="about" class="navLink" href="index.html#about"> About </a></li>
+          <li><a id="projects" class="navLink" href="projects.html"> Projects </a></li>  
+          <li><a id="resume" class="navLink" href=""> Resume </a></li>
+          <li><a id="contact" class="navLink" href="contact.html"> Contact </a></li>
+        </ul>
+      </div>
+
+      <!-- 'Hamburger' Icon -->
+      <div class="lg:hidden">
+        <a href="javascript:void(0);" onclick="toggle_nav_pulldown()" 
+          class="icon px-3 py-2 mr-3 text-sm md:text-md  rounded hover:bg-gray-300 transition duration-300">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    
+      <!-- Nav links for smallest screens -->
+      <div id="my_links" class="bg-backgnd-card rounded-lg lg:hidden absolute border border-bord-std" 
+        style="right: 8px; top:60px">   
+        <ul class="text-sm text-center w-24">     <!-- RHS container for list -->
+          <li class="w-24 py-1 navLink"><a id="about" href="index.html#about"> About </a></li>
+          <li class="w-24 py-1 navLink"><a id="projects" href="projects.html"> Projects </a></li> 
+          <li class="w-24 py-1 navLink"><a id="resume" href=""> Resume </a></li>
+          <li class="w-24 py-1 navLink"><a id="contact" href="contact.html"> Contact </a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

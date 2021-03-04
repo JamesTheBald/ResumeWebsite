@@ -1,0 +1,70 @@
+<html>
+
+  <head>
+    <title>James M. Murphy</title>
+
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/tailwind.css">
+    <link rel="stylesheet" href="../styles/tailwind_built.css">
+
+    <script src="index.js"> </script>
+    <script src="https://use.fontawesome.com/1c118bfd95.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+
+  <body class="text-gray-900 w-full bg-backgnd-screen" onload="onloadFunction('contact')">
+
+    <!-- Main column container -->
+    <div class="max-w-screen-lg mx-auto flex flex-col"> 
+
+      <nav w3-include-html="navbar.html"></nav>
+
+
+      <div class="flex flex-row flex-wrap justify-center"> <!-- Container for Summary Card section --> 
+
+
+        <!-- Start of Summary Card -->
+        <div class="mt-6 sm:mt-12 mx-6  flex flex-col flex-wrap justify-between items-center
+                  bg-backgnd-card rounded-lg shadow-lg  border border-bord-std" 
+        >
+          <div class="w-full mt-5 mb-1  text-md md:text-lg font-600 text-center">Contact </div>
+
+          <div class="px-3  flex flex-col items-center">
+
+            <div class="my-8  rounded-lg shadow-lg">
+              <img class="w-40 md:w-44 lg:w-48  rounded-lg shadow-lg" src="/content/James_half_smile_cropped.jpg">  
+            </div>
+
+            <div class="p-4 flex flex-col w-48  text-xs sm:text-sm">
+              <span class="font-500">Email:</span> <span class="">JamesTheBald@gmail.com</span>
+              <span class="font-500">Email:</span> <span class="">JamesTheBald@gmail.com</span>
+            </div>
+          </div>
+
+
+        </div>  <!-- End of Summary Card -->
+
+      </div>
+ 
+
+
+
+
+
+
+      <footer w3-include-html="footer.html"></footer>
+
+      
+    </div>
+
+  </body>
+
+  <script src="../vue.js"></script>   <!-- Loads Vue.js -->
+  <script src="vue_data.js"></script>             <!-- Loads vue script -->
+  <script> includeHTML(); </script>      <!-- Function to load in Navbar and Footer HTML -->
+
+</html>

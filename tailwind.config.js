@@ -62,6 +62,7 @@ module.exports = {
               //  buttonHighlight
             },
 
+            card: {'button': '#eeeeee'},       // d5d2ab
 
             bord: { 'std': '#718096' },
 
@@ -75,7 +76,7 @@ module.exports = {
                700: '#2b6cb0',
                800: '#2c5282',
                900: '#2a4365',
-               'bright': '0939c2',
+               'vibrant': '0939c2',
             },
 
             // For neutral grays

@@ -11,8 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "postcss ./Tailwind/tailwind.css -o ./Tailwind/tailwind_built.css",
-    "watch": "postcss ./Tailwind/tailwind.css -o ./Tailwind/tailwind_built.css --watch"
+    "build": "postcss ./styles/tailwind.css -o ./styles/tailwind_built.css",
+    "watch": "postcss ./styles/tailwind.css -o ./styles/tailwind_built.css --watch"
    },
   "author": "",
   "license": "ISC"

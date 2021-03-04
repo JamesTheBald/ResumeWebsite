@@ -5,7 +5,7 @@
 @font-face {
   font-family: 'Proxima Soft';
   font-weight: 500;
-  src: url('./fonts/Proxima_Soft/ProximaSoft-Medium.ttf') format('woff');
+  src: url('../fonts/Proxima_Soft/ProximaSoft-Medium.ttf') format('woff');
 }
 
 

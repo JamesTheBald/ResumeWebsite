@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+
+
+.navLink {@apply rounded transition duration-300 border-none}
+.navLink:hover {@apply text-gray-900 bg-gray-300 }
+
+.tooltip {@apply text-blue-vibrant}
+.tooltip .tooltiptext {@apply text-gray-100 bg-gray-800 px-2 py-3}
+
+.cardButton {@apply mx-3 px-2 py-1 rounded shadow-lg bg-card-button border border-bord-std  transition duration-300}
+.cardButton:hover {@apply text-blue-vibrant bg-gray-400}
+
+.spacer {@apply h-20 w-full}
+
+.color_patch {@apply h-20 rounded-lg border border-gray-500 }
+
+
+@tailwind utilities;  
+/* Don't worry if this line is in blue with an error squiggle. */
