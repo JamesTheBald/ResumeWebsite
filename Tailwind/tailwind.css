@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+.nav_link {@apply px-3 py-1 rounded transition duration-300 border-none}
+.nav_link:hover {@apply bg-gray-300 }
+
+.tooltip {@apply text-blue-bright}
+.tooltip .tooltiptext {@apply text-gray-100 bg-gray-800 p-2}
+
+
+.color_patch {@apply h-20 rounded-lg border border-gray-500 }
+
+@tailwind utilities;  
+/* Don't worry if this line is in blue with an error squiggle. */

@@ -1,0 +1,136 @@
+<html>
+  <head>
+    <!-- Welcome to my first coding project in the EvolveU program! -->
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./Tailwind/tailwind.css">
+    <link rel="stylesheet" href="./Tailwind/tailwind_built.css">
+    
+    <title>James M. Murphy</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,500,600,700,800">
+    <script src="https://use.fontawesome.com/1c118bfd95.js"></script>  <!-- for 'hamburger' graphic -->
+
+    <script src="index.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+  </head>
+
+
+  <body onload="onloadFunction('about')" class="w-full text-gray-900 bg-backgnd-screen">
+
+    <div class="w-3/4 max-w-screen-xl mx-auto">
+
+        <!-- Navbar -->
+        <nav w3-include-html="navbar.html"></nav>
+
+
+        <div class="h-16"></div>
+
+        <!-- Hero Container with Background and Center Control -->
+        <header class="w-full  bg-cover flex flex-col text-center shadow-lg rounded-xl">
+    
+          <!-- Div to overlay hero container with 50% opaque black -->
+          <div style="background:rgba(0,0,0,0.5);" class="rounded-xl">
+              <div class="h-24 sm:h-40 md:h-52 lg:h-56 xl:h-60 w-full"> </div>    <!-- Spacer -->
+
+              <!-- Headline -->
+              <h1 class="font-200 text-gray-200 text-3xl sm:text-4xl md:text-5xl lg:text-7xl tracking-wider leading-snug">
+                <br/>            <!-- Use line break so vertical spacing scales with font size -->
+                    James M. Murphy
+              </h1>
+              
+              <!-- Sub-Headline, with post-spacing -->
+              <h2 class="my-8 font-200 text-gray-300 tracking-wider text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                Full-Stack Developer
+                <br/>
+                <br/>
+              </h2>
+              
+              <!-- Projects & Contacts Buttons -->
+              <div class="flex-wrap  text-xs md:text-sm lg:text-md">
+          
+                <a href="projects.html">
+                    <button class="px-4 py-1 mx-4 my-4 tracking-wide rounded shadow-lg
+                    bg-gray-300 bg-opacity-75 hover:bg-white hover:text-gray-900 transition duration-300">
+                    Projects</button>
+                </a>
+
+                <a href="">
+                    <button class="px-4 py-1 mx-4 my-4 tracking-wide rounded shadow-lg
+                    bg-gray-300 bg-opacity-75 hover:bg-white hover:text-gray-900 transition duration-300">
+                    Contact</button>
+                </a>
+              </div>
+              
+              <div class="text-sm md:text-lg lg:text-xl">
+                <br/>
+                <br/>
+                <br/>
+              </div>
+
+        </header>
+
+
+        <div class="h-16 sm:h-40 w-full"></div>      <!-- Spacer -->
+
+        <!-- About Section -->
+        <div id="about" class="flex flex-col items-center">   <!-- Container for whole About section, vertical arrangement -->
+              
+
+                <!-- Profile Card -->
+                <div class="w-3/4  border border-bord-std  bg-backgnd-card text-gray-800  rounded-lg shadow-lg">
+
+                    <div class="py-6  text-xl md:text-2xl font-600 text-center">About James</div>
+
+                    <!-- Image + Text block -->
+                    <div class="px-8 md:px-10  flex flex-row flex-wrap justify-center items-center">
+
+                      <div class="mb-8  rounded-lg shadow-lg">
+                          <img class="w-40 md:w-44 lg:w-48  rounded-lg shadow-lg" src="/content/Cookie Monster cropped.png">  
+                      </div>
+          
+                      <!-- Text block -->
+                      <div class="xs:pl-10 pb-8  w-50 xs:w-64 sm:w-88 md:w-120 lg:w-140 xl:w-160  text-sm sm:text-md md:text-lg  tracking-wide">      
+                          
+                          
+                          <div class="pb-3">
+                            <span >James has been coding full time since 2020, and completed the </span>
+                            <span class="text-blue-bright underline" style="text-decoration-style: dotted"><a href="https://www.evolveu.ca/">EvolveU</a></span>
+                            <span>Full Stack Developer program in February 2021. He is meticulous with</span>
+                            <span class="tooltip leading-none">UI <span class="tooltiptext">User Interface</span></span>
+                            <span>details and creates thoughtful, consistent</span>   
+                            <span class="tooltip leading-none">UXs.<span class="tooltiptext">User Experiences</span></span>
+                            <span>
+                                On the front-end he uses React and Javascript, with Tailwind/CSS for custom formatting. And on the back-end he uses the</span>
+
+                                <span class="tooltip leading-none">UXs.<span class="tooltiptext">User Experiences</span></span>
+                                MERN stack. He loves being inventive and solving tough coding challenges. 
+                            </span>
+                          </div>
+                            
+                          <p> James has also worked in mechanical engineering, clean tech and sustainability. </p>
+                            
+                      </div>
+                    </div>
+                    
+        
+                </div>
+
+          <div class="h-20 sm:h-40 w-full"></div>   <!-- Spacer -->
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer w3-include-html="footer.html"></footer>
+
+  </body>
+
+
+  <script>
+    includeHTML();
+  </script>
+</html>

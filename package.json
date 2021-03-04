@@ -1,0 +1,19 @@
+{
+  "name": "2nd-go",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8.1.2",
+    "postcss-cli": "^8.1.0",
+    "tailwindcss": "^1.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "postcss ./Tailwind/tailwind.css -o ./Tailwind/tailwind_built.css",
+    "watch": "postcss ./Tailwind/tailwind.css -o ./Tailwind/tailwind_built.css --watch"
+   },
+  "author": "",
+  "license": "ISC"
+}
