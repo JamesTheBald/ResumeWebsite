@@ -6,10 +6,17 @@ const vibrantBlue = "#0939c2";
 const chosenHighlightColor = vibrantBlue;
 
 
+    // Styling for link to current page
 const onloadFunction = (param) => {             
-   document.getElementById(param).style.color = chosenHighlightColor;    // Styling for link to current page
+   document.getElementById(param).style.color = chosenHighlightColor;
    document.getElementById(param).style.fontWeight = "500";
+   document.getElementById(param+"2").style.color = chosenHighlightColor; 
+   document.getElementById(param+"2").style.fontWeight = "500";
+   if (document.getElementById("my_links")) {
+     document.getElementById("my_links").style.visibility = "hidden";
+   }
 }
+
 
 const toggle_nav_pulldown = () => {
    const x = document.getElementById("my_links");

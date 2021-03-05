@@ -2,7 +2,7 @@
 @tailwind components;
 
 
-.navLink {@apply rounded transition duration-300 border-none}
+.navLink {@apply text-gray-700 px-3 py-1 rounded transition duration-300 border-none}
 .navLink:hover {@apply text-gray-900 bg-gray-300 }
 
 .tooltip {@apply text-blue-vibrant}

@@ -31,20 +31,20 @@
 
 
             <!-- Start of Summary Card -->
-            <div class="mt-6 sm:mt-12 mx-6  flex flex-col flex-wrap justify-between items-center
+            <div class="mt-6 sm:mt-12 mx-6  w-64 md:w-96  flex flex-col justify-between items-center
                       bg-backgnd-card rounded-lg shadow-lg  border border-bord-std" 
               v-for="alias in sum_card_data"
             >
-              <div class="w-full mt-5 mb-1  text-md md:text-lg font-600 text-center">{{ alias.title }} </div>
+              <div class="w-full mt-5 mb-2 px-3 text-md md:text-lg font-600 text-center break-normal">{{ alias.title }} </div>
 
               <div class="px-3  flex flex-col md:flex-row items-center">
-                <div class="w-28 md:w-32 object-contain  mx-4 mt-4 mb-2">
+                <div class="w-32 object-contain  mx-4 my-3">
                   <img class="rounded-lg" :src="alias.image_url" :alt="alias.altText">
                 </div>
 
-                <div class="p-4 flex flex-col justify-start w-48">
+                <div class="px-4 py-2 flex flex-col justify-start w-56 md:w-48">
                   <p class="text-xs sm:text-sm"> {{ alias.description }} </p>
-                  <p class="text-2xs sm:text-xs pt-2 text-bord-std"> {{ alias.languages}} </p>
+                  <p class="text-3xs sm:text-2xs pt-3 text-bord-std"> {{ alias.languages}} </p>
                 </div>
               </div>
 
