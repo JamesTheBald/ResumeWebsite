@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "autoprefixer": "^10.0.1",
+    "jquery-spamguard": "^3.3.1",
     "postcss": "^8.1.2",
     "postcss-cli": "^8.1.0",
     "tailwindcss": "^1.9.5"
@@ -13,7 +14,7 @@
   "scripts": {
     "build": "postcss ./styles/tailwind.css -o ./styles/tailwind_built.css",
     "watch": "postcss ./styles/tailwind.css -o ./styles/tailwind_built.css --watch"
-   },
+  },
   "author": "",
   "license": "ISC"
 }

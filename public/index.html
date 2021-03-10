@@ -21,97 +21,104 @@
 
   <body onload="onloadFunction('about')" class="w-full text-gray-900 bg-backgnd-screen">
 
-    <div class="max-w-screen-lg mx-auto px-8 sm:px-12 xl:px-12">       <!-- Main column container -->
+    <div class="mainColumn">
 
       <nav w3-include-html="navbar.html"></nav>
       <div class="spacer"></div>
 
-      <!-- Hero Container with Background and Center Control -->
-      <header class="w-full  bg-cover flex flex-col text-center shadow-lg rounded-xl">
-  
-        <!-- Div to overlay hero container with 50% opaque black -->
-        <div style="background:rgba(0,0,0,0.5);" class="rounded-xl">
-          <div class="h-24 sm:h-40 md:h-52 lg:h-56 xl:h-60 w-full"> </div>    <!-- Spacer -->
+      <div class="mx-auto relative  flex flex-col items-center rounded-xl shadow-lg">
 
-          <!-- Headline -->
-          <h1 class="font-200 text-gray-200 text-3xl sm:text-4xl md:text-5xl lg:text-7xl tracking-wider leading-snug">
-            <br/>            <!-- Use line break so vertical spacing scales with font size -->
-                James M. Murphy
+        <img class="object-cover  w-60 xs:w-72 sm:w-100 md:w-120 lg:w-160 xl:w-200 rounded-xl"
+             src="../content/James at whiteboard - cropped centered2.jpg" alt="Writing on Whiteboard"
+        />
+        
+        <!-- Darkening Overlay -->
+        <div class="absolute top-0 w-full h-full bg-black opacity-50 rounded-xl">  </div>
+
+
+        <!-- Text Overlay -->
+        <div class="absolute top-0 flex flex-col items-center  font-200 text-gray-100">
+
+          <!-- Headline with responsive positioning -->
+          <h1 class="mt-16 xs:mt-18 sm:mt-26 md:mt-32 lg:mt-42 xl:mt-52
+                    text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl tracking-wider leading-snug w-full text-center">
+            James M. Murphy
           </h1>
           
-          <!-- Sub-Headline, with post-spacing -->
-          <h2 class="my-8 font-200 text-gray-300 tracking-wider text-lg sm:text-xl md:text-2xl lg:text-3xl">
+          <!-- Sub-Headline with responsive positioning -->
+          <h2 class="tracking-wider  mt-2 sm:mt-4 lg:mt-6 
+                    text-sm xs:text-md sm:text-lg md:text:xl lg:text-2xl xl:text-3xl">
             Full-Stack Developer
-            <br/>
-            <br/>
           </h2>
           
           <!-- Projects & Contacts Buttons -->
-          <div class="flex-wrap  text-xs md:text-sm lg:text-md">
+          <div class="flex-wrap  text-3xs sm:text-2xs md:text-xs lg:text-sm xl:text-md
+                      mt-5 xs:mt-6 sm:mt-9 md:mt-12 lg:mt-16 xl:mt-24">
       
             <a href="projects.html">
-                <button class="px-4 py-1 mx-4 my-4 tracking-wide rounded shadow-lg
-                bg-gray-300 bg-opacity-75 hover:bg-white hover:text-gray-900 transition duration-300">
+                <button class="heroButton">   <!-- heroButton defined in tailwind.css -->
                 Projects</button>
             </a>
 
             <a href="">
-                <button class="px-4 py-1 mx-4 my-4 tracking-wide rounded shadow-lg
-                bg-gray-300 bg-opacity-75 hover:bg-white hover:text-gray-900 transition duration-300">
+                <button class="heroButton">
                 Contact</button>
             </a>
           </div>
-          
-          <div class="text-sm md:text-lg lg:text-xl">
-            <br/>
-            <br/>
-            <br/>
-          </div>
-
-        </header>
-
-        
-        <div class="spacer"></div>
-        
-        <!-- About Section -->
-        <div class="flex flex-col items-center">   <!-- Container for whole About section, vertical arrangement -->
-
-                <!-- Profile Card -->
-                <div class="w-5/6 xl:w-3/4 max-w-lg  p-10  border border-bord-std  bg-backgnd-card text-gray-800  rounded-lg shadow-lg">
-
-                    <div class="text-xl md:text-2xl font-600 text-center">About James</div>
-
-                    <!-- Image + Text block -->
-                    <div class="flex flex-col items-center">
-
-                      <div class="my-8  rounded-lg shadow-lg">
-                          <img class="w-40 md:w-44 lg:w-48  rounded-lg shadow-lg" src="/content/James_half_smile_cropped.jpg">  
-                      </div>
-          
-                      <!-- Text block -->
-                      <div class="text-sm md:text-md  tracking-wide">      
-                          
-                          
-                          <div class="">
-                            <span >James has been coding full time since 2020, and is a graduate of the </span>
-                            <span class="text-vibrant"><a href="https://www.evolveu.ca/">EvolveU</a></span>
-                            <span>Full Stack Developer program. He writes in React and Javascript on a</span>
-                                                            
-                              
-                            <span class="tooltip leading-none">MERN<span class="tooltiptext">MongoDB, Express, React and Node.js</span></span>
-                              
-                            <span>stack, with Tailwind/CSS for custom formatting. He loves being creative, solving tough coding challenges, and creating clean</span>
-                            <span class="tooltip leading-none">UIs <span class="tooltiptext">User Interfaces</span></span>
-                            <span>and intuitive</span>   
-                            <span class="tooltip leading-none">UXs.<span class="tooltiptext">User Experiences</span></span>
-                          </div>
-                            
-                          <p class="pt-3"> James also brings experience in mechanical engineering, clean tech and sustainability. </p>
-                            
-                      </div>
-                    </div>
-                </div>
         </div>
+
+      </div>
+
+
+
+
+
+      <div class="spacer"></div>
+
+      
+
+
+
+      <!-- About Section -->
+      <div class="flex flex-col items-center">   <!-- Container for whole About section -->
+
+        <!-- Profile Card -->
+        <div class="w-full md:w-5/6 xl:w-3/4 max-w-lg  p-6 sm:p-8 md:p-10  border border-bord-std  bg-backgnd-card text-gray-800  rounded-lg shadow-lg"
+        >
+
+          <div class="text-lg sm:text-xl md:text-2xl font-600 text-center">About James</div>
+
+          <!-- Image + Text block -->
+          <div class="flex flex-col items-center">
+
+            <div class="my-5 sm:my-8 rounded-lg shadow-lg">
+                <img class="w-56 sm:w-64 lg:w-72  rounded-lg shadow-lg" src="../content/James at whiteboard.jpg">  
+            </div>
+
+            <!-- Text block -->
+            <div class="text-xs sm:text-sm md:text-md  tracking-wide">      
+                
+                <span >James has been coding full time since 2020, and is a graduate of the </span>
+                <span class="text-vibrant"><a href="https://www.evolveu.ca/">EvolveU</a></span>
+                <span>Full Stack Developer program.</span>
+              
+              <div class="hidden xs:inline">
+                <span>He writes in React and Javascript on a</span>
+                <span class="tooltip leading-none">MERN<span class="tooltiptext">MongoDB, Express, React and Node.js</span></span>
+                <span>stack, with Tailwind/CSS for custom formatting.</span>
+              </div>
+
+                <span>He loves being creative, solving tough coding challenges, and creating clean</span>
+                <span class="tooltip leading-none">UIs <span class="tooltiptext">User Interfaces</span></span>
+                <span>and intuitive</span>   
+                <span class="tooltip leading-none">UXs.<span class="tooltiptext">User Experiences</span></span>
+                
+              <div class="pt-3 hidden sm:block"> James also brings experience in mechanical engineering, clean tech and sustainability. </div>
+                  
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div class="spacer"></div>
       <footer w3-include-html="footer.html"></footer>

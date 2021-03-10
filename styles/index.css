@@ -1,7 +1,9 @@
+/* Use this if using multiple Proxima Soft font weights  */
 /* @import url("./fonts/Proxima_Soft/stylesheet.css"); */
 /* from https://fontshub.pro/font/proxima-soft-download */
 
-/* Use this if only using one Proxima Soft font weight  */
+
+/* Use this if only using 1 Proxima Soft font weight  */
 @font-face {
   font-family: 'Proxima Soft';
   font-weight: 500;
@@ -12,22 +14,14 @@
 /* html {scroll-behavior: smooth;}  */
 
 
-/* background image for landing page */
-header {background: url('./content/JMM Defense - No Pincer.JPG');}
-@media screen and (min-width: 640px) {header {background: url('/content/JMM Defense - Pincer.JPG')}}
-
-.about {}
-.projects {}
-.contact {}
-
-
 /* Tooltip code */
 .tooltip {
    position: relative;
    display: inline-block;
 }  
 
-/* Colors & padding are set on tailwind.css, so as to use the Tailwind presets */
+
+/* Colors & padding are set on tailwind.css, to use Tailwind presets */
 .tooltip .tooltiptext {
   
    text-align: center;

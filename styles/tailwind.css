@@ -1,20 +1,60 @@
 @tailwind base;
 @tailwind components;
-
-
-.navLink {@apply text-gray-700 px-3 py-1 rounded transition duration-300 border-none}
-.navLink:hover {@apply text-gray-900 bg-gray-300 }
-
-.tooltip {@apply text-blue-vibrant}
-.tooltip .tooltiptext {@apply text-gray-100 bg-gray-800 px-2 py-3}
-
-.cardButton {@apply mx-3 px-2 py-1 rounded shadow-lg bg-card-button border border-bord-std  transition duration-300}
-.cardButton:hover {@apply text-blue-vibrant bg-gray-400}
-
-.spacer {@apply h-20 w-full}
-
-.color_patch {@apply h-20 rounded-lg border border-gray-500 }
-
-
 @tailwind utilities;  
-/* Don't worry if this line is in blue with an error squiggle. */
+
+@layer components {
+
+  .navLink {@apply text-gray-700 px-3 py-1 rounded transition duration-300 border-none}
+  .navLink:hover {@apply text-gray-900 bg-gray-300 }
+
+  .mainColumn {@apply max-w-220 min-h-full mx-auto flex flex-col}
+
+
+  .tooltip {@apply text-blue-vibrant}
+  .tooltip .tooltiptext {@apply text-gray-100 bg-gray-800 px-2 py-3}
+
+
+  .heroButton {@apply 
+    px-1 py-0 mx-2  text-gray-800
+    tracking-wide rounded shadow-lg
+    bg-gray-400 bg-opacity-75  border border-gray-800
+  }
+  .heroButton:hover {@apply
+    bg-gray-100 text-gray-900 transition duration-300
+  }
+
+
+  .cardButton {@apply mx-3 px-1 py-0 rounded shadow-lg bg-gray-300 border border-bord-std}
+
+  .cardButton:hover {@apply
+    bg-gray-400 text-gray-900 transition duration-300
+  }
+
+
+  @screen xs {
+    .heroButton {@apply px-2 py-1}
+    .cardButton {@apply px-2 py-1}
+  }
+
+  @screen sm {
+    .heroButton {@apply px-3 mx-3}
+    .cardButton {@apply px-3 mx-3}
+  }
+  
+  @screen lg {
+    .heroButton {@apply px-4 mx-4}
+    .cardButton {@apply px-4 mx-4}
+  }
+
+
+
+
+  .spacer {@apply h-20 w-full}
+
+
+}
+
+
+
+
+

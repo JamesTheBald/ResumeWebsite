@@ -8,63 +8,70 @@
     <link rel="stylesheet" href="../styles/tailwind_built.css">
 
     <script src="index.js"> </script>
-    <script src="https://use.fontawesome.com/1c118bfd95.js"></script>
+    <link href="../fonts/fontawesome/all.css" rel="stylesheet">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script>
+      const domain = "gmail.com"
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-spamguard/dist/jquery.spamguard.js"></script>
+
   </head>
 
 
-  <body class="text-gray-900 w-full bg-backgnd-screen" onload="onloadFunction('contact')">
+  <body class="text-gray-900 w-full h-full bg-backgnd-screen" onload="onloadFunction('contact')">
 
-    <!-- Main column container -->
-    <div class="max-w-screen-lg mx-auto flex flex-col"> 
+    <div class="mainColumn justify-between"> 
 
       <nav w3-include-html="navbar.html"></nav>
 
 
-      <div class="flex flex-row flex-wrap justify-center"> <!-- Container for Summary Card section --> 
+      <!-- Start of Contacts Card -->
+      <div class="mx-auto w-80 p-6 flex flex-col flex-wrap justify-between items-center
+                bg-backgnd-card rounded-lg shadow-lg  border border-bord-std" 
+      >
 
+        <div class="text-md md:text-lg font-600">Contact Me</div>
 
-        <!-- Start of Summary Card -->
-        <div class="mt-6 sm:mt-12 mx-6  flex flex-col flex-wrap justify-between items-center
-                  bg-backgnd-card rounded-lg shadow-lg  border border-bord-std" 
-        >
-          <div class="w-full mt-5 mb-1  text-md md:text-lg font-600 text-center">Contact </div>
+        <div class="mt-8  rounded-lg shadow-lg">
+          <img class="w-40 rounded-lg shadow-lg" src="../content/James_half_smile_cropped.jpg">  
+        </div>
+        
+        <div class="w-48  flex flex-col items-center">
+          
+          <a class="mt-8  text-sm sm:text-md font-500" >James M. Murphy</a>
+          <div class="mt-1  text-xs sm:text-sm text-gray-700">Calgary, Canada</div>
 
-          <div class="px-3  flex flex-col items-center">
+          <div class="mt-4  flex flex-col  text-xs sm:text-sm">
+            <div class="flex flex-row items-center">  
 
-            <div class="my-8  rounded-lg shadow-lg">
-              <img class="w-40 md:w-44 lg:w-48  rounded-lg shadow-lg" src="/content/James_half_smile_cropped.jpg">  
+              <!-- Using jQuery Spam Guard to protect my email address. https://www.npmjs.com/package/jquery-spamguard -->
+              <a href="#" class="protect-me" data-name="jamesthebald" data-domain="gmail" data-tld="com" data-mailto="true" 
+                style="margin-left: 0.1rem"></a>
+              <script>
+                 $(function(){
+                    $(".protect-me").spamguard();
+                 });
+              </script>
+
             </div>
 
-            <div class="p-4 flex flex-col w-48  text-xs sm:text-sm">
-              <span class="font-500">Email:</span> <span class="">JamesTheBald@gmail.com</span>
-              <span class="font-500">Email:</span> <span class="">JamesTheBald@gmail.com</span>
-            </div>
+            <a class="mt-1 underline text-blue-vibrant" href="https://github.com/JamesTheBald">github.com/JamesTheBald</a>
+            <a class="mt-1 mb-2 underline text-blue-vibrant" href="https://www.linkedin.com/in/jamesthebald/">linkedin.com/in/jamesthebald</a>
           </div>
+        </div>
 
-
-        </div>  <!-- End of Summary Card -->
-
-      </div>
- 
-
-
-
-
-
+      </div>  <!-- End of Summary Card -->
 
       <footer w3-include-html="footer.html"></footer>
 
-      
     </div>
-
   </body>
 
-  <script src="../vue.js"></script>   <!-- Loads Vue.js -->
-  <script src="vue_data.js"></script>             <!-- Loads vue script -->
   <script> includeHTML(); </script>      <!-- Function to load in Navbar and Footer HTML -->
 
 </html>

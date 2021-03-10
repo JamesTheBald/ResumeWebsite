@@ -13,17 +13,17 @@ const onloadFunction = (param) => {
    document.getElementById(param+"2").style.color = chosenHighlightColor; 
    document.getElementById(param+"2").style.fontWeight = "500";
    if (document.getElementById("my_links")) {
-     document.getElementById("my_links").style.visibility = "hidden";
+     document.getElementById("my_links").style.display = "none";
    }
 }
 
 
 const toggle_nav_pulldown = () => {
    const x = document.getElementById("my_links");
-   if (x.style.visibility === "hidden") {
-   x.style.visibility = "visible";
+   if (x.style.display === "none") {
+   x.style.display = "block";
    } else {
-   x.style.visibility = "hidden";
+   x.style.display = "none";
    }
 } 
 
