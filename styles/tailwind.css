@@ -7,16 +7,15 @@
   .navLink {@apply text-gray-700 px-3 py-1 rounded transition duration-300 border-none}
   .navLink:hover {@apply text-gray-900 bg-gray-300 }
 
-  .mainColumn {@apply max-w-220 min-h-full mx-auto flex flex-col}
+  .mainColumn {@apply max-w-220 min-h-full mx-auto flex flex-col  relative}
 
 
-  .tooltip {@apply text-blue-vibrant}
-  .tooltip .tooltiptext {@apply text-gray-100 bg-gray-800 px-2 py-3}
+  .tooltipBase {@apply text-blue-vibrant}
+  .tooltipBase .tooltipItself {@apply text-gray-100 bg-gray-800 px-2 py-3}
 
 
   .heroButton {@apply 
-    px-1 py-0 mx-2  text-gray-800
-    tracking-wide rounded shadow-lg
+    px-1 py-0 mx-2  text-gray-800 tracking-wide rounded shadow-lg
     bg-gray-400 bg-opacity-75  border border-gray-800
   }
   .heroButton:hover {@apply
@@ -26,31 +25,37 @@
 
   .cardButton {@apply mx-3 px-1 py-0 rounded shadow-lg bg-gray-300 border border-bord-std}
 
-  .cardButton:hover {@apply
-    bg-gray-400 text-gray-900 transition duration-300
-  }
+  .cardButton:hover {@apply bg-gray-400 text-gray-900 transition duration-300}
+
+  .spacer_sm {@apply h-8 w-full}
+  .spacer_lg {@apply h-16 w-full}
 
 
   @screen xs {
-    .heroButton {@apply px-2 py-1}
+    .heroButton {@apply px-2 py-0}
     .cardButton {@apply px-2 py-1}
+    .spacer_sm {@apply h-8 w-full}
+    .spacer_lg {@apply h-16 w-full}
   }
 
   @screen sm {
-    .heroButton {@apply px-3 mx-3}
-    .cardButton {@apply px-3 mx-3}
+    .heroButton {@apply px-3 py-1 mx-3}
+    .cardButton {@apply px-3 py-1 mx-3}
+    .spacer_sm {@apply h-10 w-full}
+    .spacer_lg {@apply h-18 w-full}
   }
   
-  @screen lg {
-    .heroButton {@apply px-4 mx-4}
-    .cardButton {@apply px-4 mx-4}
+  @screen md {
+    .heroButton {@apply px-3 py-1 mx-3 rounded-lg}
+    .cardButton {@apply px-3 py-1 mx-3 rounded-lg}
   }
 
-
-
-
-  .spacer {@apply h-20 w-full}
-
+  @screen lg {
+    .heroButton {@apply px-4 py-1 mx-4 rounded-lg}
+    .cardButton {@apply px-4 py-1 mx-4 rounded-lg}
+    .spacer_sm {@apply h-12 w-full}
+    .spacer_lg {@apply h-20 w-full}
+  }
 
 }
 

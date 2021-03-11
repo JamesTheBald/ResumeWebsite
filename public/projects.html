@@ -16,7 +16,7 @@
   </head>
 
 
-  <body class="text-gray-900 w-full bg-backgnd-screen" onload="onloadFunction('projects')">
+  <body class="text-gray-900 w-full h-full bg-backgnd-screen" onload="onloadFunction('projects')">
 
     <div class="mainColumn">
 
@@ -72,50 +72,52 @@
       <!-- Project Detail Cards -->
       <div class="flex flex-col items-center w-full" id="vue2">    <!-- Container for whole section -->
 
-        <div class="h-10 sm:h-20 w-full"></div> 
-              <!-- Spacer, full width -->
+        <div class="spacer_lg"></div> 
 
         <!-- Start of Project Card -->
-        <div class="p-6 md:p-10 mb-20  w-11/12 xs:w-5/6 sm:w-3/4 max-w-4xl  bg-backgnd-card  border border-bord-std  rounded-lg shadow-lg"
-            v-for="alias in sum_card_data">  <!-- Start vue loop through sum_card_data array in main.js -->
+        <div class="flex flex-col items-center w-full"
+             v-for="alias in sum_card_data">  <!-- Start Vue loop through sum_card_data array in main.js -->
 
-          <div class="px-2 mb-8  w-full text-lg  md:text-xl lg:text-2xl  font-600">{{ alias.title }} </div>
+          <div class="p-6 md:p-10  w-11/12 xs:w-5/6 sm:w-3/4 max-w-4xl  bg-backgnd-card
+          border border-bord-std   rounded-lg shadow-lg">
+          
+            <div class="px-2 mb-8  w-full text-lg  md:text-xl lg:text-2xl  font-600">{{ alias.title }} </div>
 
-          <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center">
 
-            <img class="w-full sm:w-11/12 md:5/6 lg:w-3/4  object-contain  rounded-lg border border-gray-600 shadow-lg" 
-                 :src="alias.image_url" :alt="alias.altText">
+              <img class="w-full sm:w-11/12 md:5/6 lg:w-3/4  object-contain  rounded-lg border border-gray-600 shadow-lg" 
+                  :src="alias.image_url" :alt="alias.altText">
 
-            <div class="mt-4 italic text-gray-600  text-2xs sm:text-xs lg:text-sm">
-              {{ alias.caption }}
-              <div class="invisible"> {{ alias.caption }} </div>
+              <div class="mt-4 italic text-gray-600  text-2xs sm:text-xs lg:text-sm">
+                {{ alias.caption }}
+                <div class="invisible"> {{ alias.caption }} </div>
+              </div>
+
+              <div class="md:px-2 pb-2  text-xs sm:text-sm lg:text-md">
+                <p class="mt-3"> {{ alias.description }} </p>
+                <p class="mt-4"> {{ alias.features }}</p>
+                <p class="mt-3 md:px-2  text-center  text-xs md:text-sm text-gray-600"> {{ alias.languages }} </p>
+              </div>
             </div>
 
-            <div class="md:px-2 pb-2  text-xs sm:text-sm lg:text-md">
-              <p class="mt-3"> {{ alias.description }} </p>
-              <p class="mt-4"> {{ alias.features }}</p>
-              <p class="mt-3 md:px-2  text-center  text-xs md:text-sm text-gray-600"> {{ alias.languages }} </p>
-            </div>
-          </div>
-
-          <div class="mt-6 flex justify-center font-400  text-xs md:text-sm">  <!-- Link buttons -->
-            <a href="">
-              <button class="cardButton">
-            Link to GitHub</button>           <!-- Todo: Add link to jump to project detail card below! -->
-            </a>
-
-            <a href="">
+            <div class="mt-6 flex justify-center font-400  text-xs md:text-sm">
+              <a href="">
                 <button class="cardButton">
-              Run It!</button>               <!-- Todo: Add link to run this app somehow! -->
-            </a>
-          </div>
-            
+              Link to GitHub</button>           <!-- Todo: Add link to jump to project detail card below! -->
+              </a>
 
-        </div>  <!-- End of Project Detail Card -->
+              <a href="">
+                  <button class="cardButton">
+                Run It!</button>               <!-- Todo: Add link to run this app somehow! -->
+              </a>
+            </div>
+              
+          </div>  <!-- End of Project Detail Card -->
 
-        <div class="h-10 sm:h-20 w-full"></div>    <!-- Spacer, full width -->
-
-      </div>  <!-- End of Project Detail Cards Section -->
+          <div class="spacer_lg"></div>
+          
+        </div>
+      </div>
 
       <footer w3-include-html="footer.html"></footer>
 

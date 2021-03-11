@@ -10,11 +10,11 @@ module.exports = {
    theme: {
 
       screens: {
-         'xs': '450px',
-         'sm': '600px',
-         'md': '800px',
-         'lg': '1000px',
-         'xl': '1200px',
+         'xs': '450px',     // 28.1rem at 16px font size
+         'sm': '600px',     // 37.5rem
+         'md': '800px',     // 50rem
+         'lg': '1000px',    // 62.5rem
+         'xl': '1200px',    // 75rem
       },
 
       fontSize: {
@@ -110,6 +110,7 @@ module.exports = {
          spacing: {
             '7':  '1.75rem',
             '9':  '2.25rem',
+            '14': '3.5rem',
             '18':  '4.5rem',
             '26':  '6.5rem',
             '28': '7rem',
@@ -120,6 +121,7 @@ module.exports = {
             '44': '11rem',
             '46': '11.5rem',
             '52': '13rem',
+            '60': '15rem',
             '72': '18rem',
             '80': '20rem',
             '88': '22rem',

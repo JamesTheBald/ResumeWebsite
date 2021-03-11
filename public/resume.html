@@ -1,0 +1,71 @@
+<html>
+
+  <head>
+    <title>James M. Murphy</title>
+
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/tailwind.css">
+    <link rel="stylesheet" href="../styles/tailwind_built.css">
+
+    <script src="index.js"> </script>
+    <script src="https://use.fontawesome.com/1c118bfd95.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+
+  <body class="text-gray-900 w-full h-full  bg-backgnd-screen" onload="onloadFunction('resume')">
+
+    <div class="mainColumn">
+
+      <nav w3-include-html="navbar.html"></nav>
+
+      <div class=spacer_sm></div>
+
+      <a download class="mx-auto  text-xs md:text-sm lg:text-md text-center" 
+         href="../content/James Murphy - Resume - Full Stack Developer - JAN2021.pdf">
+        <button class="cardButton px-4 py-2">
+          Click here to download the PDF version of my resume
+        </button>        
+      </a>
+
+      <div class=spacer_sm></div>
+
+
+      <!-- Resume -->
+      <div class="flex flex-col items-center w-full">
+
+        <!-- Highlights -->
+        <div class="px-8 py-6  w-11/12 xs:w-5/6 sm:w-3/4 max-w-xl  
+                  bg-backgnd-card  border border-bord-std  rounded-lg shadow-lg">
+
+          <div class="font-soft_sans font-500 text-md md:text-lg lg:text-xl">Highlights</div>
+
+          <ul class="pt-1 pl-4 sm:pl-7  text-2xs sm:text-xs lg:text-sm"
+              style="list-style-type:circle">
+            <li class="mt-2">1 year of full-time coding experience</li>
+            <li class="mt-2">Demonstrated ability to write complete apps using Javascript, React, Node.js and MongoDB</li>
+            <li class="mt-2">Enthusiastic and hard-working</li>
+            <li class="mt-2">Masters degree and 12 years of Mechanical Engineering experience</li>
+            <li class="mt-2">22 US patents</li>
+          </ul>
+        </div>
+
+        <div class=spacer_sm></div>
+
+
+
+      </div>
+      
+      <div class="spacer_lg"></div>
+      <footer w3-include-html="footer.html"></footer>
+
+    </div>
+
+  </body>
+
+  <script> includeHTML(); </script>      <!-- Function to load in Navbar and Footer HTML -->
+
+</html>
