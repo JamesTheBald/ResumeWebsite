@@ -12824,6 +12824,10 @@ video {
   font-size: 0.75rem;
 }
 
+.text-vsm {
+  font-size: 0.8rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
 }
@@ -23883,11 +23887,277 @@ video {
   left: 0;
 }
 
-.inset-auto {
-  top: auto;
-  right: auto;
-  bottom: auto;
-  left: auto;
+.inset-1 {
+  top: 0.25rem;
+  right: 0.25rem;
+  bottom: 0.25rem;
+  left: 0.25rem;
+}
+
+.inset-2 {
+  top: 0.5rem;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  left: 0.5rem;
+}
+
+.inset-3 {
+  top: 0.75rem;
+  right: 0.75rem;
+  bottom: 0.75rem;
+  left: 0.75rem;
+}
+
+.inset-4 {
+  top: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.inset-5 {
+  top: 1.25rem;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  left: 1.25rem;
+}
+
+.inset-6 {
+  top: 1.5rem;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  left: 1.5rem;
+}
+
+.inset-7 {
+  top: 1.75rem;
+  right: 1.75rem;
+  bottom: 1.75rem;
+  left: 1.75rem;
+}
+
+.inset-8 {
+  top: 2rem;
+  right: 2rem;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+.inset-9 {
+  top: 2.25rem;
+  right: 2.25rem;
+  bottom: 2.25rem;
+  left: 2.25rem;
+}
+
+.inset-10 {
+  top: 2.5rem;
+  right: 2.5rem;
+  bottom: 2.5rem;
+  left: 2.5rem;
+}
+
+.inset-12 {
+  top: 3rem;
+  right: 3rem;
+  bottom: 3rem;
+  left: 3rem;
+}
+
+.inset-14 {
+  top: 3.5rem;
+  right: 3.5rem;
+  bottom: 3.5rem;
+  left: 3.5rem;
+}
+
+.inset-16 {
+  top: 4rem;
+  right: 4rem;
+  bottom: 4rem;
+  left: 4rem;
+}
+
+.inset-18 {
+  top: 4.5rem;
+  right: 4.5rem;
+  bottom: 4.5rem;
+  left: 4.5rem;
+}
+
+.inset-20 {
+  top: 5rem;
+  right: 5rem;
+  bottom: 5rem;
+  left: 5rem;
+}
+
+.inset-24 {
+  top: 6rem;
+  right: 6rem;
+  bottom: 6rem;
+  left: 6rem;
+}
+
+.inset-26 {
+  top: 6.5rem;
+  right: 6.5rem;
+  bottom: 6.5rem;
+  left: 6.5rem;
+}
+
+.inset-28 {
+  top: 7rem;
+  right: 7rem;
+  bottom: 7rem;
+  left: 7rem;
+}
+
+.inset-30 {
+  top: 7.5rem;
+  right: 7.5rem;
+  bottom: 7.5rem;
+  left: 7.5rem;
+}
+
+.inset-32 {
+  top: 8rem;
+  right: 8rem;
+  bottom: 8rem;
+  left: 8rem;
+}
+
+.inset-36 {
+  top: 9rem;
+  right: 9rem;
+  bottom: 9rem;
+  left: 9rem;
+}
+
+.inset-40 {
+  top: 10rem;
+  right: 10rem;
+  bottom: 10rem;
+  left: 10rem;
+}
+
+.inset-44 {
+  top: 11rem;
+  right: 11rem;
+  bottom: 11rem;
+  left: 11rem;
+}
+
+.inset-48 {
+  top: 12rem;
+  right: 12rem;
+  bottom: 12rem;
+  left: 12rem;
+}
+
+.inset-56 {
+  top: 14rem;
+  right: 14rem;
+  bottom: 14rem;
+  left: 14rem;
+}
+
+.inset-60 {
+  top: 15rem;
+  right: 15rem;
+  bottom: 15rem;
+  left: 15rem;
+}
+
+.inset-64 {
+  top: 16rem;
+  right: 16rem;
+  bottom: 16rem;
+  left: 16rem;
+}
+
+.inset-72 {
+  top: 18rem;
+  right: 18rem;
+  bottom: 18rem;
+  left: 18rem;
+}
+
+.inset-80 {
+  top: 20rem;
+  right: 20rem;
+  bottom: 20rem;
+  left: 20rem;
+}
+
+.inset-88 {
+  top: 22rem;
+  right: 22rem;
+  bottom: 22rem;
+  left: 22rem;
+}
+
+.inset-96 {
+  top: 24rem;
+  right: 24rem;
+  bottom: 24rem;
+  left: 24rem;
+}
+
+.inset-100 {
+  top: 25rem;
+  right: 25rem;
+  bottom: 25rem;
+  left: 25rem;
+}
+
+.inset-110 {
+  top: 27.5rem;
+  right: 27.5rem;
+  bottom: 27.5rem;
+  left: 27.5rem;
+}
+
+.inset-120 {
+  top: 30rem;
+  right: 30rem;
+  bottom: 30rem;
+  left: 30rem;
+}
+
+.inset-130 {
+  top: 32.5rem;
+  right: 32.5rem;
+  bottom: 32.5rem;
+  left: 32.5rem;
+}
+
+.inset-140 {
+  top: 35rem;
+  right: 35rem;
+  bottom: 35rem;
+  left: 35rem;
+}
+
+.inset-160 {
+  top: 40rem;
+  right: 40rem;
+  bottom: 40rem;
+  left: 40rem;
+}
+
+.inset-180 {
+  top: 45rem;
+  right: 45rem;
+  bottom: 45rem;
+  left: 45rem;
+}
+
+.inset-200 {
+  top: 50rem;
+  right: 50rem;
+  bottom: 50rem;
+  left: 50rem;
 }
 
 .inset-y-0 {
@@ -23900,14 +24170,394 @@ video {
   left: 0;
 }
 
-.inset-y-auto {
-  top: auto;
-  bottom: auto;
+.inset-y-1 {
+  top: 0.25rem;
+  bottom: 0.25rem;
 }
 
-.inset-x-auto {
-  right: auto;
-  left: auto;
+.inset-x-1 {
+  right: 0.25rem;
+  left: 0.25rem;
+}
+
+.inset-y-2 {
+  top: 0.5rem;
+  bottom: 0.5rem;
+}
+
+.inset-x-2 {
+  right: 0.5rem;
+  left: 0.5rem;
+}
+
+.inset-y-3 {
+  top: 0.75rem;
+  bottom: 0.75rem;
+}
+
+.inset-x-3 {
+  right: 0.75rem;
+  left: 0.75rem;
+}
+
+.inset-y-4 {
+  top: 1rem;
+  bottom: 1rem;
+}
+
+.inset-x-4 {
+  right: 1rem;
+  left: 1rem;
+}
+
+.inset-y-5 {
+  top: 1.25rem;
+  bottom: 1.25rem;
+}
+
+.inset-x-5 {
+  right: 1.25rem;
+  left: 1.25rem;
+}
+
+.inset-y-6 {
+  top: 1.5rem;
+  bottom: 1.5rem;
+}
+
+.inset-x-6 {
+  right: 1.5rem;
+  left: 1.5rem;
+}
+
+.inset-y-7 {
+  top: 1.75rem;
+  bottom: 1.75rem;
+}
+
+.inset-x-7 {
+  right: 1.75rem;
+  left: 1.75rem;
+}
+
+.inset-y-8 {
+  top: 2rem;
+  bottom: 2rem;
+}
+
+.inset-x-8 {
+  right: 2rem;
+  left: 2rem;
+}
+
+.inset-y-9 {
+  top: 2.25rem;
+  bottom: 2.25rem;
+}
+
+.inset-x-9 {
+  right: 2.25rem;
+  left: 2.25rem;
+}
+
+.inset-y-10 {
+  top: 2.5rem;
+  bottom: 2.5rem;
+}
+
+.inset-x-10 {
+  right: 2.5rem;
+  left: 2.5rem;
+}
+
+.inset-y-12 {
+  top: 3rem;
+  bottom: 3rem;
+}
+
+.inset-x-12 {
+  right: 3rem;
+  left: 3rem;
+}
+
+.inset-y-14 {
+  top: 3.5rem;
+  bottom: 3.5rem;
+}
+
+.inset-x-14 {
+  right: 3.5rem;
+  left: 3.5rem;
+}
+
+.inset-y-16 {
+  top: 4rem;
+  bottom: 4rem;
+}
+
+.inset-x-16 {
+  right: 4rem;
+  left: 4rem;
+}
+
+.inset-y-18 {
+  top: 4.5rem;
+  bottom: 4.5rem;
+}
+
+.inset-x-18 {
+  right: 4.5rem;
+  left: 4.5rem;
+}
+
+.inset-y-20 {
+  top: 5rem;
+  bottom: 5rem;
+}
+
+.inset-x-20 {
+  right: 5rem;
+  left: 5rem;
+}
+
+.inset-y-24 {
+  top: 6rem;
+  bottom: 6rem;
+}
+
+.inset-x-24 {
+  right: 6rem;
+  left: 6rem;
+}
+
+.inset-y-26 {
+  top: 6.5rem;
+  bottom: 6.5rem;
+}
+
+.inset-x-26 {
+  right: 6.5rem;
+  left: 6.5rem;
+}
+
+.inset-y-28 {
+  top: 7rem;
+  bottom: 7rem;
+}
+
+.inset-x-28 {
+  right: 7rem;
+  left: 7rem;
+}
+
+.inset-y-30 {
+  top: 7.5rem;
+  bottom: 7.5rem;
+}
+
+.inset-x-30 {
+  right: 7.5rem;
+  left: 7.5rem;
+}
+
+.inset-y-32 {
+  top: 8rem;
+  bottom: 8rem;
+}
+
+.inset-x-32 {
+  right: 8rem;
+  left: 8rem;
+}
+
+.inset-y-36 {
+  top: 9rem;
+  bottom: 9rem;
+}
+
+.inset-x-36 {
+  right: 9rem;
+  left: 9rem;
+}
+
+.inset-y-40 {
+  top: 10rem;
+  bottom: 10rem;
+}
+
+.inset-x-40 {
+  right: 10rem;
+  left: 10rem;
+}
+
+.inset-y-44 {
+  top: 11rem;
+  bottom: 11rem;
+}
+
+.inset-x-44 {
+  right: 11rem;
+  left: 11rem;
+}
+
+.inset-y-48 {
+  top: 12rem;
+  bottom: 12rem;
+}
+
+.inset-x-48 {
+  right: 12rem;
+  left: 12rem;
+}
+
+.inset-y-56 {
+  top: 14rem;
+  bottom: 14rem;
+}
+
+.inset-x-56 {
+  right: 14rem;
+  left: 14rem;
+}
+
+.inset-y-60 {
+  top: 15rem;
+  bottom: 15rem;
+}
+
+.inset-x-60 {
+  right: 15rem;
+  left: 15rem;
+}
+
+.inset-y-64 {
+  top: 16rem;
+  bottom: 16rem;
+}
+
+.inset-x-64 {
+  right: 16rem;
+  left: 16rem;
+}
+
+.inset-y-72 {
+  top: 18rem;
+  bottom: 18rem;
+}
+
+.inset-x-72 {
+  right: 18rem;
+  left: 18rem;
+}
+
+.inset-y-80 {
+  top: 20rem;
+  bottom: 20rem;
+}
+
+.inset-x-80 {
+  right: 20rem;
+  left: 20rem;
+}
+
+.inset-y-88 {
+  top: 22rem;
+  bottom: 22rem;
+}
+
+.inset-x-88 {
+  right: 22rem;
+  left: 22rem;
+}
+
+.inset-y-96 {
+  top: 24rem;
+  bottom: 24rem;
+}
+
+.inset-x-96 {
+  right: 24rem;
+  left: 24rem;
+}
+
+.inset-y-100 {
+  top: 25rem;
+  bottom: 25rem;
+}
+
+.inset-x-100 {
+  right: 25rem;
+  left: 25rem;
+}
+
+.inset-y-110 {
+  top: 27.5rem;
+  bottom: 27.5rem;
+}
+
+.inset-x-110 {
+  right: 27.5rem;
+  left: 27.5rem;
+}
+
+.inset-y-120 {
+  top: 30rem;
+  bottom: 30rem;
+}
+
+.inset-x-120 {
+  right: 30rem;
+  left: 30rem;
+}
+
+.inset-y-130 {
+  top: 32.5rem;
+  bottom: 32.5rem;
+}
+
+.inset-x-130 {
+  right: 32.5rem;
+  left: 32.5rem;
+}
+
+.inset-y-140 {
+  top: 35rem;
+  bottom: 35rem;
+}
+
+.inset-x-140 {
+  right: 35rem;
+  left: 35rem;
+}
+
+.inset-y-160 {
+  top: 40rem;
+  bottom: 40rem;
+}
+
+.inset-x-160 {
+  right: 40rem;
+  left: 40rem;
+}
+
+.inset-y-180 {
+  top: 45rem;
+  bottom: 45rem;
+}
+
+.inset-x-180 {
+  right: 45rem;
+  left: 45rem;
+}
+
+.inset-y-200 {
+  top: 50rem;
+  bottom: 50rem;
+}
+
+.inset-x-200 {
+  right: 50rem;
+  left: 50rem;
 }
 
 .top-0 {
@@ -23926,20 +24576,628 @@ video {
   left: 0;
 }
 
-.top-auto {
-  top: auto;
+.top-1 {
+  top: 0.25rem;
 }
 
-.right-auto {
-  right: auto;
+.right-1 {
+  right: 0.25rem;
 }
 
-.bottom-auto {
-  bottom: auto;
+.bottom-1 {
+  bottom: 0.25rem;
 }
 
-.left-auto {
-  left: auto;
+.left-1 {
+  left: 0.25rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+
+.bottom-2 {
+  bottom: 0.5rem;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.top-3 {
+  top: 0.75rem;
+}
+
+.right-3 {
+  right: 0.75rem;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
+.right-4 {
+  right: 1rem;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.right-5 {
+  right: 1.25rem;
+}
+
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
+.left-5 {
+  left: 1.25rem;
+}
+
+.top-6 {
+  top: 1.5rem;
+}
+
+.right-6 {
+  right: 1.5rem;
+}
+
+.bottom-6 {
+  bottom: 1.5rem;
+}
+
+.left-6 {
+  left: 1.5rem;
+}
+
+.top-7 {
+  top: 1.75rem;
+}
+
+.right-7 {
+  right: 1.75rem;
+}
+
+.bottom-7 {
+  bottom: 1.75rem;
+}
+
+.left-7 {
+  left: 1.75rem;
+}
+
+.top-8 {
+  top: 2rem;
+}
+
+.right-8 {
+  right: 2rem;
+}
+
+.bottom-8 {
+  bottom: 2rem;
+}
+
+.left-8 {
+  left: 2rem;
+}
+
+.top-9 {
+  top: 2.25rem;
+}
+
+.right-9 {
+  right: 2.25rem;
+}
+
+.bottom-9 {
+  bottom: 2.25rem;
+}
+
+.left-9 {
+  left: 2.25rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.left-10 {
+  left: 2.5rem;
+}
+
+.top-12 {
+  top: 3rem;
+}
+
+.right-12 {
+  right: 3rem;
+}
+
+.bottom-12 {
+  bottom: 3rem;
+}
+
+.left-12 {
+  left: 3rem;
+}
+
+.top-14 {
+  top: 3.5rem;
+}
+
+.right-14 {
+  right: 3.5rem;
+}
+
+.bottom-14 {
+  bottom: 3.5rem;
+}
+
+.left-14 {
+  left: 3.5rem;
+}
+
+.top-16 {
+  top: 4rem;
+}
+
+.right-16 {
+  right: 4rem;
+}
+
+.bottom-16 {
+  bottom: 4rem;
+}
+
+.left-16 {
+  left: 4rem;
+}
+
+.top-18 {
+  top: 4.5rem;
+}
+
+.right-18 {
+  right: 4.5rem;
+}
+
+.bottom-18 {
+  bottom: 4.5rem;
+}
+
+.left-18 {
+  left: 4.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.right-20 {
+  right: 5rem;
+}
+
+.bottom-20 {
+  bottom: 5rem;
+}
+
+.left-20 {
+  left: 5rem;
+}
+
+.top-24 {
+  top: 6rem;
+}
+
+.right-24 {
+  right: 6rem;
+}
+
+.bottom-24 {
+  bottom: 6rem;
+}
+
+.left-24 {
+  left: 6rem;
+}
+
+.top-26 {
+  top: 6.5rem;
+}
+
+.right-26 {
+  right: 6.5rem;
+}
+
+.bottom-26 {
+  bottom: 6.5rem;
+}
+
+.left-26 {
+  left: 6.5rem;
+}
+
+.top-28 {
+  top: 7rem;
+}
+
+.right-28 {
+  right: 7rem;
+}
+
+.bottom-28 {
+  bottom: 7rem;
+}
+
+.left-28 {
+  left: 7rem;
+}
+
+.top-30 {
+  top: 7.5rem;
+}
+
+.right-30 {
+  right: 7.5rem;
+}
+
+.bottom-30 {
+  bottom: 7.5rem;
+}
+
+.left-30 {
+  left: 7.5rem;
+}
+
+.top-32 {
+  top: 8rem;
+}
+
+.right-32 {
+  right: 8rem;
+}
+
+.bottom-32 {
+  bottom: 8rem;
+}
+
+.left-32 {
+  left: 8rem;
+}
+
+.top-36 {
+  top: 9rem;
+}
+
+.right-36 {
+  right: 9rem;
+}
+
+.bottom-36 {
+  bottom: 9rem;
+}
+
+.left-36 {
+  left: 9rem;
+}
+
+.top-40 {
+  top: 10rem;
+}
+
+.right-40 {
+  right: 10rem;
+}
+
+.bottom-40 {
+  bottom: 10rem;
+}
+
+.left-40 {
+  left: 10rem;
+}
+
+.top-44 {
+  top: 11rem;
+}
+
+.right-44 {
+  right: 11rem;
+}
+
+.bottom-44 {
+  bottom: 11rem;
+}
+
+.left-44 {
+  left: 11rem;
+}
+
+.top-48 {
+  top: 12rem;
+}
+
+.right-48 {
+  right: 12rem;
+}
+
+.bottom-48 {
+  bottom: 12rem;
+}
+
+.left-48 {
+  left: 12rem;
+}
+
+.top-56 {
+  top: 14rem;
+}
+
+.right-56 {
+  right: 14rem;
+}
+
+.bottom-56 {
+  bottom: 14rem;
+}
+
+.left-56 {
+  left: 14rem;
+}
+
+.top-60 {
+  top: 15rem;
+}
+
+.right-60 {
+  right: 15rem;
+}
+
+.bottom-60 {
+  bottom: 15rem;
+}
+
+.left-60 {
+  left: 15rem;
+}
+
+.top-64 {
+  top: 16rem;
+}
+
+.right-64 {
+  right: 16rem;
+}
+
+.bottom-64 {
+  bottom: 16rem;
+}
+
+.left-64 {
+  left: 16rem;
+}
+
+.top-72 {
+  top: 18rem;
+}
+
+.right-72 {
+  right: 18rem;
+}
+
+.bottom-72 {
+  bottom: 18rem;
+}
+
+.left-72 {
+  left: 18rem;
+}
+
+.top-80 {
+  top: 20rem;
+}
+
+.right-80 {
+  right: 20rem;
+}
+
+.bottom-80 {
+  bottom: 20rem;
+}
+
+.left-80 {
+  left: 20rem;
+}
+
+.top-88 {
+  top: 22rem;
+}
+
+.right-88 {
+  right: 22rem;
+}
+
+.bottom-88 {
+  bottom: 22rem;
+}
+
+.left-88 {
+  left: 22rem;
+}
+
+.top-96 {
+  top: 24rem;
+}
+
+.right-96 {
+  right: 24rem;
+}
+
+.bottom-96 {
+  bottom: 24rem;
+}
+
+.left-96 {
+  left: 24rem;
+}
+
+.top-100 {
+  top: 25rem;
+}
+
+.right-100 {
+  right: 25rem;
+}
+
+.bottom-100 {
+  bottom: 25rem;
+}
+
+.left-100 {
+  left: 25rem;
+}
+
+.top-110 {
+  top: 27.5rem;
+}
+
+.right-110 {
+  right: 27.5rem;
+}
+
+.bottom-110 {
+  bottom: 27.5rem;
+}
+
+.left-110 {
+  left: 27.5rem;
+}
+
+.top-120 {
+  top: 30rem;
+}
+
+.right-120 {
+  right: 30rem;
+}
+
+.bottom-120 {
+  bottom: 30rem;
+}
+
+.left-120 {
+  left: 30rem;
+}
+
+.top-130 {
+  top: 32.5rem;
+}
+
+.right-130 {
+  right: 32.5rem;
+}
+
+.bottom-130 {
+  bottom: 32.5rem;
+}
+
+.left-130 {
+  left: 32.5rem;
+}
+
+.top-140 {
+  top: 35rem;
+}
+
+.right-140 {
+  right: 35rem;
+}
+
+.bottom-140 {
+  bottom: 35rem;
+}
+
+.left-140 {
+  left: 35rem;
+}
+
+.top-160 {
+  top: 40rem;
+}
+
+.right-160 {
+  right: 40rem;
+}
+
+.bottom-160 {
+  bottom: 40rem;
+}
+
+.left-160 {
+  left: 40rem;
+}
+
+.top-180 {
+  top: 45rem;
+}
+
+.right-180 {
+  right: 45rem;
+}
+
+.bottom-180 {
+  bottom: 45rem;
+}
+
+.left-180 {
+  left: 45rem;
+}
+
+.top-200 {
+  top: 50rem;
+}
+
+.right-200 {
+  right: 50rem;
+}
+
+.bottom-200 {
+  bottom: 50rem;
+}
+
+.left-200 {
+  left: 50rem;
 }
 
 .resize-none {
@@ -44884,6 +46142,10 @@ video {
     font-size: 0.75rem;
   }
 
+  .xs\:text-vsm {
+    font-size: 0.8rem;
+  }
+
   .xs\:text-sm {
     font-size: 0.875rem;
   }
@@ -55943,11 +57205,277 @@ video {
     left: 0;
   }
 
-  .xs\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+  .xs\:inset-1 {
+    top: 0.25rem;
+    right: 0.25rem;
+    bottom: 0.25rem;
+    left: 0.25rem;
+  }
+
+  .xs\:inset-2 {
+    top: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .xs\:inset-3 {
+    top: 0.75rem;
+    right: 0.75rem;
+    bottom: 0.75rem;
+    left: 0.75rem;
+  }
+
+  .xs\:inset-4 {
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .xs\:inset-5 {
+    top: 1.25rem;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    left: 1.25rem;
+  }
+
+  .xs\:inset-6 {
+    top: 1.5rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .xs\:inset-7 {
+    top: 1.75rem;
+    right: 1.75rem;
+    bottom: 1.75rem;
+    left: 1.75rem;
+  }
+
+  .xs\:inset-8 {
+    top: 2rem;
+    right: 2rem;
+    bottom: 2rem;
+    left: 2rem;
+  }
+
+  .xs\:inset-9 {
+    top: 2.25rem;
+    right: 2.25rem;
+    bottom: 2.25rem;
+    left: 2.25rem;
+  }
+
+  .xs\:inset-10 {
+    top: 2.5rem;
+    right: 2.5rem;
+    bottom: 2.5rem;
+    left: 2.5rem;
+  }
+
+  .xs\:inset-12 {
+    top: 3rem;
+    right: 3rem;
+    bottom: 3rem;
+    left: 3rem;
+  }
+
+  .xs\:inset-14 {
+    top: 3.5rem;
+    right: 3.5rem;
+    bottom: 3.5rem;
+    left: 3.5rem;
+  }
+
+  .xs\:inset-16 {
+    top: 4rem;
+    right: 4rem;
+    bottom: 4rem;
+    left: 4rem;
+  }
+
+  .xs\:inset-18 {
+    top: 4.5rem;
+    right: 4.5rem;
+    bottom: 4.5rem;
+    left: 4.5rem;
+  }
+
+  .xs\:inset-20 {
+    top: 5rem;
+    right: 5rem;
+    bottom: 5rem;
+    left: 5rem;
+  }
+
+  .xs\:inset-24 {
+    top: 6rem;
+    right: 6rem;
+    bottom: 6rem;
+    left: 6rem;
+  }
+
+  .xs\:inset-26 {
+    top: 6.5rem;
+    right: 6.5rem;
+    bottom: 6.5rem;
+    left: 6.5rem;
+  }
+
+  .xs\:inset-28 {
+    top: 7rem;
+    right: 7rem;
+    bottom: 7rem;
+    left: 7rem;
+  }
+
+  .xs\:inset-30 {
+    top: 7.5rem;
+    right: 7.5rem;
+    bottom: 7.5rem;
+    left: 7.5rem;
+  }
+
+  .xs\:inset-32 {
+    top: 8rem;
+    right: 8rem;
+    bottom: 8rem;
+    left: 8rem;
+  }
+
+  .xs\:inset-36 {
+    top: 9rem;
+    right: 9rem;
+    bottom: 9rem;
+    left: 9rem;
+  }
+
+  .xs\:inset-40 {
+    top: 10rem;
+    right: 10rem;
+    bottom: 10rem;
+    left: 10rem;
+  }
+
+  .xs\:inset-44 {
+    top: 11rem;
+    right: 11rem;
+    bottom: 11rem;
+    left: 11rem;
+  }
+
+  .xs\:inset-48 {
+    top: 12rem;
+    right: 12rem;
+    bottom: 12rem;
+    left: 12rem;
+  }
+
+  .xs\:inset-56 {
+    top: 14rem;
+    right: 14rem;
+    bottom: 14rem;
+    left: 14rem;
+  }
+
+  .xs\:inset-60 {
+    top: 15rem;
+    right: 15rem;
+    bottom: 15rem;
+    left: 15rem;
+  }
+
+  .xs\:inset-64 {
+    top: 16rem;
+    right: 16rem;
+    bottom: 16rem;
+    left: 16rem;
+  }
+
+  .xs\:inset-72 {
+    top: 18rem;
+    right: 18rem;
+    bottom: 18rem;
+    left: 18rem;
+  }
+
+  .xs\:inset-80 {
+    top: 20rem;
+    right: 20rem;
+    bottom: 20rem;
+    left: 20rem;
+  }
+
+  .xs\:inset-88 {
+    top: 22rem;
+    right: 22rem;
+    bottom: 22rem;
+    left: 22rem;
+  }
+
+  .xs\:inset-96 {
+    top: 24rem;
+    right: 24rem;
+    bottom: 24rem;
+    left: 24rem;
+  }
+
+  .xs\:inset-100 {
+    top: 25rem;
+    right: 25rem;
+    bottom: 25rem;
+    left: 25rem;
+  }
+
+  .xs\:inset-110 {
+    top: 27.5rem;
+    right: 27.5rem;
+    bottom: 27.5rem;
+    left: 27.5rem;
+  }
+
+  .xs\:inset-120 {
+    top: 30rem;
+    right: 30rem;
+    bottom: 30rem;
+    left: 30rem;
+  }
+
+  .xs\:inset-130 {
+    top: 32.5rem;
+    right: 32.5rem;
+    bottom: 32.5rem;
+    left: 32.5rem;
+  }
+
+  .xs\:inset-140 {
+    top: 35rem;
+    right: 35rem;
+    bottom: 35rem;
+    left: 35rem;
+  }
+
+  .xs\:inset-160 {
+    top: 40rem;
+    right: 40rem;
+    bottom: 40rem;
+    left: 40rem;
+  }
+
+  .xs\:inset-180 {
+    top: 45rem;
+    right: 45rem;
+    bottom: 45rem;
+    left: 45rem;
+  }
+
+  .xs\:inset-200 {
+    top: 50rem;
+    right: 50rem;
+    bottom: 50rem;
+    left: 50rem;
   }
 
   .xs\:inset-y-0 {
@@ -55960,14 +57488,394 @@ video {
     left: 0;
   }
 
-  .xs\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .xs\:inset-y-1 {
+    top: 0.25rem;
+    bottom: 0.25rem;
   }
 
-  .xs\:inset-x-auto {
-    right: auto;
-    left: auto;
+  .xs\:inset-x-1 {
+    right: 0.25rem;
+    left: 0.25rem;
+  }
+
+  .xs\:inset-y-2 {
+    top: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .xs\:inset-x-2 {
+    right: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .xs\:inset-y-3 {
+    top: 0.75rem;
+    bottom: 0.75rem;
+  }
+
+  .xs\:inset-x-3 {
+    right: 0.75rem;
+    left: 0.75rem;
+  }
+
+  .xs\:inset-y-4 {
+    top: 1rem;
+    bottom: 1rem;
+  }
+
+  .xs\:inset-x-4 {
+    right: 1rem;
+    left: 1rem;
+  }
+
+  .xs\:inset-y-5 {
+    top: 1.25rem;
+    bottom: 1.25rem;
+  }
+
+  .xs\:inset-x-5 {
+    right: 1.25rem;
+    left: 1.25rem;
+  }
+
+  .xs\:inset-y-6 {
+    top: 1.5rem;
+    bottom: 1.5rem;
+  }
+
+  .xs\:inset-x-6 {
+    right: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .xs\:inset-y-7 {
+    top: 1.75rem;
+    bottom: 1.75rem;
+  }
+
+  .xs\:inset-x-7 {
+    right: 1.75rem;
+    left: 1.75rem;
+  }
+
+  .xs\:inset-y-8 {
+    top: 2rem;
+    bottom: 2rem;
+  }
+
+  .xs\:inset-x-8 {
+    right: 2rem;
+    left: 2rem;
+  }
+
+  .xs\:inset-y-9 {
+    top: 2.25rem;
+    bottom: 2.25rem;
+  }
+
+  .xs\:inset-x-9 {
+    right: 2.25rem;
+    left: 2.25rem;
+  }
+
+  .xs\:inset-y-10 {
+    top: 2.5rem;
+    bottom: 2.5rem;
+  }
+
+  .xs\:inset-x-10 {
+    right: 2.5rem;
+    left: 2.5rem;
+  }
+
+  .xs\:inset-y-12 {
+    top: 3rem;
+    bottom: 3rem;
+  }
+
+  .xs\:inset-x-12 {
+    right: 3rem;
+    left: 3rem;
+  }
+
+  .xs\:inset-y-14 {
+    top: 3.5rem;
+    bottom: 3.5rem;
+  }
+
+  .xs\:inset-x-14 {
+    right: 3.5rem;
+    left: 3.5rem;
+  }
+
+  .xs\:inset-y-16 {
+    top: 4rem;
+    bottom: 4rem;
+  }
+
+  .xs\:inset-x-16 {
+    right: 4rem;
+    left: 4rem;
+  }
+
+  .xs\:inset-y-18 {
+    top: 4.5rem;
+    bottom: 4.5rem;
+  }
+
+  .xs\:inset-x-18 {
+    right: 4.5rem;
+    left: 4.5rem;
+  }
+
+  .xs\:inset-y-20 {
+    top: 5rem;
+    bottom: 5rem;
+  }
+
+  .xs\:inset-x-20 {
+    right: 5rem;
+    left: 5rem;
+  }
+
+  .xs\:inset-y-24 {
+    top: 6rem;
+    bottom: 6rem;
+  }
+
+  .xs\:inset-x-24 {
+    right: 6rem;
+    left: 6rem;
+  }
+
+  .xs\:inset-y-26 {
+    top: 6.5rem;
+    bottom: 6.5rem;
+  }
+
+  .xs\:inset-x-26 {
+    right: 6.5rem;
+    left: 6.5rem;
+  }
+
+  .xs\:inset-y-28 {
+    top: 7rem;
+    bottom: 7rem;
+  }
+
+  .xs\:inset-x-28 {
+    right: 7rem;
+    left: 7rem;
+  }
+
+  .xs\:inset-y-30 {
+    top: 7.5rem;
+    bottom: 7.5rem;
+  }
+
+  .xs\:inset-x-30 {
+    right: 7.5rem;
+    left: 7.5rem;
+  }
+
+  .xs\:inset-y-32 {
+    top: 8rem;
+    bottom: 8rem;
+  }
+
+  .xs\:inset-x-32 {
+    right: 8rem;
+    left: 8rem;
+  }
+
+  .xs\:inset-y-36 {
+    top: 9rem;
+    bottom: 9rem;
+  }
+
+  .xs\:inset-x-36 {
+    right: 9rem;
+    left: 9rem;
+  }
+
+  .xs\:inset-y-40 {
+    top: 10rem;
+    bottom: 10rem;
+  }
+
+  .xs\:inset-x-40 {
+    right: 10rem;
+    left: 10rem;
+  }
+
+  .xs\:inset-y-44 {
+    top: 11rem;
+    bottom: 11rem;
+  }
+
+  .xs\:inset-x-44 {
+    right: 11rem;
+    left: 11rem;
+  }
+
+  .xs\:inset-y-48 {
+    top: 12rem;
+    bottom: 12rem;
+  }
+
+  .xs\:inset-x-48 {
+    right: 12rem;
+    left: 12rem;
+  }
+
+  .xs\:inset-y-56 {
+    top: 14rem;
+    bottom: 14rem;
+  }
+
+  .xs\:inset-x-56 {
+    right: 14rem;
+    left: 14rem;
+  }
+
+  .xs\:inset-y-60 {
+    top: 15rem;
+    bottom: 15rem;
+  }
+
+  .xs\:inset-x-60 {
+    right: 15rem;
+    left: 15rem;
+  }
+
+  .xs\:inset-y-64 {
+    top: 16rem;
+    bottom: 16rem;
+  }
+
+  .xs\:inset-x-64 {
+    right: 16rem;
+    left: 16rem;
+  }
+
+  .xs\:inset-y-72 {
+    top: 18rem;
+    bottom: 18rem;
+  }
+
+  .xs\:inset-x-72 {
+    right: 18rem;
+    left: 18rem;
+  }
+
+  .xs\:inset-y-80 {
+    top: 20rem;
+    bottom: 20rem;
+  }
+
+  .xs\:inset-x-80 {
+    right: 20rem;
+    left: 20rem;
+  }
+
+  .xs\:inset-y-88 {
+    top: 22rem;
+    bottom: 22rem;
+  }
+
+  .xs\:inset-x-88 {
+    right: 22rem;
+    left: 22rem;
+  }
+
+  .xs\:inset-y-96 {
+    top: 24rem;
+    bottom: 24rem;
+  }
+
+  .xs\:inset-x-96 {
+    right: 24rem;
+    left: 24rem;
+  }
+
+  .xs\:inset-y-100 {
+    top: 25rem;
+    bottom: 25rem;
+  }
+
+  .xs\:inset-x-100 {
+    right: 25rem;
+    left: 25rem;
+  }
+
+  .xs\:inset-y-110 {
+    top: 27.5rem;
+    bottom: 27.5rem;
+  }
+
+  .xs\:inset-x-110 {
+    right: 27.5rem;
+    left: 27.5rem;
+  }
+
+  .xs\:inset-y-120 {
+    top: 30rem;
+    bottom: 30rem;
+  }
+
+  .xs\:inset-x-120 {
+    right: 30rem;
+    left: 30rem;
+  }
+
+  .xs\:inset-y-130 {
+    top: 32.5rem;
+    bottom: 32.5rem;
+  }
+
+  .xs\:inset-x-130 {
+    right: 32.5rem;
+    left: 32.5rem;
+  }
+
+  .xs\:inset-y-140 {
+    top: 35rem;
+    bottom: 35rem;
+  }
+
+  .xs\:inset-x-140 {
+    right: 35rem;
+    left: 35rem;
+  }
+
+  .xs\:inset-y-160 {
+    top: 40rem;
+    bottom: 40rem;
+  }
+
+  .xs\:inset-x-160 {
+    right: 40rem;
+    left: 40rem;
+  }
+
+  .xs\:inset-y-180 {
+    top: 45rem;
+    bottom: 45rem;
+  }
+
+  .xs\:inset-x-180 {
+    right: 45rem;
+    left: 45rem;
+  }
+
+  .xs\:inset-y-200 {
+    top: 50rem;
+    bottom: 50rem;
+  }
+
+  .xs\:inset-x-200 {
+    right: 50rem;
+    left: 50rem;
   }
 
   .xs\:top-0 {
@@ -55986,20 +57894,628 @@ video {
     left: 0;
   }
 
-  .xs\:top-auto {
-    top: auto;
+  .xs\:top-1 {
+    top: 0.25rem;
   }
 
-  .xs\:right-auto {
-    right: auto;
+  .xs\:right-1 {
+    right: 0.25rem;
   }
 
-  .xs\:bottom-auto {
-    bottom: auto;
+  .xs\:bottom-1 {
+    bottom: 0.25rem;
   }
 
-  .xs\:left-auto {
-    left: auto;
+  .xs\:left-1 {
+    left: 0.25rem;
+  }
+
+  .xs\:top-2 {
+    top: 0.5rem;
+  }
+
+  .xs\:right-2 {
+    right: 0.5rem;
+  }
+
+  .xs\:bottom-2 {
+    bottom: 0.5rem;
+  }
+
+  .xs\:left-2 {
+    left: 0.5rem;
+  }
+
+  .xs\:top-3 {
+    top: 0.75rem;
+  }
+
+  .xs\:right-3 {
+    right: 0.75rem;
+  }
+
+  .xs\:bottom-3 {
+    bottom: 0.75rem;
+  }
+
+  .xs\:left-3 {
+    left: 0.75rem;
+  }
+
+  .xs\:top-4 {
+    top: 1rem;
+  }
+
+  .xs\:right-4 {
+    right: 1rem;
+  }
+
+  .xs\:bottom-4 {
+    bottom: 1rem;
+  }
+
+  .xs\:left-4 {
+    left: 1rem;
+  }
+
+  .xs\:top-5 {
+    top: 1.25rem;
+  }
+
+  .xs\:right-5 {
+    right: 1.25rem;
+  }
+
+  .xs\:bottom-5 {
+    bottom: 1.25rem;
+  }
+
+  .xs\:left-5 {
+    left: 1.25rem;
+  }
+
+  .xs\:top-6 {
+    top: 1.5rem;
+  }
+
+  .xs\:right-6 {
+    right: 1.5rem;
+  }
+
+  .xs\:bottom-6 {
+    bottom: 1.5rem;
+  }
+
+  .xs\:left-6 {
+    left: 1.5rem;
+  }
+
+  .xs\:top-7 {
+    top: 1.75rem;
+  }
+
+  .xs\:right-7 {
+    right: 1.75rem;
+  }
+
+  .xs\:bottom-7 {
+    bottom: 1.75rem;
+  }
+
+  .xs\:left-7 {
+    left: 1.75rem;
+  }
+
+  .xs\:top-8 {
+    top: 2rem;
+  }
+
+  .xs\:right-8 {
+    right: 2rem;
+  }
+
+  .xs\:bottom-8 {
+    bottom: 2rem;
+  }
+
+  .xs\:left-8 {
+    left: 2rem;
+  }
+
+  .xs\:top-9 {
+    top: 2.25rem;
+  }
+
+  .xs\:right-9 {
+    right: 2.25rem;
+  }
+
+  .xs\:bottom-9 {
+    bottom: 2.25rem;
+  }
+
+  .xs\:left-9 {
+    left: 2.25rem;
+  }
+
+  .xs\:top-10 {
+    top: 2.5rem;
+  }
+
+  .xs\:right-10 {
+    right: 2.5rem;
+  }
+
+  .xs\:bottom-10 {
+    bottom: 2.5rem;
+  }
+
+  .xs\:left-10 {
+    left: 2.5rem;
+  }
+
+  .xs\:top-12 {
+    top: 3rem;
+  }
+
+  .xs\:right-12 {
+    right: 3rem;
+  }
+
+  .xs\:bottom-12 {
+    bottom: 3rem;
+  }
+
+  .xs\:left-12 {
+    left: 3rem;
+  }
+
+  .xs\:top-14 {
+    top: 3.5rem;
+  }
+
+  .xs\:right-14 {
+    right: 3.5rem;
+  }
+
+  .xs\:bottom-14 {
+    bottom: 3.5rem;
+  }
+
+  .xs\:left-14 {
+    left: 3.5rem;
+  }
+
+  .xs\:top-16 {
+    top: 4rem;
+  }
+
+  .xs\:right-16 {
+    right: 4rem;
+  }
+
+  .xs\:bottom-16 {
+    bottom: 4rem;
+  }
+
+  .xs\:left-16 {
+    left: 4rem;
+  }
+
+  .xs\:top-18 {
+    top: 4.5rem;
+  }
+
+  .xs\:right-18 {
+    right: 4.5rem;
+  }
+
+  .xs\:bottom-18 {
+    bottom: 4.5rem;
+  }
+
+  .xs\:left-18 {
+    left: 4.5rem;
+  }
+
+  .xs\:top-20 {
+    top: 5rem;
+  }
+
+  .xs\:right-20 {
+    right: 5rem;
+  }
+
+  .xs\:bottom-20 {
+    bottom: 5rem;
+  }
+
+  .xs\:left-20 {
+    left: 5rem;
+  }
+
+  .xs\:top-24 {
+    top: 6rem;
+  }
+
+  .xs\:right-24 {
+    right: 6rem;
+  }
+
+  .xs\:bottom-24 {
+    bottom: 6rem;
+  }
+
+  .xs\:left-24 {
+    left: 6rem;
+  }
+
+  .xs\:top-26 {
+    top: 6.5rem;
+  }
+
+  .xs\:right-26 {
+    right: 6.5rem;
+  }
+
+  .xs\:bottom-26 {
+    bottom: 6.5rem;
+  }
+
+  .xs\:left-26 {
+    left: 6.5rem;
+  }
+
+  .xs\:top-28 {
+    top: 7rem;
+  }
+
+  .xs\:right-28 {
+    right: 7rem;
+  }
+
+  .xs\:bottom-28 {
+    bottom: 7rem;
+  }
+
+  .xs\:left-28 {
+    left: 7rem;
+  }
+
+  .xs\:top-30 {
+    top: 7.5rem;
+  }
+
+  .xs\:right-30 {
+    right: 7.5rem;
+  }
+
+  .xs\:bottom-30 {
+    bottom: 7.5rem;
+  }
+
+  .xs\:left-30 {
+    left: 7.5rem;
+  }
+
+  .xs\:top-32 {
+    top: 8rem;
+  }
+
+  .xs\:right-32 {
+    right: 8rem;
+  }
+
+  .xs\:bottom-32 {
+    bottom: 8rem;
+  }
+
+  .xs\:left-32 {
+    left: 8rem;
+  }
+
+  .xs\:top-36 {
+    top: 9rem;
+  }
+
+  .xs\:right-36 {
+    right: 9rem;
+  }
+
+  .xs\:bottom-36 {
+    bottom: 9rem;
+  }
+
+  .xs\:left-36 {
+    left: 9rem;
+  }
+
+  .xs\:top-40 {
+    top: 10rem;
+  }
+
+  .xs\:right-40 {
+    right: 10rem;
+  }
+
+  .xs\:bottom-40 {
+    bottom: 10rem;
+  }
+
+  .xs\:left-40 {
+    left: 10rem;
+  }
+
+  .xs\:top-44 {
+    top: 11rem;
+  }
+
+  .xs\:right-44 {
+    right: 11rem;
+  }
+
+  .xs\:bottom-44 {
+    bottom: 11rem;
+  }
+
+  .xs\:left-44 {
+    left: 11rem;
+  }
+
+  .xs\:top-48 {
+    top: 12rem;
+  }
+
+  .xs\:right-48 {
+    right: 12rem;
+  }
+
+  .xs\:bottom-48 {
+    bottom: 12rem;
+  }
+
+  .xs\:left-48 {
+    left: 12rem;
+  }
+
+  .xs\:top-56 {
+    top: 14rem;
+  }
+
+  .xs\:right-56 {
+    right: 14rem;
+  }
+
+  .xs\:bottom-56 {
+    bottom: 14rem;
+  }
+
+  .xs\:left-56 {
+    left: 14rem;
+  }
+
+  .xs\:top-60 {
+    top: 15rem;
+  }
+
+  .xs\:right-60 {
+    right: 15rem;
+  }
+
+  .xs\:bottom-60 {
+    bottom: 15rem;
+  }
+
+  .xs\:left-60 {
+    left: 15rem;
+  }
+
+  .xs\:top-64 {
+    top: 16rem;
+  }
+
+  .xs\:right-64 {
+    right: 16rem;
+  }
+
+  .xs\:bottom-64 {
+    bottom: 16rem;
+  }
+
+  .xs\:left-64 {
+    left: 16rem;
+  }
+
+  .xs\:top-72 {
+    top: 18rem;
+  }
+
+  .xs\:right-72 {
+    right: 18rem;
+  }
+
+  .xs\:bottom-72 {
+    bottom: 18rem;
+  }
+
+  .xs\:left-72 {
+    left: 18rem;
+  }
+
+  .xs\:top-80 {
+    top: 20rem;
+  }
+
+  .xs\:right-80 {
+    right: 20rem;
+  }
+
+  .xs\:bottom-80 {
+    bottom: 20rem;
+  }
+
+  .xs\:left-80 {
+    left: 20rem;
+  }
+
+  .xs\:top-88 {
+    top: 22rem;
+  }
+
+  .xs\:right-88 {
+    right: 22rem;
+  }
+
+  .xs\:bottom-88 {
+    bottom: 22rem;
+  }
+
+  .xs\:left-88 {
+    left: 22rem;
+  }
+
+  .xs\:top-96 {
+    top: 24rem;
+  }
+
+  .xs\:right-96 {
+    right: 24rem;
+  }
+
+  .xs\:bottom-96 {
+    bottom: 24rem;
+  }
+
+  .xs\:left-96 {
+    left: 24rem;
+  }
+
+  .xs\:top-100 {
+    top: 25rem;
+  }
+
+  .xs\:right-100 {
+    right: 25rem;
+  }
+
+  .xs\:bottom-100 {
+    bottom: 25rem;
+  }
+
+  .xs\:left-100 {
+    left: 25rem;
+  }
+
+  .xs\:top-110 {
+    top: 27.5rem;
+  }
+
+  .xs\:right-110 {
+    right: 27.5rem;
+  }
+
+  .xs\:bottom-110 {
+    bottom: 27.5rem;
+  }
+
+  .xs\:left-110 {
+    left: 27.5rem;
+  }
+
+  .xs\:top-120 {
+    top: 30rem;
+  }
+
+  .xs\:right-120 {
+    right: 30rem;
+  }
+
+  .xs\:bottom-120 {
+    bottom: 30rem;
+  }
+
+  .xs\:left-120 {
+    left: 30rem;
+  }
+
+  .xs\:top-130 {
+    top: 32.5rem;
+  }
+
+  .xs\:right-130 {
+    right: 32.5rem;
+  }
+
+  .xs\:bottom-130 {
+    bottom: 32.5rem;
+  }
+
+  .xs\:left-130 {
+    left: 32.5rem;
+  }
+
+  .xs\:top-140 {
+    top: 35rem;
+  }
+
+  .xs\:right-140 {
+    right: 35rem;
+  }
+
+  .xs\:bottom-140 {
+    bottom: 35rem;
+  }
+
+  .xs\:left-140 {
+    left: 35rem;
+  }
+
+  .xs\:top-160 {
+    top: 40rem;
+  }
+
+  .xs\:right-160 {
+    right: 40rem;
+  }
+
+  .xs\:bottom-160 {
+    bottom: 40rem;
+  }
+
+  .xs\:left-160 {
+    left: 40rem;
+  }
+
+  .xs\:top-180 {
+    top: 45rem;
+  }
+
+  .xs\:right-180 {
+    right: 45rem;
+  }
+
+  .xs\:bottom-180 {
+    bottom: 45rem;
+  }
+
+  .xs\:left-180 {
+    left: 45rem;
+  }
+
+  .xs\:top-200 {
+    top: 50rem;
+  }
+
+  .xs\:right-200 {
+    right: 50rem;
+  }
+
+  .xs\:bottom-200 {
+    bottom: 50rem;
+  }
+
+  .xs\:left-200 {
+    left: 50rem;
   }
 
   .xs\:resize-none {
@@ -76879,6 +79395,10 @@ video {
     font-size: 0.75rem;
   }
 
+  .sm\:text-vsm {
+    font-size: 0.8rem;
+  }
+
   .sm\:text-sm {
     font-size: 0.875rem;
   }
@@ -87938,11 +90458,277 @@ video {
     left: 0;
   }
 
-  .sm\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+  .sm\:inset-1 {
+    top: 0.25rem;
+    right: 0.25rem;
+    bottom: 0.25rem;
+    left: 0.25rem;
+  }
+
+  .sm\:inset-2 {
+    top: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .sm\:inset-3 {
+    top: 0.75rem;
+    right: 0.75rem;
+    bottom: 0.75rem;
+    left: 0.75rem;
+  }
+
+  .sm\:inset-4 {
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .sm\:inset-5 {
+    top: 1.25rem;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    left: 1.25rem;
+  }
+
+  .sm\:inset-6 {
+    top: 1.5rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .sm\:inset-7 {
+    top: 1.75rem;
+    right: 1.75rem;
+    bottom: 1.75rem;
+    left: 1.75rem;
+  }
+
+  .sm\:inset-8 {
+    top: 2rem;
+    right: 2rem;
+    bottom: 2rem;
+    left: 2rem;
+  }
+
+  .sm\:inset-9 {
+    top: 2.25rem;
+    right: 2.25rem;
+    bottom: 2.25rem;
+    left: 2.25rem;
+  }
+
+  .sm\:inset-10 {
+    top: 2.5rem;
+    right: 2.5rem;
+    bottom: 2.5rem;
+    left: 2.5rem;
+  }
+
+  .sm\:inset-12 {
+    top: 3rem;
+    right: 3rem;
+    bottom: 3rem;
+    left: 3rem;
+  }
+
+  .sm\:inset-14 {
+    top: 3.5rem;
+    right: 3.5rem;
+    bottom: 3.5rem;
+    left: 3.5rem;
+  }
+
+  .sm\:inset-16 {
+    top: 4rem;
+    right: 4rem;
+    bottom: 4rem;
+    left: 4rem;
+  }
+
+  .sm\:inset-18 {
+    top: 4.5rem;
+    right: 4.5rem;
+    bottom: 4.5rem;
+    left: 4.5rem;
+  }
+
+  .sm\:inset-20 {
+    top: 5rem;
+    right: 5rem;
+    bottom: 5rem;
+    left: 5rem;
+  }
+
+  .sm\:inset-24 {
+    top: 6rem;
+    right: 6rem;
+    bottom: 6rem;
+    left: 6rem;
+  }
+
+  .sm\:inset-26 {
+    top: 6.5rem;
+    right: 6.5rem;
+    bottom: 6.5rem;
+    left: 6.5rem;
+  }
+
+  .sm\:inset-28 {
+    top: 7rem;
+    right: 7rem;
+    bottom: 7rem;
+    left: 7rem;
+  }
+
+  .sm\:inset-30 {
+    top: 7.5rem;
+    right: 7.5rem;
+    bottom: 7.5rem;
+    left: 7.5rem;
+  }
+
+  .sm\:inset-32 {
+    top: 8rem;
+    right: 8rem;
+    bottom: 8rem;
+    left: 8rem;
+  }
+
+  .sm\:inset-36 {
+    top: 9rem;
+    right: 9rem;
+    bottom: 9rem;
+    left: 9rem;
+  }
+
+  .sm\:inset-40 {
+    top: 10rem;
+    right: 10rem;
+    bottom: 10rem;
+    left: 10rem;
+  }
+
+  .sm\:inset-44 {
+    top: 11rem;
+    right: 11rem;
+    bottom: 11rem;
+    left: 11rem;
+  }
+
+  .sm\:inset-48 {
+    top: 12rem;
+    right: 12rem;
+    bottom: 12rem;
+    left: 12rem;
+  }
+
+  .sm\:inset-56 {
+    top: 14rem;
+    right: 14rem;
+    bottom: 14rem;
+    left: 14rem;
+  }
+
+  .sm\:inset-60 {
+    top: 15rem;
+    right: 15rem;
+    bottom: 15rem;
+    left: 15rem;
+  }
+
+  .sm\:inset-64 {
+    top: 16rem;
+    right: 16rem;
+    bottom: 16rem;
+    left: 16rem;
+  }
+
+  .sm\:inset-72 {
+    top: 18rem;
+    right: 18rem;
+    bottom: 18rem;
+    left: 18rem;
+  }
+
+  .sm\:inset-80 {
+    top: 20rem;
+    right: 20rem;
+    bottom: 20rem;
+    left: 20rem;
+  }
+
+  .sm\:inset-88 {
+    top: 22rem;
+    right: 22rem;
+    bottom: 22rem;
+    left: 22rem;
+  }
+
+  .sm\:inset-96 {
+    top: 24rem;
+    right: 24rem;
+    bottom: 24rem;
+    left: 24rem;
+  }
+
+  .sm\:inset-100 {
+    top: 25rem;
+    right: 25rem;
+    bottom: 25rem;
+    left: 25rem;
+  }
+
+  .sm\:inset-110 {
+    top: 27.5rem;
+    right: 27.5rem;
+    bottom: 27.5rem;
+    left: 27.5rem;
+  }
+
+  .sm\:inset-120 {
+    top: 30rem;
+    right: 30rem;
+    bottom: 30rem;
+    left: 30rem;
+  }
+
+  .sm\:inset-130 {
+    top: 32.5rem;
+    right: 32.5rem;
+    bottom: 32.5rem;
+    left: 32.5rem;
+  }
+
+  .sm\:inset-140 {
+    top: 35rem;
+    right: 35rem;
+    bottom: 35rem;
+    left: 35rem;
+  }
+
+  .sm\:inset-160 {
+    top: 40rem;
+    right: 40rem;
+    bottom: 40rem;
+    left: 40rem;
+  }
+
+  .sm\:inset-180 {
+    top: 45rem;
+    right: 45rem;
+    bottom: 45rem;
+    left: 45rem;
+  }
+
+  .sm\:inset-200 {
+    top: 50rem;
+    right: 50rem;
+    bottom: 50rem;
+    left: 50rem;
   }
 
   .sm\:inset-y-0 {
@@ -87955,14 +90741,394 @@ video {
     left: 0;
   }
 
-  .sm\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .sm\:inset-y-1 {
+    top: 0.25rem;
+    bottom: 0.25rem;
   }
 
-  .sm\:inset-x-auto {
-    right: auto;
-    left: auto;
+  .sm\:inset-x-1 {
+    right: 0.25rem;
+    left: 0.25rem;
+  }
+
+  .sm\:inset-y-2 {
+    top: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .sm\:inset-x-2 {
+    right: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .sm\:inset-y-3 {
+    top: 0.75rem;
+    bottom: 0.75rem;
+  }
+
+  .sm\:inset-x-3 {
+    right: 0.75rem;
+    left: 0.75rem;
+  }
+
+  .sm\:inset-y-4 {
+    top: 1rem;
+    bottom: 1rem;
+  }
+
+  .sm\:inset-x-4 {
+    right: 1rem;
+    left: 1rem;
+  }
+
+  .sm\:inset-y-5 {
+    top: 1.25rem;
+    bottom: 1.25rem;
+  }
+
+  .sm\:inset-x-5 {
+    right: 1.25rem;
+    left: 1.25rem;
+  }
+
+  .sm\:inset-y-6 {
+    top: 1.5rem;
+    bottom: 1.5rem;
+  }
+
+  .sm\:inset-x-6 {
+    right: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .sm\:inset-y-7 {
+    top: 1.75rem;
+    bottom: 1.75rem;
+  }
+
+  .sm\:inset-x-7 {
+    right: 1.75rem;
+    left: 1.75rem;
+  }
+
+  .sm\:inset-y-8 {
+    top: 2rem;
+    bottom: 2rem;
+  }
+
+  .sm\:inset-x-8 {
+    right: 2rem;
+    left: 2rem;
+  }
+
+  .sm\:inset-y-9 {
+    top: 2.25rem;
+    bottom: 2.25rem;
+  }
+
+  .sm\:inset-x-9 {
+    right: 2.25rem;
+    left: 2.25rem;
+  }
+
+  .sm\:inset-y-10 {
+    top: 2.5rem;
+    bottom: 2.5rem;
+  }
+
+  .sm\:inset-x-10 {
+    right: 2.5rem;
+    left: 2.5rem;
+  }
+
+  .sm\:inset-y-12 {
+    top: 3rem;
+    bottom: 3rem;
+  }
+
+  .sm\:inset-x-12 {
+    right: 3rem;
+    left: 3rem;
+  }
+
+  .sm\:inset-y-14 {
+    top: 3.5rem;
+    bottom: 3.5rem;
+  }
+
+  .sm\:inset-x-14 {
+    right: 3.5rem;
+    left: 3.5rem;
+  }
+
+  .sm\:inset-y-16 {
+    top: 4rem;
+    bottom: 4rem;
+  }
+
+  .sm\:inset-x-16 {
+    right: 4rem;
+    left: 4rem;
+  }
+
+  .sm\:inset-y-18 {
+    top: 4.5rem;
+    bottom: 4.5rem;
+  }
+
+  .sm\:inset-x-18 {
+    right: 4.5rem;
+    left: 4.5rem;
+  }
+
+  .sm\:inset-y-20 {
+    top: 5rem;
+    bottom: 5rem;
+  }
+
+  .sm\:inset-x-20 {
+    right: 5rem;
+    left: 5rem;
+  }
+
+  .sm\:inset-y-24 {
+    top: 6rem;
+    bottom: 6rem;
+  }
+
+  .sm\:inset-x-24 {
+    right: 6rem;
+    left: 6rem;
+  }
+
+  .sm\:inset-y-26 {
+    top: 6.5rem;
+    bottom: 6.5rem;
+  }
+
+  .sm\:inset-x-26 {
+    right: 6.5rem;
+    left: 6.5rem;
+  }
+
+  .sm\:inset-y-28 {
+    top: 7rem;
+    bottom: 7rem;
+  }
+
+  .sm\:inset-x-28 {
+    right: 7rem;
+    left: 7rem;
+  }
+
+  .sm\:inset-y-30 {
+    top: 7.5rem;
+    bottom: 7.5rem;
+  }
+
+  .sm\:inset-x-30 {
+    right: 7.5rem;
+    left: 7.5rem;
+  }
+
+  .sm\:inset-y-32 {
+    top: 8rem;
+    bottom: 8rem;
+  }
+
+  .sm\:inset-x-32 {
+    right: 8rem;
+    left: 8rem;
+  }
+
+  .sm\:inset-y-36 {
+    top: 9rem;
+    bottom: 9rem;
+  }
+
+  .sm\:inset-x-36 {
+    right: 9rem;
+    left: 9rem;
+  }
+
+  .sm\:inset-y-40 {
+    top: 10rem;
+    bottom: 10rem;
+  }
+
+  .sm\:inset-x-40 {
+    right: 10rem;
+    left: 10rem;
+  }
+
+  .sm\:inset-y-44 {
+    top: 11rem;
+    bottom: 11rem;
+  }
+
+  .sm\:inset-x-44 {
+    right: 11rem;
+    left: 11rem;
+  }
+
+  .sm\:inset-y-48 {
+    top: 12rem;
+    bottom: 12rem;
+  }
+
+  .sm\:inset-x-48 {
+    right: 12rem;
+    left: 12rem;
+  }
+
+  .sm\:inset-y-56 {
+    top: 14rem;
+    bottom: 14rem;
+  }
+
+  .sm\:inset-x-56 {
+    right: 14rem;
+    left: 14rem;
+  }
+
+  .sm\:inset-y-60 {
+    top: 15rem;
+    bottom: 15rem;
+  }
+
+  .sm\:inset-x-60 {
+    right: 15rem;
+    left: 15rem;
+  }
+
+  .sm\:inset-y-64 {
+    top: 16rem;
+    bottom: 16rem;
+  }
+
+  .sm\:inset-x-64 {
+    right: 16rem;
+    left: 16rem;
+  }
+
+  .sm\:inset-y-72 {
+    top: 18rem;
+    bottom: 18rem;
+  }
+
+  .sm\:inset-x-72 {
+    right: 18rem;
+    left: 18rem;
+  }
+
+  .sm\:inset-y-80 {
+    top: 20rem;
+    bottom: 20rem;
+  }
+
+  .sm\:inset-x-80 {
+    right: 20rem;
+    left: 20rem;
+  }
+
+  .sm\:inset-y-88 {
+    top: 22rem;
+    bottom: 22rem;
+  }
+
+  .sm\:inset-x-88 {
+    right: 22rem;
+    left: 22rem;
+  }
+
+  .sm\:inset-y-96 {
+    top: 24rem;
+    bottom: 24rem;
+  }
+
+  .sm\:inset-x-96 {
+    right: 24rem;
+    left: 24rem;
+  }
+
+  .sm\:inset-y-100 {
+    top: 25rem;
+    bottom: 25rem;
+  }
+
+  .sm\:inset-x-100 {
+    right: 25rem;
+    left: 25rem;
+  }
+
+  .sm\:inset-y-110 {
+    top: 27.5rem;
+    bottom: 27.5rem;
+  }
+
+  .sm\:inset-x-110 {
+    right: 27.5rem;
+    left: 27.5rem;
+  }
+
+  .sm\:inset-y-120 {
+    top: 30rem;
+    bottom: 30rem;
+  }
+
+  .sm\:inset-x-120 {
+    right: 30rem;
+    left: 30rem;
+  }
+
+  .sm\:inset-y-130 {
+    top: 32.5rem;
+    bottom: 32.5rem;
+  }
+
+  .sm\:inset-x-130 {
+    right: 32.5rem;
+    left: 32.5rem;
+  }
+
+  .sm\:inset-y-140 {
+    top: 35rem;
+    bottom: 35rem;
+  }
+
+  .sm\:inset-x-140 {
+    right: 35rem;
+    left: 35rem;
+  }
+
+  .sm\:inset-y-160 {
+    top: 40rem;
+    bottom: 40rem;
+  }
+
+  .sm\:inset-x-160 {
+    right: 40rem;
+    left: 40rem;
+  }
+
+  .sm\:inset-y-180 {
+    top: 45rem;
+    bottom: 45rem;
+  }
+
+  .sm\:inset-x-180 {
+    right: 45rem;
+    left: 45rem;
+  }
+
+  .sm\:inset-y-200 {
+    top: 50rem;
+    bottom: 50rem;
+  }
+
+  .sm\:inset-x-200 {
+    right: 50rem;
+    left: 50rem;
   }
 
   .sm\:top-0 {
@@ -87981,20 +91147,628 @@ video {
     left: 0;
   }
 
-  .sm\:top-auto {
-    top: auto;
+  .sm\:top-1 {
+    top: 0.25rem;
   }
 
-  .sm\:right-auto {
-    right: auto;
+  .sm\:right-1 {
+    right: 0.25rem;
   }
 
-  .sm\:bottom-auto {
-    bottom: auto;
+  .sm\:bottom-1 {
+    bottom: 0.25rem;
   }
 
-  .sm\:left-auto {
-    left: auto;
+  .sm\:left-1 {
+    left: 0.25rem;
+  }
+
+  .sm\:top-2 {
+    top: 0.5rem;
+  }
+
+  .sm\:right-2 {
+    right: 0.5rem;
+  }
+
+  .sm\:bottom-2 {
+    bottom: 0.5rem;
+  }
+
+  .sm\:left-2 {
+    left: 0.5rem;
+  }
+
+  .sm\:top-3 {
+    top: 0.75rem;
+  }
+
+  .sm\:right-3 {
+    right: 0.75rem;
+  }
+
+  .sm\:bottom-3 {
+    bottom: 0.75rem;
+  }
+
+  .sm\:left-3 {
+    left: 0.75rem;
+  }
+
+  .sm\:top-4 {
+    top: 1rem;
+  }
+
+  .sm\:right-4 {
+    right: 1rem;
+  }
+
+  .sm\:bottom-4 {
+    bottom: 1rem;
+  }
+
+  .sm\:left-4 {
+    left: 1rem;
+  }
+
+  .sm\:top-5 {
+    top: 1.25rem;
+  }
+
+  .sm\:right-5 {
+    right: 1.25rem;
+  }
+
+  .sm\:bottom-5 {
+    bottom: 1.25rem;
+  }
+
+  .sm\:left-5 {
+    left: 1.25rem;
+  }
+
+  .sm\:top-6 {
+    top: 1.5rem;
+  }
+
+  .sm\:right-6 {
+    right: 1.5rem;
+  }
+
+  .sm\:bottom-6 {
+    bottom: 1.5rem;
+  }
+
+  .sm\:left-6 {
+    left: 1.5rem;
+  }
+
+  .sm\:top-7 {
+    top: 1.75rem;
+  }
+
+  .sm\:right-7 {
+    right: 1.75rem;
+  }
+
+  .sm\:bottom-7 {
+    bottom: 1.75rem;
+  }
+
+  .sm\:left-7 {
+    left: 1.75rem;
+  }
+
+  .sm\:top-8 {
+    top: 2rem;
+  }
+
+  .sm\:right-8 {
+    right: 2rem;
+  }
+
+  .sm\:bottom-8 {
+    bottom: 2rem;
+  }
+
+  .sm\:left-8 {
+    left: 2rem;
+  }
+
+  .sm\:top-9 {
+    top: 2.25rem;
+  }
+
+  .sm\:right-9 {
+    right: 2.25rem;
+  }
+
+  .sm\:bottom-9 {
+    bottom: 2.25rem;
+  }
+
+  .sm\:left-9 {
+    left: 2.25rem;
+  }
+
+  .sm\:top-10 {
+    top: 2.5rem;
+  }
+
+  .sm\:right-10 {
+    right: 2.5rem;
+  }
+
+  .sm\:bottom-10 {
+    bottom: 2.5rem;
+  }
+
+  .sm\:left-10 {
+    left: 2.5rem;
+  }
+
+  .sm\:top-12 {
+    top: 3rem;
+  }
+
+  .sm\:right-12 {
+    right: 3rem;
+  }
+
+  .sm\:bottom-12 {
+    bottom: 3rem;
+  }
+
+  .sm\:left-12 {
+    left: 3rem;
+  }
+
+  .sm\:top-14 {
+    top: 3.5rem;
+  }
+
+  .sm\:right-14 {
+    right: 3.5rem;
+  }
+
+  .sm\:bottom-14 {
+    bottom: 3.5rem;
+  }
+
+  .sm\:left-14 {
+    left: 3.5rem;
+  }
+
+  .sm\:top-16 {
+    top: 4rem;
+  }
+
+  .sm\:right-16 {
+    right: 4rem;
+  }
+
+  .sm\:bottom-16 {
+    bottom: 4rem;
+  }
+
+  .sm\:left-16 {
+    left: 4rem;
+  }
+
+  .sm\:top-18 {
+    top: 4.5rem;
+  }
+
+  .sm\:right-18 {
+    right: 4.5rem;
+  }
+
+  .sm\:bottom-18 {
+    bottom: 4.5rem;
+  }
+
+  .sm\:left-18 {
+    left: 4.5rem;
+  }
+
+  .sm\:top-20 {
+    top: 5rem;
+  }
+
+  .sm\:right-20 {
+    right: 5rem;
+  }
+
+  .sm\:bottom-20 {
+    bottom: 5rem;
+  }
+
+  .sm\:left-20 {
+    left: 5rem;
+  }
+
+  .sm\:top-24 {
+    top: 6rem;
+  }
+
+  .sm\:right-24 {
+    right: 6rem;
+  }
+
+  .sm\:bottom-24 {
+    bottom: 6rem;
+  }
+
+  .sm\:left-24 {
+    left: 6rem;
+  }
+
+  .sm\:top-26 {
+    top: 6.5rem;
+  }
+
+  .sm\:right-26 {
+    right: 6.5rem;
+  }
+
+  .sm\:bottom-26 {
+    bottom: 6.5rem;
+  }
+
+  .sm\:left-26 {
+    left: 6.5rem;
+  }
+
+  .sm\:top-28 {
+    top: 7rem;
+  }
+
+  .sm\:right-28 {
+    right: 7rem;
+  }
+
+  .sm\:bottom-28 {
+    bottom: 7rem;
+  }
+
+  .sm\:left-28 {
+    left: 7rem;
+  }
+
+  .sm\:top-30 {
+    top: 7.5rem;
+  }
+
+  .sm\:right-30 {
+    right: 7.5rem;
+  }
+
+  .sm\:bottom-30 {
+    bottom: 7.5rem;
+  }
+
+  .sm\:left-30 {
+    left: 7.5rem;
+  }
+
+  .sm\:top-32 {
+    top: 8rem;
+  }
+
+  .sm\:right-32 {
+    right: 8rem;
+  }
+
+  .sm\:bottom-32 {
+    bottom: 8rem;
+  }
+
+  .sm\:left-32 {
+    left: 8rem;
+  }
+
+  .sm\:top-36 {
+    top: 9rem;
+  }
+
+  .sm\:right-36 {
+    right: 9rem;
+  }
+
+  .sm\:bottom-36 {
+    bottom: 9rem;
+  }
+
+  .sm\:left-36 {
+    left: 9rem;
+  }
+
+  .sm\:top-40 {
+    top: 10rem;
+  }
+
+  .sm\:right-40 {
+    right: 10rem;
+  }
+
+  .sm\:bottom-40 {
+    bottom: 10rem;
+  }
+
+  .sm\:left-40 {
+    left: 10rem;
+  }
+
+  .sm\:top-44 {
+    top: 11rem;
+  }
+
+  .sm\:right-44 {
+    right: 11rem;
+  }
+
+  .sm\:bottom-44 {
+    bottom: 11rem;
+  }
+
+  .sm\:left-44 {
+    left: 11rem;
+  }
+
+  .sm\:top-48 {
+    top: 12rem;
+  }
+
+  .sm\:right-48 {
+    right: 12rem;
+  }
+
+  .sm\:bottom-48 {
+    bottom: 12rem;
+  }
+
+  .sm\:left-48 {
+    left: 12rem;
+  }
+
+  .sm\:top-56 {
+    top: 14rem;
+  }
+
+  .sm\:right-56 {
+    right: 14rem;
+  }
+
+  .sm\:bottom-56 {
+    bottom: 14rem;
+  }
+
+  .sm\:left-56 {
+    left: 14rem;
+  }
+
+  .sm\:top-60 {
+    top: 15rem;
+  }
+
+  .sm\:right-60 {
+    right: 15rem;
+  }
+
+  .sm\:bottom-60 {
+    bottom: 15rem;
+  }
+
+  .sm\:left-60 {
+    left: 15rem;
+  }
+
+  .sm\:top-64 {
+    top: 16rem;
+  }
+
+  .sm\:right-64 {
+    right: 16rem;
+  }
+
+  .sm\:bottom-64 {
+    bottom: 16rem;
+  }
+
+  .sm\:left-64 {
+    left: 16rem;
+  }
+
+  .sm\:top-72 {
+    top: 18rem;
+  }
+
+  .sm\:right-72 {
+    right: 18rem;
+  }
+
+  .sm\:bottom-72 {
+    bottom: 18rem;
+  }
+
+  .sm\:left-72 {
+    left: 18rem;
+  }
+
+  .sm\:top-80 {
+    top: 20rem;
+  }
+
+  .sm\:right-80 {
+    right: 20rem;
+  }
+
+  .sm\:bottom-80 {
+    bottom: 20rem;
+  }
+
+  .sm\:left-80 {
+    left: 20rem;
+  }
+
+  .sm\:top-88 {
+    top: 22rem;
+  }
+
+  .sm\:right-88 {
+    right: 22rem;
+  }
+
+  .sm\:bottom-88 {
+    bottom: 22rem;
+  }
+
+  .sm\:left-88 {
+    left: 22rem;
+  }
+
+  .sm\:top-96 {
+    top: 24rem;
+  }
+
+  .sm\:right-96 {
+    right: 24rem;
+  }
+
+  .sm\:bottom-96 {
+    bottom: 24rem;
+  }
+
+  .sm\:left-96 {
+    left: 24rem;
+  }
+
+  .sm\:top-100 {
+    top: 25rem;
+  }
+
+  .sm\:right-100 {
+    right: 25rem;
+  }
+
+  .sm\:bottom-100 {
+    bottom: 25rem;
+  }
+
+  .sm\:left-100 {
+    left: 25rem;
+  }
+
+  .sm\:top-110 {
+    top: 27.5rem;
+  }
+
+  .sm\:right-110 {
+    right: 27.5rem;
+  }
+
+  .sm\:bottom-110 {
+    bottom: 27.5rem;
+  }
+
+  .sm\:left-110 {
+    left: 27.5rem;
+  }
+
+  .sm\:top-120 {
+    top: 30rem;
+  }
+
+  .sm\:right-120 {
+    right: 30rem;
+  }
+
+  .sm\:bottom-120 {
+    bottom: 30rem;
+  }
+
+  .sm\:left-120 {
+    left: 30rem;
+  }
+
+  .sm\:top-130 {
+    top: 32.5rem;
+  }
+
+  .sm\:right-130 {
+    right: 32.5rem;
+  }
+
+  .sm\:bottom-130 {
+    bottom: 32.5rem;
+  }
+
+  .sm\:left-130 {
+    left: 32.5rem;
+  }
+
+  .sm\:top-140 {
+    top: 35rem;
+  }
+
+  .sm\:right-140 {
+    right: 35rem;
+  }
+
+  .sm\:bottom-140 {
+    bottom: 35rem;
+  }
+
+  .sm\:left-140 {
+    left: 35rem;
+  }
+
+  .sm\:top-160 {
+    top: 40rem;
+  }
+
+  .sm\:right-160 {
+    right: 40rem;
+  }
+
+  .sm\:bottom-160 {
+    bottom: 40rem;
+  }
+
+  .sm\:left-160 {
+    left: 40rem;
+  }
+
+  .sm\:top-180 {
+    top: 45rem;
+  }
+
+  .sm\:right-180 {
+    right: 45rem;
+  }
+
+  .sm\:bottom-180 {
+    bottom: 45rem;
+  }
+
+  .sm\:left-180 {
+    left: 45rem;
+  }
+
+  .sm\:top-200 {
+    top: 50rem;
+  }
+
+  .sm\:right-200 {
+    right: 50rem;
+  }
+
+  .sm\:bottom-200 {
+    bottom: 50rem;
+  }
+
+  .sm\:left-200 {
+    left: 50rem;
   }
 
   .sm\:resize-none {
@@ -108874,6 +112648,10 @@ video {
     font-size: 0.75rem;
   }
 
+  .md\:text-vsm {
+    font-size: 0.8rem;
+  }
+
   .md\:text-sm {
     font-size: 0.875rem;
   }
@@ -119933,11 +123711,277 @@ video {
     left: 0;
   }
 
-  .md\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+  .md\:inset-1 {
+    top: 0.25rem;
+    right: 0.25rem;
+    bottom: 0.25rem;
+    left: 0.25rem;
+  }
+
+  .md\:inset-2 {
+    top: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .md\:inset-3 {
+    top: 0.75rem;
+    right: 0.75rem;
+    bottom: 0.75rem;
+    left: 0.75rem;
+  }
+
+  .md\:inset-4 {
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .md\:inset-5 {
+    top: 1.25rem;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    left: 1.25rem;
+  }
+
+  .md\:inset-6 {
+    top: 1.5rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .md\:inset-7 {
+    top: 1.75rem;
+    right: 1.75rem;
+    bottom: 1.75rem;
+    left: 1.75rem;
+  }
+
+  .md\:inset-8 {
+    top: 2rem;
+    right: 2rem;
+    bottom: 2rem;
+    left: 2rem;
+  }
+
+  .md\:inset-9 {
+    top: 2.25rem;
+    right: 2.25rem;
+    bottom: 2.25rem;
+    left: 2.25rem;
+  }
+
+  .md\:inset-10 {
+    top: 2.5rem;
+    right: 2.5rem;
+    bottom: 2.5rem;
+    left: 2.5rem;
+  }
+
+  .md\:inset-12 {
+    top: 3rem;
+    right: 3rem;
+    bottom: 3rem;
+    left: 3rem;
+  }
+
+  .md\:inset-14 {
+    top: 3.5rem;
+    right: 3.5rem;
+    bottom: 3.5rem;
+    left: 3.5rem;
+  }
+
+  .md\:inset-16 {
+    top: 4rem;
+    right: 4rem;
+    bottom: 4rem;
+    left: 4rem;
+  }
+
+  .md\:inset-18 {
+    top: 4.5rem;
+    right: 4.5rem;
+    bottom: 4.5rem;
+    left: 4.5rem;
+  }
+
+  .md\:inset-20 {
+    top: 5rem;
+    right: 5rem;
+    bottom: 5rem;
+    left: 5rem;
+  }
+
+  .md\:inset-24 {
+    top: 6rem;
+    right: 6rem;
+    bottom: 6rem;
+    left: 6rem;
+  }
+
+  .md\:inset-26 {
+    top: 6.5rem;
+    right: 6.5rem;
+    bottom: 6.5rem;
+    left: 6.5rem;
+  }
+
+  .md\:inset-28 {
+    top: 7rem;
+    right: 7rem;
+    bottom: 7rem;
+    left: 7rem;
+  }
+
+  .md\:inset-30 {
+    top: 7.5rem;
+    right: 7.5rem;
+    bottom: 7.5rem;
+    left: 7.5rem;
+  }
+
+  .md\:inset-32 {
+    top: 8rem;
+    right: 8rem;
+    bottom: 8rem;
+    left: 8rem;
+  }
+
+  .md\:inset-36 {
+    top: 9rem;
+    right: 9rem;
+    bottom: 9rem;
+    left: 9rem;
+  }
+
+  .md\:inset-40 {
+    top: 10rem;
+    right: 10rem;
+    bottom: 10rem;
+    left: 10rem;
+  }
+
+  .md\:inset-44 {
+    top: 11rem;
+    right: 11rem;
+    bottom: 11rem;
+    left: 11rem;
+  }
+
+  .md\:inset-48 {
+    top: 12rem;
+    right: 12rem;
+    bottom: 12rem;
+    left: 12rem;
+  }
+
+  .md\:inset-56 {
+    top: 14rem;
+    right: 14rem;
+    bottom: 14rem;
+    left: 14rem;
+  }
+
+  .md\:inset-60 {
+    top: 15rem;
+    right: 15rem;
+    bottom: 15rem;
+    left: 15rem;
+  }
+
+  .md\:inset-64 {
+    top: 16rem;
+    right: 16rem;
+    bottom: 16rem;
+    left: 16rem;
+  }
+
+  .md\:inset-72 {
+    top: 18rem;
+    right: 18rem;
+    bottom: 18rem;
+    left: 18rem;
+  }
+
+  .md\:inset-80 {
+    top: 20rem;
+    right: 20rem;
+    bottom: 20rem;
+    left: 20rem;
+  }
+
+  .md\:inset-88 {
+    top: 22rem;
+    right: 22rem;
+    bottom: 22rem;
+    left: 22rem;
+  }
+
+  .md\:inset-96 {
+    top: 24rem;
+    right: 24rem;
+    bottom: 24rem;
+    left: 24rem;
+  }
+
+  .md\:inset-100 {
+    top: 25rem;
+    right: 25rem;
+    bottom: 25rem;
+    left: 25rem;
+  }
+
+  .md\:inset-110 {
+    top: 27.5rem;
+    right: 27.5rem;
+    bottom: 27.5rem;
+    left: 27.5rem;
+  }
+
+  .md\:inset-120 {
+    top: 30rem;
+    right: 30rem;
+    bottom: 30rem;
+    left: 30rem;
+  }
+
+  .md\:inset-130 {
+    top: 32.5rem;
+    right: 32.5rem;
+    bottom: 32.5rem;
+    left: 32.5rem;
+  }
+
+  .md\:inset-140 {
+    top: 35rem;
+    right: 35rem;
+    bottom: 35rem;
+    left: 35rem;
+  }
+
+  .md\:inset-160 {
+    top: 40rem;
+    right: 40rem;
+    bottom: 40rem;
+    left: 40rem;
+  }
+
+  .md\:inset-180 {
+    top: 45rem;
+    right: 45rem;
+    bottom: 45rem;
+    left: 45rem;
+  }
+
+  .md\:inset-200 {
+    top: 50rem;
+    right: 50rem;
+    bottom: 50rem;
+    left: 50rem;
   }
 
   .md\:inset-y-0 {
@@ -119950,14 +123994,394 @@ video {
     left: 0;
   }
 
-  .md\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .md\:inset-y-1 {
+    top: 0.25rem;
+    bottom: 0.25rem;
   }
 
-  .md\:inset-x-auto {
-    right: auto;
-    left: auto;
+  .md\:inset-x-1 {
+    right: 0.25rem;
+    left: 0.25rem;
+  }
+
+  .md\:inset-y-2 {
+    top: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .md\:inset-x-2 {
+    right: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .md\:inset-y-3 {
+    top: 0.75rem;
+    bottom: 0.75rem;
+  }
+
+  .md\:inset-x-3 {
+    right: 0.75rem;
+    left: 0.75rem;
+  }
+
+  .md\:inset-y-4 {
+    top: 1rem;
+    bottom: 1rem;
+  }
+
+  .md\:inset-x-4 {
+    right: 1rem;
+    left: 1rem;
+  }
+
+  .md\:inset-y-5 {
+    top: 1.25rem;
+    bottom: 1.25rem;
+  }
+
+  .md\:inset-x-5 {
+    right: 1.25rem;
+    left: 1.25rem;
+  }
+
+  .md\:inset-y-6 {
+    top: 1.5rem;
+    bottom: 1.5rem;
+  }
+
+  .md\:inset-x-6 {
+    right: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .md\:inset-y-7 {
+    top: 1.75rem;
+    bottom: 1.75rem;
+  }
+
+  .md\:inset-x-7 {
+    right: 1.75rem;
+    left: 1.75rem;
+  }
+
+  .md\:inset-y-8 {
+    top: 2rem;
+    bottom: 2rem;
+  }
+
+  .md\:inset-x-8 {
+    right: 2rem;
+    left: 2rem;
+  }
+
+  .md\:inset-y-9 {
+    top: 2.25rem;
+    bottom: 2.25rem;
+  }
+
+  .md\:inset-x-9 {
+    right: 2.25rem;
+    left: 2.25rem;
+  }
+
+  .md\:inset-y-10 {
+    top: 2.5rem;
+    bottom: 2.5rem;
+  }
+
+  .md\:inset-x-10 {
+    right: 2.5rem;
+    left: 2.5rem;
+  }
+
+  .md\:inset-y-12 {
+    top: 3rem;
+    bottom: 3rem;
+  }
+
+  .md\:inset-x-12 {
+    right: 3rem;
+    left: 3rem;
+  }
+
+  .md\:inset-y-14 {
+    top: 3.5rem;
+    bottom: 3.5rem;
+  }
+
+  .md\:inset-x-14 {
+    right: 3.5rem;
+    left: 3.5rem;
+  }
+
+  .md\:inset-y-16 {
+    top: 4rem;
+    bottom: 4rem;
+  }
+
+  .md\:inset-x-16 {
+    right: 4rem;
+    left: 4rem;
+  }
+
+  .md\:inset-y-18 {
+    top: 4.5rem;
+    bottom: 4.5rem;
+  }
+
+  .md\:inset-x-18 {
+    right: 4.5rem;
+    left: 4.5rem;
+  }
+
+  .md\:inset-y-20 {
+    top: 5rem;
+    bottom: 5rem;
+  }
+
+  .md\:inset-x-20 {
+    right: 5rem;
+    left: 5rem;
+  }
+
+  .md\:inset-y-24 {
+    top: 6rem;
+    bottom: 6rem;
+  }
+
+  .md\:inset-x-24 {
+    right: 6rem;
+    left: 6rem;
+  }
+
+  .md\:inset-y-26 {
+    top: 6.5rem;
+    bottom: 6.5rem;
+  }
+
+  .md\:inset-x-26 {
+    right: 6.5rem;
+    left: 6.5rem;
+  }
+
+  .md\:inset-y-28 {
+    top: 7rem;
+    bottom: 7rem;
+  }
+
+  .md\:inset-x-28 {
+    right: 7rem;
+    left: 7rem;
+  }
+
+  .md\:inset-y-30 {
+    top: 7.5rem;
+    bottom: 7.5rem;
+  }
+
+  .md\:inset-x-30 {
+    right: 7.5rem;
+    left: 7.5rem;
+  }
+
+  .md\:inset-y-32 {
+    top: 8rem;
+    bottom: 8rem;
+  }
+
+  .md\:inset-x-32 {
+    right: 8rem;
+    left: 8rem;
+  }
+
+  .md\:inset-y-36 {
+    top: 9rem;
+    bottom: 9rem;
+  }
+
+  .md\:inset-x-36 {
+    right: 9rem;
+    left: 9rem;
+  }
+
+  .md\:inset-y-40 {
+    top: 10rem;
+    bottom: 10rem;
+  }
+
+  .md\:inset-x-40 {
+    right: 10rem;
+    left: 10rem;
+  }
+
+  .md\:inset-y-44 {
+    top: 11rem;
+    bottom: 11rem;
+  }
+
+  .md\:inset-x-44 {
+    right: 11rem;
+    left: 11rem;
+  }
+
+  .md\:inset-y-48 {
+    top: 12rem;
+    bottom: 12rem;
+  }
+
+  .md\:inset-x-48 {
+    right: 12rem;
+    left: 12rem;
+  }
+
+  .md\:inset-y-56 {
+    top: 14rem;
+    bottom: 14rem;
+  }
+
+  .md\:inset-x-56 {
+    right: 14rem;
+    left: 14rem;
+  }
+
+  .md\:inset-y-60 {
+    top: 15rem;
+    bottom: 15rem;
+  }
+
+  .md\:inset-x-60 {
+    right: 15rem;
+    left: 15rem;
+  }
+
+  .md\:inset-y-64 {
+    top: 16rem;
+    bottom: 16rem;
+  }
+
+  .md\:inset-x-64 {
+    right: 16rem;
+    left: 16rem;
+  }
+
+  .md\:inset-y-72 {
+    top: 18rem;
+    bottom: 18rem;
+  }
+
+  .md\:inset-x-72 {
+    right: 18rem;
+    left: 18rem;
+  }
+
+  .md\:inset-y-80 {
+    top: 20rem;
+    bottom: 20rem;
+  }
+
+  .md\:inset-x-80 {
+    right: 20rem;
+    left: 20rem;
+  }
+
+  .md\:inset-y-88 {
+    top: 22rem;
+    bottom: 22rem;
+  }
+
+  .md\:inset-x-88 {
+    right: 22rem;
+    left: 22rem;
+  }
+
+  .md\:inset-y-96 {
+    top: 24rem;
+    bottom: 24rem;
+  }
+
+  .md\:inset-x-96 {
+    right: 24rem;
+    left: 24rem;
+  }
+
+  .md\:inset-y-100 {
+    top: 25rem;
+    bottom: 25rem;
+  }
+
+  .md\:inset-x-100 {
+    right: 25rem;
+    left: 25rem;
+  }
+
+  .md\:inset-y-110 {
+    top: 27.5rem;
+    bottom: 27.5rem;
+  }
+
+  .md\:inset-x-110 {
+    right: 27.5rem;
+    left: 27.5rem;
+  }
+
+  .md\:inset-y-120 {
+    top: 30rem;
+    bottom: 30rem;
+  }
+
+  .md\:inset-x-120 {
+    right: 30rem;
+    left: 30rem;
+  }
+
+  .md\:inset-y-130 {
+    top: 32.5rem;
+    bottom: 32.5rem;
+  }
+
+  .md\:inset-x-130 {
+    right: 32.5rem;
+    left: 32.5rem;
+  }
+
+  .md\:inset-y-140 {
+    top: 35rem;
+    bottom: 35rem;
+  }
+
+  .md\:inset-x-140 {
+    right: 35rem;
+    left: 35rem;
+  }
+
+  .md\:inset-y-160 {
+    top: 40rem;
+    bottom: 40rem;
+  }
+
+  .md\:inset-x-160 {
+    right: 40rem;
+    left: 40rem;
+  }
+
+  .md\:inset-y-180 {
+    top: 45rem;
+    bottom: 45rem;
+  }
+
+  .md\:inset-x-180 {
+    right: 45rem;
+    left: 45rem;
+  }
+
+  .md\:inset-y-200 {
+    top: 50rem;
+    bottom: 50rem;
+  }
+
+  .md\:inset-x-200 {
+    right: 50rem;
+    left: 50rem;
   }
 
   .md\:top-0 {
@@ -119976,20 +124400,628 @@ video {
     left: 0;
   }
 
-  .md\:top-auto {
-    top: auto;
+  .md\:top-1 {
+    top: 0.25rem;
   }
 
-  .md\:right-auto {
-    right: auto;
+  .md\:right-1 {
+    right: 0.25rem;
   }
 
-  .md\:bottom-auto {
-    bottom: auto;
+  .md\:bottom-1 {
+    bottom: 0.25rem;
   }
 
-  .md\:left-auto {
-    left: auto;
+  .md\:left-1 {
+    left: 0.25rem;
+  }
+
+  .md\:top-2 {
+    top: 0.5rem;
+  }
+
+  .md\:right-2 {
+    right: 0.5rem;
+  }
+
+  .md\:bottom-2 {
+    bottom: 0.5rem;
+  }
+
+  .md\:left-2 {
+    left: 0.5rem;
+  }
+
+  .md\:top-3 {
+    top: 0.75rem;
+  }
+
+  .md\:right-3 {
+    right: 0.75rem;
+  }
+
+  .md\:bottom-3 {
+    bottom: 0.75rem;
+  }
+
+  .md\:left-3 {
+    left: 0.75rem;
+  }
+
+  .md\:top-4 {
+    top: 1rem;
+  }
+
+  .md\:right-4 {
+    right: 1rem;
+  }
+
+  .md\:bottom-4 {
+    bottom: 1rem;
+  }
+
+  .md\:left-4 {
+    left: 1rem;
+  }
+
+  .md\:top-5 {
+    top: 1.25rem;
+  }
+
+  .md\:right-5 {
+    right: 1.25rem;
+  }
+
+  .md\:bottom-5 {
+    bottom: 1.25rem;
+  }
+
+  .md\:left-5 {
+    left: 1.25rem;
+  }
+
+  .md\:top-6 {
+    top: 1.5rem;
+  }
+
+  .md\:right-6 {
+    right: 1.5rem;
+  }
+
+  .md\:bottom-6 {
+    bottom: 1.5rem;
+  }
+
+  .md\:left-6 {
+    left: 1.5rem;
+  }
+
+  .md\:top-7 {
+    top: 1.75rem;
+  }
+
+  .md\:right-7 {
+    right: 1.75rem;
+  }
+
+  .md\:bottom-7 {
+    bottom: 1.75rem;
+  }
+
+  .md\:left-7 {
+    left: 1.75rem;
+  }
+
+  .md\:top-8 {
+    top: 2rem;
+  }
+
+  .md\:right-8 {
+    right: 2rem;
+  }
+
+  .md\:bottom-8 {
+    bottom: 2rem;
+  }
+
+  .md\:left-8 {
+    left: 2rem;
+  }
+
+  .md\:top-9 {
+    top: 2.25rem;
+  }
+
+  .md\:right-9 {
+    right: 2.25rem;
+  }
+
+  .md\:bottom-9 {
+    bottom: 2.25rem;
+  }
+
+  .md\:left-9 {
+    left: 2.25rem;
+  }
+
+  .md\:top-10 {
+    top: 2.5rem;
+  }
+
+  .md\:right-10 {
+    right: 2.5rem;
+  }
+
+  .md\:bottom-10 {
+    bottom: 2.5rem;
+  }
+
+  .md\:left-10 {
+    left: 2.5rem;
+  }
+
+  .md\:top-12 {
+    top: 3rem;
+  }
+
+  .md\:right-12 {
+    right: 3rem;
+  }
+
+  .md\:bottom-12 {
+    bottom: 3rem;
+  }
+
+  .md\:left-12 {
+    left: 3rem;
+  }
+
+  .md\:top-14 {
+    top: 3.5rem;
+  }
+
+  .md\:right-14 {
+    right: 3.5rem;
+  }
+
+  .md\:bottom-14 {
+    bottom: 3.5rem;
+  }
+
+  .md\:left-14 {
+    left: 3.5rem;
+  }
+
+  .md\:top-16 {
+    top: 4rem;
+  }
+
+  .md\:right-16 {
+    right: 4rem;
+  }
+
+  .md\:bottom-16 {
+    bottom: 4rem;
+  }
+
+  .md\:left-16 {
+    left: 4rem;
+  }
+
+  .md\:top-18 {
+    top: 4.5rem;
+  }
+
+  .md\:right-18 {
+    right: 4.5rem;
+  }
+
+  .md\:bottom-18 {
+    bottom: 4.5rem;
+  }
+
+  .md\:left-18 {
+    left: 4.5rem;
+  }
+
+  .md\:top-20 {
+    top: 5rem;
+  }
+
+  .md\:right-20 {
+    right: 5rem;
+  }
+
+  .md\:bottom-20 {
+    bottom: 5rem;
+  }
+
+  .md\:left-20 {
+    left: 5rem;
+  }
+
+  .md\:top-24 {
+    top: 6rem;
+  }
+
+  .md\:right-24 {
+    right: 6rem;
+  }
+
+  .md\:bottom-24 {
+    bottom: 6rem;
+  }
+
+  .md\:left-24 {
+    left: 6rem;
+  }
+
+  .md\:top-26 {
+    top: 6.5rem;
+  }
+
+  .md\:right-26 {
+    right: 6.5rem;
+  }
+
+  .md\:bottom-26 {
+    bottom: 6.5rem;
+  }
+
+  .md\:left-26 {
+    left: 6.5rem;
+  }
+
+  .md\:top-28 {
+    top: 7rem;
+  }
+
+  .md\:right-28 {
+    right: 7rem;
+  }
+
+  .md\:bottom-28 {
+    bottom: 7rem;
+  }
+
+  .md\:left-28 {
+    left: 7rem;
+  }
+
+  .md\:top-30 {
+    top: 7.5rem;
+  }
+
+  .md\:right-30 {
+    right: 7.5rem;
+  }
+
+  .md\:bottom-30 {
+    bottom: 7.5rem;
+  }
+
+  .md\:left-30 {
+    left: 7.5rem;
+  }
+
+  .md\:top-32 {
+    top: 8rem;
+  }
+
+  .md\:right-32 {
+    right: 8rem;
+  }
+
+  .md\:bottom-32 {
+    bottom: 8rem;
+  }
+
+  .md\:left-32 {
+    left: 8rem;
+  }
+
+  .md\:top-36 {
+    top: 9rem;
+  }
+
+  .md\:right-36 {
+    right: 9rem;
+  }
+
+  .md\:bottom-36 {
+    bottom: 9rem;
+  }
+
+  .md\:left-36 {
+    left: 9rem;
+  }
+
+  .md\:top-40 {
+    top: 10rem;
+  }
+
+  .md\:right-40 {
+    right: 10rem;
+  }
+
+  .md\:bottom-40 {
+    bottom: 10rem;
+  }
+
+  .md\:left-40 {
+    left: 10rem;
+  }
+
+  .md\:top-44 {
+    top: 11rem;
+  }
+
+  .md\:right-44 {
+    right: 11rem;
+  }
+
+  .md\:bottom-44 {
+    bottom: 11rem;
+  }
+
+  .md\:left-44 {
+    left: 11rem;
+  }
+
+  .md\:top-48 {
+    top: 12rem;
+  }
+
+  .md\:right-48 {
+    right: 12rem;
+  }
+
+  .md\:bottom-48 {
+    bottom: 12rem;
+  }
+
+  .md\:left-48 {
+    left: 12rem;
+  }
+
+  .md\:top-56 {
+    top: 14rem;
+  }
+
+  .md\:right-56 {
+    right: 14rem;
+  }
+
+  .md\:bottom-56 {
+    bottom: 14rem;
+  }
+
+  .md\:left-56 {
+    left: 14rem;
+  }
+
+  .md\:top-60 {
+    top: 15rem;
+  }
+
+  .md\:right-60 {
+    right: 15rem;
+  }
+
+  .md\:bottom-60 {
+    bottom: 15rem;
+  }
+
+  .md\:left-60 {
+    left: 15rem;
+  }
+
+  .md\:top-64 {
+    top: 16rem;
+  }
+
+  .md\:right-64 {
+    right: 16rem;
+  }
+
+  .md\:bottom-64 {
+    bottom: 16rem;
+  }
+
+  .md\:left-64 {
+    left: 16rem;
+  }
+
+  .md\:top-72 {
+    top: 18rem;
+  }
+
+  .md\:right-72 {
+    right: 18rem;
+  }
+
+  .md\:bottom-72 {
+    bottom: 18rem;
+  }
+
+  .md\:left-72 {
+    left: 18rem;
+  }
+
+  .md\:top-80 {
+    top: 20rem;
+  }
+
+  .md\:right-80 {
+    right: 20rem;
+  }
+
+  .md\:bottom-80 {
+    bottom: 20rem;
+  }
+
+  .md\:left-80 {
+    left: 20rem;
+  }
+
+  .md\:top-88 {
+    top: 22rem;
+  }
+
+  .md\:right-88 {
+    right: 22rem;
+  }
+
+  .md\:bottom-88 {
+    bottom: 22rem;
+  }
+
+  .md\:left-88 {
+    left: 22rem;
+  }
+
+  .md\:top-96 {
+    top: 24rem;
+  }
+
+  .md\:right-96 {
+    right: 24rem;
+  }
+
+  .md\:bottom-96 {
+    bottom: 24rem;
+  }
+
+  .md\:left-96 {
+    left: 24rem;
+  }
+
+  .md\:top-100 {
+    top: 25rem;
+  }
+
+  .md\:right-100 {
+    right: 25rem;
+  }
+
+  .md\:bottom-100 {
+    bottom: 25rem;
+  }
+
+  .md\:left-100 {
+    left: 25rem;
+  }
+
+  .md\:top-110 {
+    top: 27.5rem;
+  }
+
+  .md\:right-110 {
+    right: 27.5rem;
+  }
+
+  .md\:bottom-110 {
+    bottom: 27.5rem;
+  }
+
+  .md\:left-110 {
+    left: 27.5rem;
+  }
+
+  .md\:top-120 {
+    top: 30rem;
+  }
+
+  .md\:right-120 {
+    right: 30rem;
+  }
+
+  .md\:bottom-120 {
+    bottom: 30rem;
+  }
+
+  .md\:left-120 {
+    left: 30rem;
+  }
+
+  .md\:top-130 {
+    top: 32.5rem;
+  }
+
+  .md\:right-130 {
+    right: 32.5rem;
+  }
+
+  .md\:bottom-130 {
+    bottom: 32.5rem;
+  }
+
+  .md\:left-130 {
+    left: 32.5rem;
+  }
+
+  .md\:top-140 {
+    top: 35rem;
+  }
+
+  .md\:right-140 {
+    right: 35rem;
+  }
+
+  .md\:bottom-140 {
+    bottom: 35rem;
+  }
+
+  .md\:left-140 {
+    left: 35rem;
+  }
+
+  .md\:top-160 {
+    top: 40rem;
+  }
+
+  .md\:right-160 {
+    right: 40rem;
+  }
+
+  .md\:bottom-160 {
+    bottom: 40rem;
+  }
+
+  .md\:left-160 {
+    left: 40rem;
+  }
+
+  .md\:top-180 {
+    top: 45rem;
+  }
+
+  .md\:right-180 {
+    right: 45rem;
+  }
+
+  .md\:bottom-180 {
+    bottom: 45rem;
+  }
+
+  .md\:left-180 {
+    left: 45rem;
+  }
+
+  .md\:top-200 {
+    top: 50rem;
+  }
+
+  .md\:right-200 {
+    right: 50rem;
+  }
+
+  .md\:bottom-200 {
+    bottom: 50rem;
+  }
+
+  .md\:left-200 {
+    left: 50rem;
   }
 
   .md\:resize-none {
@@ -140869,6 +145901,10 @@ video {
     font-size: 0.75rem;
   }
 
+  .lg\:text-vsm {
+    font-size: 0.8rem;
+  }
+
   .lg\:text-sm {
     font-size: 0.875rem;
   }
@@ -151928,11 +156964,277 @@ video {
     left: 0;
   }
 
-  .lg\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+  .lg\:inset-1 {
+    top: 0.25rem;
+    right: 0.25rem;
+    bottom: 0.25rem;
+    left: 0.25rem;
+  }
+
+  .lg\:inset-2 {
+    top: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .lg\:inset-3 {
+    top: 0.75rem;
+    right: 0.75rem;
+    bottom: 0.75rem;
+    left: 0.75rem;
+  }
+
+  .lg\:inset-4 {
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .lg\:inset-5 {
+    top: 1.25rem;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    left: 1.25rem;
+  }
+
+  .lg\:inset-6 {
+    top: 1.5rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .lg\:inset-7 {
+    top: 1.75rem;
+    right: 1.75rem;
+    bottom: 1.75rem;
+    left: 1.75rem;
+  }
+
+  .lg\:inset-8 {
+    top: 2rem;
+    right: 2rem;
+    bottom: 2rem;
+    left: 2rem;
+  }
+
+  .lg\:inset-9 {
+    top: 2.25rem;
+    right: 2.25rem;
+    bottom: 2.25rem;
+    left: 2.25rem;
+  }
+
+  .lg\:inset-10 {
+    top: 2.5rem;
+    right: 2.5rem;
+    bottom: 2.5rem;
+    left: 2.5rem;
+  }
+
+  .lg\:inset-12 {
+    top: 3rem;
+    right: 3rem;
+    bottom: 3rem;
+    left: 3rem;
+  }
+
+  .lg\:inset-14 {
+    top: 3.5rem;
+    right: 3.5rem;
+    bottom: 3.5rem;
+    left: 3.5rem;
+  }
+
+  .lg\:inset-16 {
+    top: 4rem;
+    right: 4rem;
+    bottom: 4rem;
+    left: 4rem;
+  }
+
+  .lg\:inset-18 {
+    top: 4.5rem;
+    right: 4.5rem;
+    bottom: 4.5rem;
+    left: 4.5rem;
+  }
+
+  .lg\:inset-20 {
+    top: 5rem;
+    right: 5rem;
+    bottom: 5rem;
+    left: 5rem;
+  }
+
+  .lg\:inset-24 {
+    top: 6rem;
+    right: 6rem;
+    bottom: 6rem;
+    left: 6rem;
+  }
+
+  .lg\:inset-26 {
+    top: 6.5rem;
+    right: 6.5rem;
+    bottom: 6.5rem;
+    left: 6.5rem;
+  }
+
+  .lg\:inset-28 {
+    top: 7rem;
+    right: 7rem;
+    bottom: 7rem;
+    left: 7rem;
+  }
+
+  .lg\:inset-30 {
+    top: 7.5rem;
+    right: 7.5rem;
+    bottom: 7.5rem;
+    left: 7.5rem;
+  }
+
+  .lg\:inset-32 {
+    top: 8rem;
+    right: 8rem;
+    bottom: 8rem;
+    left: 8rem;
+  }
+
+  .lg\:inset-36 {
+    top: 9rem;
+    right: 9rem;
+    bottom: 9rem;
+    left: 9rem;
+  }
+
+  .lg\:inset-40 {
+    top: 10rem;
+    right: 10rem;
+    bottom: 10rem;
+    left: 10rem;
+  }
+
+  .lg\:inset-44 {
+    top: 11rem;
+    right: 11rem;
+    bottom: 11rem;
+    left: 11rem;
+  }
+
+  .lg\:inset-48 {
+    top: 12rem;
+    right: 12rem;
+    bottom: 12rem;
+    left: 12rem;
+  }
+
+  .lg\:inset-56 {
+    top: 14rem;
+    right: 14rem;
+    bottom: 14rem;
+    left: 14rem;
+  }
+
+  .lg\:inset-60 {
+    top: 15rem;
+    right: 15rem;
+    bottom: 15rem;
+    left: 15rem;
+  }
+
+  .lg\:inset-64 {
+    top: 16rem;
+    right: 16rem;
+    bottom: 16rem;
+    left: 16rem;
+  }
+
+  .lg\:inset-72 {
+    top: 18rem;
+    right: 18rem;
+    bottom: 18rem;
+    left: 18rem;
+  }
+
+  .lg\:inset-80 {
+    top: 20rem;
+    right: 20rem;
+    bottom: 20rem;
+    left: 20rem;
+  }
+
+  .lg\:inset-88 {
+    top: 22rem;
+    right: 22rem;
+    bottom: 22rem;
+    left: 22rem;
+  }
+
+  .lg\:inset-96 {
+    top: 24rem;
+    right: 24rem;
+    bottom: 24rem;
+    left: 24rem;
+  }
+
+  .lg\:inset-100 {
+    top: 25rem;
+    right: 25rem;
+    bottom: 25rem;
+    left: 25rem;
+  }
+
+  .lg\:inset-110 {
+    top: 27.5rem;
+    right: 27.5rem;
+    bottom: 27.5rem;
+    left: 27.5rem;
+  }
+
+  .lg\:inset-120 {
+    top: 30rem;
+    right: 30rem;
+    bottom: 30rem;
+    left: 30rem;
+  }
+
+  .lg\:inset-130 {
+    top: 32.5rem;
+    right: 32.5rem;
+    bottom: 32.5rem;
+    left: 32.5rem;
+  }
+
+  .lg\:inset-140 {
+    top: 35rem;
+    right: 35rem;
+    bottom: 35rem;
+    left: 35rem;
+  }
+
+  .lg\:inset-160 {
+    top: 40rem;
+    right: 40rem;
+    bottom: 40rem;
+    left: 40rem;
+  }
+
+  .lg\:inset-180 {
+    top: 45rem;
+    right: 45rem;
+    bottom: 45rem;
+    left: 45rem;
+  }
+
+  .lg\:inset-200 {
+    top: 50rem;
+    right: 50rem;
+    bottom: 50rem;
+    left: 50rem;
   }
 
   .lg\:inset-y-0 {
@@ -151945,14 +157247,394 @@ video {
     left: 0;
   }
 
-  .lg\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .lg\:inset-y-1 {
+    top: 0.25rem;
+    bottom: 0.25rem;
   }
 
-  .lg\:inset-x-auto {
-    right: auto;
-    left: auto;
+  .lg\:inset-x-1 {
+    right: 0.25rem;
+    left: 0.25rem;
+  }
+
+  .lg\:inset-y-2 {
+    top: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .lg\:inset-x-2 {
+    right: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .lg\:inset-y-3 {
+    top: 0.75rem;
+    bottom: 0.75rem;
+  }
+
+  .lg\:inset-x-3 {
+    right: 0.75rem;
+    left: 0.75rem;
+  }
+
+  .lg\:inset-y-4 {
+    top: 1rem;
+    bottom: 1rem;
+  }
+
+  .lg\:inset-x-4 {
+    right: 1rem;
+    left: 1rem;
+  }
+
+  .lg\:inset-y-5 {
+    top: 1.25rem;
+    bottom: 1.25rem;
+  }
+
+  .lg\:inset-x-5 {
+    right: 1.25rem;
+    left: 1.25rem;
+  }
+
+  .lg\:inset-y-6 {
+    top: 1.5rem;
+    bottom: 1.5rem;
+  }
+
+  .lg\:inset-x-6 {
+    right: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .lg\:inset-y-7 {
+    top: 1.75rem;
+    bottom: 1.75rem;
+  }
+
+  .lg\:inset-x-7 {
+    right: 1.75rem;
+    left: 1.75rem;
+  }
+
+  .lg\:inset-y-8 {
+    top: 2rem;
+    bottom: 2rem;
+  }
+
+  .lg\:inset-x-8 {
+    right: 2rem;
+    left: 2rem;
+  }
+
+  .lg\:inset-y-9 {
+    top: 2.25rem;
+    bottom: 2.25rem;
+  }
+
+  .lg\:inset-x-9 {
+    right: 2.25rem;
+    left: 2.25rem;
+  }
+
+  .lg\:inset-y-10 {
+    top: 2.5rem;
+    bottom: 2.5rem;
+  }
+
+  .lg\:inset-x-10 {
+    right: 2.5rem;
+    left: 2.5rem;
+  }
+
+  .lg\:inset-y-12 {
+    top: 3rem;
+    bottom: 3rem;
+  }
+
+  .lg\:inset-x-12 {
+    right: 3rem;
+    left: 3rem;
+  }
+
+  .lg\:inset-y-14 {
+    top: 3.5rem;
+    bottom: 3.5rem;
+  }
+
+  .lg\:inset-x-14 {
+    right: 3.5rem;
+    left: 3.5rem;
+  }
+
+  .lg\:inset-y-16 {
+    top: 4rem;
+    bottom: 4rem;
+  }
+
+  .lg\:inset-x-16 {
+    right: 4rem;
+    left: 4rem;
+  }
+
+  .lg\:inset-y-18 {
+    top: 4.5rem;
+    bottom: 4.5rem;
+  }
+
+  .lg\:inset-x-18 {
+    right: 4.5rem;
+    left: 4.5rem;
+  }
+
+  .lg\:inset-y-20 {
+    top: 5rem;
+    bottom: 5rem;
+  }
+
+  .lg\:inset-x-20 {
+    right: 5rem;
+    left: 5rem;
+  }
+
+  .lg\:inset-y-24 {
+    top: 6rem;
+    bottom: 6rem;
+  }
+
+  .lg\:inset-x-24 {
+    right: 6rem;
+    left: 6rem;
+  }
+
+  .lg\:inset-y-26 {
+    top: 6.5rem;
+    bottom: 6.5rem;
+  }
+
+  .lg\:inset-x-26 {
+    right: 6.5rem;
+    left: 6.5rem;
+  }
+
+  .lg\:inset-y-28 {
+    top: 7rem;
+    bottom: 7rem;
+  }
+
+  .lg\:inset-x-28 {
+    right: 7rem;
+    left: 7rem;
+  }
+
+  .lg\:inset-y-30 {
+    top: 7.5rem;
+    bottom: 7.5rem;
+  }
+
+  .lg\:inset-x-30 {
+    right: 7.5rem;
+    left: 7.5rem;
+  }
+
+  .lg\:inset-y-32 {
+    top: 8rem;
+    bottom: 8rem;
+  }
+
+  .lg\:inset-x-32 {
+    right: 8rem;
+    left: 8rem;
+  }
+
+  .lg\:inset-y-36 {
+    top: 9rem;
+    bottom: 9rem;
+  }
+
+  .lg\:inset-x-36 {
+    right: 9rem;
+    left: 9rem;
+  }
+
+  .lg\:inset-y-40 {
+    top: 10rem;
+    bottom: 10rem;
+  }
+
+  .lg\:inset-x-40 {
+    right: 10rem;
+    left: 10rem;
+  }
+
+  .lg\:inset-y-44 {
+    top: 11rem;
+    bottom: 11rem;
+  }
+
+  .lg\:inset-x-44 {
+    right: 11rem;
+    left: 11rem;
+  }
+
+  .lg\:inset-y-48 {
+    top: 12rem;
+    bottom: 12rem;
+  }
+
+  .lg\:inset-x-48 {
+    right: 12rem;
+    left: 12rem;
+  }
+
+  .lg\:inset-y-56 {
+    top: 14rem;
+    bottom: 14rem;
+  }
+
+  .lg\:inset-x-56 {
+    right: 14rem;
+    left: 14rem;
+  }
+
+  .lg\:inset-y-60 {
+    top: 15rem;
+    bottom: 15rem;
+  }
+
+  .lg\:inset-x-60 {
+    right: 15rem;
+    left: 15rem;
+  }
+
+  .lg\:inset-y-64 {
+    top: 16rem;
+    bottom: 16rem;
+  }
+
+  .lg\:inset-x-64 {
+    right: 16rem;
+    left: 16rem;
+  }
+
+  .lg\:inset-y-72 {
+    top: 18rem;
+    bottom: 18rem;
+  }
+
+  .lg\:inset-x-72 {
+    right: 18rem;
+    left: 18rem;
+  }
+
+  .lg\:inset-y-80 {
+    top: 20rem;
+    bottom: 20rem;
+  }
+
+  .lg\:inset-x-80 {
+    right: 20rem;
+    left: 20rem;
+  }
+
+  .lg\:inset-y-88 {
+    top: 22rem;
+    bottom: 22rem;
+  }
+
+  .lg\:inset-x-88 {
+    right: 22rem;
+    left: 22rem;
+  }
+
+  .lg\:inset-y-96 {
+    top: 24rem;
+    bottom: 24rem;
+  }
+
+  .lg\:inset-x-96 {
+    right: 24rem;
+    left: 24rem;
+  }
+
+  .lg\:inset-y-100 {
+    top: 25rem;
+    bottom: 25rem;
+  }
+
+  .lg\:inset-x-100 {
+    right: 25rem;
+    left: 25rem;
+  }
+
+  .lg\:inset-y-110 {
+    top: 27.5rem;
+    bottom: 27.5rem;
+  }
+
+  .lg\:inset-x-110 {
+    right: 27.5rem;
+    left: 27.5rem;
+  }
+
+  .lg\:inset-y-120 {
+    top: 30rem;
+    bottom: 30rem;
+  }
+
+  .lg\:inset-x-120 {
+    right: 30rem;
+    left: 30rem;
+  }
+
+  .lg\:inset-y-130 {
+    top: 32.5rem;
+    bottom: 32.5rem;
+  }
+
+  .lg\:inset-x-130 {
+    right: 32.5rem;
+    left: 32.5rem;
+  }
+
+  .lg\:inset-y-140 {
+    top: 35rem;
+    bottom: 35rem;
+  }
+
+  .lg\:inset-x-140 {
+    right: 35rem;
+    left: 35rem;
+  }
+
+  .lg\:inset-y-160 {
+    top: 40rem;
+    bottom: 40rem;
+  }
+
+  .lg\:inset-x-160 {
+    right: 40rem;
+    left: 40rem;
+  }
+
+  .lg\:inset-y-180 {
+    top: 45rem;
+    bottom: 45rem;
+  }
+
+  .lg\:inset-x-180 {
+    right: 45rem;
+    left: 45rem;
+  }
+
+  .lg\:inset-y-200 {
+    top: 50rem;
+    bottom: 50rem;
+  }
+
+  .lg\:inset-x-200 {
+    right: 50rem;
+    left: 50rem;
   }
 
   .lg\:top-0 {
@@ -151971,20 +157653,628 @@ video {
     left: 0;
   }
 
-  .lg\:top-auto {
-    top: auto;
+  .lg\:top-1 {
+    top: 0.25rem;
   }
 
-  .lg\:right-auto {
-    right: auto;
+  .lg\:right-1 {
+    right: 0.25rem;
   }
 
-  .lg\:bottom-auto {
-    bottom: auto;
+  .lg\:bottom-1 {
+    bottom: 0.25rem;
   }
 
-  .lg\:left-auto {
-    left: auto;
+  .lg\:left-1 {
+    left: 0.25rem;
+  }
+
+  .lg\:top-2 {
+    top: 0.5rem;
+  }
+
+  .lg\:right-2 {
+    right: 0.5rem;
+  }
+
+  .lg\:bottom-2 {
+    bottom: 0.5rem;
+  }
+
+  .lg\:left-2 {
+    left: 0.5rem;
+  }
+
+  .lg\:top-3 {
+    top: 0.75rem;
+  }
+
+  .lg\:right-3 {
+    right: 0.75rem;
+  }
+
+  .lg\:bottom-3 {
+    bottom: 0.75rem;
+  }
+
+  .lg\:left-3 {
+    left: 0.75rem;
+  }
+
+  .lg\:top-4 {
+    top: 1rem;
+  }
+
+  .lg\:right-4 {
+    right: 1rem;
+  }
+
+  .lg\:bottom-4 {
+    bottom: 1rem;
+  }
+
+  .lg\:left-4 {
+    left: 1rem;
+  }
+
+  .lg\:top-5 {
+    top: 1.25rem;
+  }
+
+  .lg\:right-5 {
+    right: 1.25rem;
+  }
+
+  .lg\:bottom-5 {
+    bottom: 1.25rem;
+  }
+
+  .lg\:left-5 {
+    left: 1.25rem;
+  }
+
+  .lg\:top-6 {
+    top: 1.5rem;
+  }
+
+  .lg\:right-6 {
+    right: 1.5rem;
+  }
+
+  .lg\:bottom-6 {
+    bottom: 1.5rem;
+  }
+
+  .lg\:left-6 {
+    left: 1.5rem;
+  }
+
+  .lg\:top-7 {
+    top: 1.75rem;
+  }
+
+  .lg\:right-7 {
+    right: 1.75rem;
+  }
+
+  .lg\:bottom-7 {
+    bottom: 1.75rem;
+  }
+
+  .lg\:left-7 {
+    left: 1.75rem;
+  }
+
+  .lg\:top-8 {
+    top: 2rem;
+  }
+
+  .lg\:right-8 {
+    right: 2rem;
+  }
+
+  .lg\:bottom-8 {
+    bottom: 2rem;
+  }
+
+  .lg\:left-8 {
+    left: 2rem;
+  }
+
+  .lg\:top-9 {
+    top: 2.25rem;
+  }
+
+  .lg\:right-9 {
+    right: 2.25rem;
+  }
+
+  .lg\:bottom-9 {
+    bottom: 2.25rem;
+  }
+
+  .lg\:left-9 {
+    left: 2.25rem;
+  }
+
+  .lg\:top-10 {
+    top: 2.5rem;
+  }
+
+  .lg\:right-10 {
+    right: 2.5rem;
+  }
+
+  .lg\:bottom-10 {
+    bottom: 2.5rem;
+  }
+
+  .lg\:left-10 {
+    left: 2.5rem;
+  }
+
+  .lg\:top-12 {
+    top: 3rem;
+  }
+
+  .lg\:right-12 {
+    right: 3rem;
+  }
+
+  .lg\:bottom-12 {
+    bottom: 3rem;
+  }
+
+  .lg\:left-12 {
+    left: 3rem;
+  }
+
+  .lg\:top-14 {
+    top: 3.5rem;
+  }
+
+  .lg\:right-14 {
+    right: 3.5rem;
+  }
+
+  .lg\:bottom-14 {
+    bottom: 3.5rem;
+  }
+
+  .lg\:left-14 {
+    left: 3.5rem;
+  }
+
+  .lg\:top-16 {
+    top: 4rem;
+  }
+
+  .lg\:right-16 {
+    right: 4rem;
+  }
+
+  .lg\:bottom-16 {
+    bottom: 4rem;
+  }
+
+  .lg\:left-16 {
+    left: 4rem;
+  }
+
+  .lg\:top-18 {
+    top: 4.5rem;
+  }
+
+  .lg\:right-18 {
+    right: 4.5rem;
+  }
+
+  .lg\:bottom-18 {
+    bottom: 4.5rem;
+  }
+
+  .lg\:left-18 {
+    left: 4.5rem;
+  }
+
+  .lg\:top-20 {
+    top: 5rem;
+  }
+
+  .lg\:right-20 {
+    right: 5rem;
+  }
+
+  .lg\:bottom-20 {
+    bottom: 5rem;
+  }
+
+  .lg\:left-20 {
+    left: 5rem;
+  }
+
+  .lg\:top-24 {
+    top: 6rem;
+  }
+
+  .lg\:right-24 {
+    right: 6rem;
+  }
+
+  .lg\:bottom-24 {
+    bottom: 6rem;
+  }
+
+  .lg\:left-24 {
+    left: 6rem;
+  }
+
+  .lg\:top-26 {
+    top: 6.5rem;
+  }
+
+  .lg\:right-26 {
+    right: 6.5rem;
+  }
+
+  .lg\:bottom-26 {
+    bottom: 6.5rem;
+  }
+
+  .lg\:left-26 {
+    left: 6.5rem;
+  }
+
+  .lg\:top-28 {
+    top: 7rem;
+  }
+
+  .lg\:right-28 {
+    right: 7rem;
+  }
+
+  .lg\:bottom-28 {
+    bottom: 7rem;
+  }
+
+  .lg\:left-28 {
+    left: 7rem;
+  }
+
+  .lg\:top-30 {
+    top: 7.5rem;
+  }
+
+  .lg\:right-30 {
+    right: 7.5rem;
+  }
+
+  .lg\:bottom-30 {
+    bottom: 7.5rem;
+  }
+
+  .lg\:left-30 {
+    left: 7.5rem;
+  }
+
+  .lg\:top-32 {
+    top: 8rem;
+  }
+
+  .lg\:right-32 {
+    right: 8rem;
+  }
+
+  .lg\:bottom-32 {
+    bottom: 8rem;
+  }
+
+  .lg\:left-32 {
+    left: 8rem;
+  }
+
+  .lg\:top-36 {
+    top: 9rem;
+  }
+
+  .lg\:right-36 {
+    right: 9rem;
+  }
+
+  .lg\:bottom-36 {
+    bottom: 9rem;
+  }
+
+  .lg\:left-36 {
+    left: 9rem;
+  }
+
+  .lg\:top-40 {
+    top: 10rem;
+  }
+
+  .lg\:right-40 {
+    right: 10rem;
+  }
+
+  .lg\:bottom-40 {
+    bottom: 10rem;
+  }
+
+  .lg\:left-40 {
+    left: 10rem;
+  }
+
+  .lg\:top-44 {
+    top: 11rem;
+  }
+
+  .lg\:right-44 {
+    right: 11rem;
+  }
+
+  .lg\:bottom-44 {
+    bottom: 11rem;
+  }
+
+  .lg\:left-44 {
+    left: 11rem;
+  }
+
+  .lg\:top-48 {
+    top: 12rem;
+  }
+
+  .lg\:right-48 {
+    right: 12rem;
+  }
+
+  .lg\:bottom-48 {
+    bottom: 12rem;
+  }
+
+  .lg\:left-48 {
+    left: 12rem;
+  }
+
+  .lg\:top-56 {
+    top: 14rem;
+  }
+
+  .lg\:right-56 {
+    right: 14rem;
+  }
+
+  .lg\:bottom-56 {
+    bottom: 14rem;
+  }
+
+  .lg\:left-56 {
+    left: 14rem;
+  }
+
+  .lg\:top-60 {
+    top: 15rem;
+  }
+
+  .lg\:right-60 {
+    right: 15rem;
+  }
+
+  .lg\:bottom-60 {
+    bottom: 15rem;
+  }
+
+  .lg\:left-60 {
+    left: 15rem;
+  }
+
+  .lg\:top-64 {
+    top: 16rem;
+  }
+
+  .lg\:right-64 {
+    right: 16rem;
+  }
+
+  .lg\:bottom-64 {
+    bottom: 16rem;
+  }
+
+  .lg\:left-64 {
+    left: 16rem;
+  }
+
+  .lg\:top-72 {
+    top: 18rem;
+  }
+
+  .lg\:right-72 {
+    right: 18rem;
+  }
+
+  .lg\:bottom-72 {
+    bottom: 18rem;
+  }
+
+  .lg\:left-72 {
+    left: 18rem;
+  }
+
+  .lg\:top-80 {
+    top: 20rem;
+  }
+
+  .lg\:right-80 {
+    right: 20rem;
+  }
+
+  .lg\:bottom-80 {
+    bottom: 20rem;
+  }
+
+  .lg\:left-80 {
+    left: 20rem;
+  }
+
+  .lg\:top-88 {
+    top: 22rem;
+  }
+
+  .lg\:right-88 {
+    right: 22rem;
+  }
+
+  .lg\:bottom-88 {
+    bottom: 22rem;
+  }
+
+  .lg\:left-88 {
+    left: 22rem;
+  }
+
+  .lg\:top-96 {
+    top: 24rem;
+  }
+
+  .lg\:right-96 {
+    right: 24rem;
+  }
+
+  .lg\:bottom-96 {
+    bottom: 24rem;
+  }
+
+  .lg\:left-96 {
+    left: 24rem;
+  }
+
+  .lg\:top-100 {
+    top: 25rem;
+  }
+
+  .lg\:right-100 {
+    right: 25rem;
+  }
+
+  .lg\:bottom-100 {
+    bottom: 25rem;
+  }
+
+  .lg\:left-100 {
+    left: 25rem;
+  }
+
+  .lg\:top-110 {
+    top: 27.5rem;
+  }
+
+  .lg\:right-110 {
+    right: 27.5rem;
+  }
+
+  .lg\:bottom-110 {
+    bottom: 27.5rem;
+  }
+
+  .lg\:left-110 {
+    left: 27.5rem;
+  }
+
+  .lg\:top-120 {
+    top: 30rem;
+  }
+
+  .lg\:right-120 {
+    right: 30rem;
+  }
+
+  .lg\:bottom-120 {
+    bottom: 30rem;
+  }
+
+  .lg\:left-120 {
+    left: 30rem;
+  }
+
+  .lg\:top-130 {
+    top: 32.5rem;
+  }
+
+  .lg\:right-130 {
+    right: 32.5rem;
+  }
+
+  .lg\:bottom-130 {
+    bottom: 32.5rem;
+  }
+
+  .lg\:left-130 {
+    left: 32.5rem;
+  }
+
+  .lg\:top-140 {
+    top: 35rem;
+  }
+
+  .lg\:right-140 {
+    right: 35rem;
+  }
+
+  .lg\:bottom-140 {
+    bottom: 35rem;
+  }
+
+  .lg\:left-140 {
+    left: 35rem;
+  }
+
+  .lg\:top-160 {
+    top: 40rem;
+  }
+
+  .lg\:right-160 {
+    right: 40rem;
+  }
+
+  .lg\:bottom-160 {
+    bottom: 40rem;
+  }
+
+  .lg\:left-160 {
+    left: 40rem;
+  }
+
+  .lg\:top-180 {
+    top: 45rem;
+  }
+
+  .lg\:right-180 {
+    right: 45rem;
+  }
+
+  .lg\:bottom-180 {
+    bottom: 45rem;
+  }
+
+  .lg\:left-180 {
+    left: 45rem;
+  }
+
+  .lg\:top-200 {
+    top: 50rem;
+  }
+
+  .lg\:right-200 {
+    right: 50rem;
+  }
+
+  .lg\:bottom-200 {
+    bottom: 50rem;
+  }
+
+  .lg\:left-200 {
+    left: 50rem;
   }
 
   .lg\:resize-none {
@@ -172864,6 +179154,10 @@ video {
     font-size: 0.75rem;
   }
 
+  .xl\:text-vsm {
+    font-size: 0.8rem;
+  }
+
   .xl\:text-sm {
     font-size: 0.875rem;
   }
@@ -183923,11 +190217,277 @@ video {
     left: 0;
   }
 
-  .xl\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+  .xl\:inset-1 {
+    top: 0.25rem;
+    right: 0.25rem;
+    bottom: 0.25rem;
+    left: 0.25rem;
+  }
+
+  .xl\:inset-2 {
+    top: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .xl\:inset-3 {
+    top: 0.75rem;
+    right: 0.75rem;
+    bottom: 0.75rem;
+    left: 0.75rem;
+  }
+
+  .xl\:inset-4 {
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .xl\:inset-5 {
+    top: 1.25rem;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    left: 1.25rem;
+  }
+
+  .xl\:inset-6 {
+    top: 1.5rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .xl\:inset-7 {
+    top: 1.75rem;
+    right: 1.75rem;
+    bottom: 1.75rem;
+    left: 1.75rem;
+  }
+
+  .xl\:inset-8 {
+    top: 2rem;
+    right: 2rem;
+    bottom: 2rem;
+    left: 2rem;
+  }
+
+  .xl\:inset-9 {
+    top: 2.25rem;
+    right: 2.25rem;
+    bottom: 2.25rem;
+    left: 2.25rem;
+  }
+
+  .xl\:inset-10 {
+    top: 2.5rem;
+    right: 2.5rem;
+    bottom: 2.5rem;
+    left: 2.5rem;
+  }
+
+  .xl\:inset-12 {
+    top: 3rem;
+    right: 3rem;
+    bottom: 3rem;
+    left: 3rem;
+  }
+
+  .xl\:inset-14 {
+    top: 3.5rem;
+    right: 3.5rem;
+    bottom: 3.5rem;
+    left: 3.5rem;
+  }
+
+  .xl\:inset-16 {
+    top: 4rem;
+    right: 4rem;
+    bottom: 4rem;
+    left: 4rem;
+  }
+
+  .xl\:inset-18 {
+    top: 4.5rem;
+    right: 4.5rem;
+    bottom: 4.5rem;
+    left: 4.5rem;
+  }
+
+  .xl\:inset-20 {
+    top: 5rem;
+    right: 5rem;
+    bottom: 5rem;
+    left: 5rem;
+  }
+
+  .xl\:inset-24 {
+    top: 6rem;
+    right: 6rem;
+    bottom: 6rem;
+    left: 6rem;
+  }
+
+  .xl\:inset-26 {
+    top: 6.5rem;
+    right: 6.5rem;
+    bottom: 6.5rem;
+    left: 6.5rem;
+  }
+
+  .xl\:inset-28 {
+    top: 7rem;
+    right: 7rem;
+    bottom: 7rem;
+    left: 7rem;
+  }
+
+  .xl\:inset-30 {
+    top: 7.5rem;
+    right: 7.5rem;
+    bottom: 7.5rem;
+    left: 7.5rem;
+  }
+
+  .xl\:inset-32 {
+    top: 8rem;
+    right: 8rem;
+    bottom: 8rem;
+    left: 8rem;
+  }
+
+  .xl\:inset-36 {
+    top: 9rem;
+    right: 9rem;
+    bottom: 9rem;
+    left: 9rem;
+  }
+
+  .xl\:inset-40 {
+    top: 10rem;
+    right: 10rem;
+    bottom: 10rem;
+    left: 10rem;
+  }
+
+  .xl\:inset-44 {
+    top: 11rem;
+    right: 11rem;
+    bottom: 11rem;
+    left: 11rem;
+  }
+
+  .xl\:inset-48 {
+    top: 12rem;
+    right: 12rem;
+    bottom: 12rem;
+    left: 12rem;
+  }
+
+  .xl\:inset-56 {
+    top: 14rem;
+    right: 14rem;
+    bottom: 14rem;
+    left: 14rem;
+  }
+
+  .xl\:inset-60 {
+    top: 15rem;
+    right: 15rem;
+    bottom: 15rem;
+    left: 15rem;
+  }
+
+  .xl\:inset-64 {
+    top: 16rem;
+    right: 16rem;
+    bottom: 16rem;
+    left: 16rem;
+  }
+
+  .xl\:inset-72 {
+    top: 18rem;
+    right: 18rem;
+    bottom: 18rem;
+    left: 18rem;
+  }
+
+  .xl\:inset-80 {
+    top: 20rem;
+    right: 20rem;
+    bottom: 20rem;
+    left: 20rem;
+  }
+
+  .xl\:inset-88 {
+    top: 22rem;
+    right: 22rem;
+    bottom: 22rem;
+    left: 22rem;
+  }
+
+  .xl\:inset-96 {
+    top: 24rem;
+    right: 24rem;
+    bottom: 24rem;
+    left: 24rem;
+  }
+
+  .xl\:inset-100 {
+    top: 25rem;
+    right: 25rem;
+    bottom: 25rem;
+    left: 25rem;
+  }
+
+  .xl\:inset-110 {
+    top: 27.5rem;
+    right: 27.5rem;
+    bottom: 27.5rem;
+    left: 27.5rem;
+  }
+
+  .xl\:inset-120 {
+    top: 30rem;
+    right: 30rem;
+    bottom: 30rem;
+    left: 30rem;
+  }
+
+  .xl\:inset-130 {
+    top: 32.5rem;
+    right: 32.5rem;
+    bottom: 32.5rem;
+    left: 32.5rem;
+  }
+
+  .xl\:inset-140 {
+    top: 35rem;
+    right: 35rem;
+    bottom: 35rem;
+    left: 35rem;
+  }
+
+  .xl\:inset-160 {
+    top: 40rem;
+    right: 40rem;
+    bottom: 40rem;
+    left: 40rem;
+  }
+
+  .xl\:inset-180 {
+    top: 45rem;
+    right: 45rem;
+    bottom: 45rem;
+    left: 45rem;
+  }
+
+  .xl\:inset-200 {
+    top: 50rem;
+    right: 50rem;
+    bottom: 50rem;
+    left: 50rem;
   }
 
   .xl\:inset-y-0 {
@@ -183940,14 +190500,394 @@ video {
     left: 0;
   }
 
-  .xl\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .xl\:inset-y-1 {
+    top: 0.25rem;
+    bottom: 0.25rem;
   }
 
-  .xl\:inset-x-auto {
-    right: auto;
-    left: auto;
+  .xl\:inset-x-1 {
+    right: 0.25rem;
+    left: 0.25rem;
+  }
+
+  .xl\:inset-y-2 {
+    top: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .xl\:inset-x-2 {
+    right: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .xl\:inset-y-3 {
+    top: 0.75rem;
+    bottom: 0.75rem;
+  }
+
+  .xl\:inset-x-3 {
+    right: 0.75rem;
+    left: 0.75rem;
+  }
+
+  .xl\:inset-y-4 {
+    top: 1rem;
+    bottom: 1rem;
+  }
+
+  .xl\:inset-x-4 {
+    right: 1rem;
+    left: 1rem;
+  }
+
+  .xl\:inset-y-5 {
+    top: 1.25rem;
+    bottom: 1.25rem;
+  }
+
+  .xl\:inset-x-5 {
+    right: 1.25rem;
+    left: 1.25rem;
+  }
+
+  .xl\:inset-y-6 {
+    top: 1.5rem;
+    bottom: 1.5rem;
+  }
+
+  .xl\:inset-x-6 {
+    right: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .xl\:inset-y-7 {
+    top: 1.75rem;
+    bottom: 1.75rem;
+  }
+
+  .xl\:inset-x-7 {
+    right: 1.75rem;
+    left: 1.75rem;
+  }
+
+  .xl\:inset-y-8 {
+    top: 2rem;
+    bottom: 2rem;
+  }
+
+  .xl\:inset-x-8 {
+    right: 2rem;
+    left: 2rem;
+  }
+
+  .xl\:inset-y-9 {
+    top: 2.25rem;
+    bottom: 2.25rem;
+  }
+
+  .xl\:inset-x-9 {
+    right: 2.25rem;
+    left: 2.25rem;
+  }
+
+  .xl\:inset-y-10 {
+    top: 2.5rem;
+    bottom: 2.5rem;
+  }
+
+  .xl\:inset-x-10 {
+    right: 2.5rem;
+    left: 2.5rem;
+  }
+
+  .xl\:inset-y-12 {
+    top: 3rem;
+    bottom: 3rem;
+  }
+
+  .xl\:inset-x-12 {
+    right: 3rem;
+    left: 3rem;
+  }
+
+  .xl\:inset-y-14 {
+    top: 3.5rem;
+    bottom: 3.5rem;
+  }
+
+  .xl\:inset-x-14 {
+    right: 3.5rem;
+    left: 3.5rem;
+  }
+
+  .xl\:inset-y-16 {
+    top: 4rem;
+    bottom: 4rem;
+  }
+
+  .xl\:inset-x-16 {
+    right: 4rem;
+    left: 4rem;
+  }
+
+  .xl\:inset-y-18 {
+    top: 4.5rem;
+    bottom: 4.5rem;
+  }
+
+  .xl\:inset-x-18 {
+    right: 4.5rem;
+    left: 4.5rem;
+  }
+
+  .xl\:inset-y-20 {
+    top: 5rem;
+    bottom: 5rem;
+  }
+
+  .xl\:inset-x-20 {
+    right: 5rem;
+    left: 5rem;
+  }
+
+  .xl\:inset-y-24 {
+    top: 6rem;
+    bottom: 6rem;
+  }
+
+  .xl\:inset-x-24 {
+    right: 6rem;
+    left: 6rem;
+  }
+
+  .xl\:inset-y-26 {
+    top: 6.5rem;
+    bottom: 6.5rem;
+  }
+
+  .xl\:inset-x-26 {
+    right: 6.5rem;
+    left: 6.5rem;
+  }
+
+  .xl\:inset-y-28 {
+    top: 7rem;
+    bottom: 7rem;
+  }
+
+  .xl\:inset-x-28 {
+    right: 7rem;
+    left: 7rem;
+  }
+
+  .xl\:inset-y-30 {
+    top: 7.5rem;
+    bottom: 7.5rem;
+  }
+
+  .xl\:inset-x-30 {
+    right: 7.5rem;
+    left: 7.5rem;
+  }
+
+  .xl\:inset-y-32 {
+    top: 8rem;
+    bottom: 8rem;
+  }
+
+  .xl\:inset-x-32 {
+    right: 8rem;
+    left: 8rem;
+  }
+
+  .xl\:inset-y-36 {
+    top: 9rem;
+    bottom: 9rem;
+  }
+
+  .xl\:inset-x-36 {
+    right: 9rem;
+    left: 9rem;
+  }
+
+  .xl\:inset-y-40 {
+    top: 10rem;
+    bottom: 10rem;
+  }
+
+  .xl\:inset-x-40 {
+    right: 10rem;
+    left: 10rem;
+  }
+
+  .xl\:inset-y-44 {
+    top: 11rem;
+    bottom: 11rem;
+  }
+
+  .xl\:inset-x-44 {
+    right: 11rem;
+    left: 11rem;
+  }
+
+  .xl\:inset-y-48 {
+    top: 12rem;
+    bottom: 12rem;
+  }
+
+  .xl\:inset-x-48 {
+    right: 12rem;
+    left: 12rem;
+  }
+
+  .xl\:inset-y-56 {
+    top: 14rem;
+    bottom: 14rem;
+  }
+
+  .xl\:inset-x-56 {
+    right: 14rem;
+    left: 14rem;
+  }
+
+  .xl\:inset-y-60 {
+    top: 15rem;
+    bottom: 15rem;
+  }
+
+  .xl\:inset-x-60 {
+    right: 15rem;
+    left: 15rem;
+  }
+
+  .xl\:inset-y-64 {
+    top: 16rem;
+    bottom: 16rem;
+  }
+
+  .xl\:inset-x-64 {
+    right: 16rem;
+    left: 16rem;
+  }
+
+  .xl\:inset-y-72 {
+    top: 18rem;
+    bottom: 18rem;
+  }
+
+  .xl\:inset-x-72 {
+    right: 18rem;
+    left: 18rem;
+  }
+
+  .xl\:inset-y-80 {
+    top: 20rem;
+    bottom: 20rem;
+  }
+
+  .xl\:inset-x-80 {
+    right: 20rem;
+    left: 20rem;
+  }
+
+  .xl\:inset-y-88 {
+    top: 22rem;
+    bottom: 22rem;
+  }
+
+  .xl\:inset-x-88 {
+    right: 22rem;
+    left: 22rem;
+  }
+
+  .xl\:inset-y-96 {
+    top: 24rem;
+    bottom: 24rem;
+  }
+
+  .xl\:inset-x-96 {
+    right: 24rem;
+    left: 24rem;
+  }
+
+  .xl\:inset-y-100 {
+    top: 25rem;
+    bottom: 25rem;
+  }
+
+  .xl\:inset-x-100 {
+    right: 25rem;
+    left: 25rem;
+  }
+
+  .xl\:inset-y-110 {
+    top: 27.5rem;
+    bottom: 27.5rem;
+  }
+
+  .xl\:inset-x-110 {
+    right: 27.5rem;
+    left: 27.5rem;
+  }
+
+  .xl\:inset-y-120 {
+    top: 30rem;
+    bottom: 30rem;
+  }
+
+  .xl\:inset-x-120 {
+    right: 30rem;
+    left: 30rem;
+  }
+
+  .xl\:inset-y-130 {
+    top: 32.5rem;
+    bottom: 32.5rem;
+  }
+
+  .xl\:inset-x-130 {
+    right: 32.5rem;
+    left: 32.5rem;
+  }
+
+  .xl\:inset-y-140 {
+    top: 35rem;
+    bottom: 35rem;
+  }
+
+  .xl\:inset-x-140 {
+    right: 35rem;
+    left: 35rem;
+  }
+
+  .xl\:inset-y-160 {
+    top: 40rem;
+    bottom: 40rem;
+  }
+
+  .xl\:inset-x-160 {
+    right: 40rem;
+    left: 40rem;
+  }
+
+  .xl\:inset-y-180 {
+    top: 45rem;
+    bottom: 45rem;
+  }
+
+  .xl\:inset-x-180 {
+    right: 45rem;
+    left: 45rem;
+  }
+
+  .xl\:inset-y-200 {
+    top: 50rem;
+    bottom: 50rem;
+  }
+
+  .xl\:inset-x-200 {
+    right: 50rem;
+    left: 50rem;
   }
 
   .xl\:top-0 {
@@ -183966,20 +190906,628 @@ video {
     left: 0;
   }
 
-  .xl\:top-auto {
-    top: auto;
+  .xl\:top-1 {
+    top: 0.25rem;
   }
 
-  .xl\:right-auto {
-    right: auto;
+  .xl\:right-1 {
+    right: 0.25rem;
   }
 
-  .xl\:bottom-auto {
-    bottom: auto;
+  .xl\:bottom-1 {
+    bottom: 0.25rem;
   }
 
-  .xl\:left-auto {
-    left: auto;
+  .xl\:left-1 {
+    left: 0.25rem;
+  }
+
+  .xl\:top-2 {
+    top: 0.5rem;
+  }
+
+  .xl\:right-2 {
+    right: 0.5rem;
+  }
+
+  .xl\:bottom-2 {
+    bottom: 0.5rem;
+  }
+
+  .xl\:left-2 {
+    left: 0.5rem;
+  }
+
+  .xl\:top-3 {
+    top: 0.75rem;
+  }
+
+  .xl\:right-3 {
+    right: 0.75rem;
+  }
+
+  .xl\:bottom-3 {
+    bottom: 0.75rem;
+  }
+
+  .xl\:left-3 {
+    left: 0.75rem;
+  }
+
+  .xl\:top-4 {
+    top: 1rem;
+  }
+
+  .xl\:right-4 {
+    right: 1rem;
+  }
+
+  .xl\:bottom-4 {
+    bottom: 1rem;
+  }
+
+  .xl\:left-4 {
+    left: 1rem;
+  }
+
+  .xl\:top-5 {
+    top: 1.25rem;
+  }
+
+  .xl\:right-5 {
+    right: 1.25rem;
+  }
+
+  .xl\:bottom-5 {
+    bottom: 1.25rem;
+  }
+
+  .xl\:left-5 {
+    left: 1.25rem;
+  }
+
+  .xl\:top-6 {
+    top: 1.5rem;
+  }
+
+  .xl\:right-6 {
+    right: 1.5rem;
+  }
+
+  .xl\:bottom-6 {
+    bottom: 1.5rem;
+  }
+
+  .xl\:left-6 {
+    left: 1.5rem;
+  }
+
+  .xl\:top-7 {
+    top: 1.75rem;
+  }
+
+  .xl\:right-7 {
+    right: 1.75rem;
+  }
+
+  .xl\:bottom-7 {
+    bottom: 1.75rem;
+  }
+
+  .xl\:left-7 {
+    left: 1.75rem;
+  }
+
+  .xl\:top-8 {
+    top: 2rem;
+  }
+
+  .xl\:right-8 {
+    right: 2rem;
+  }
+
+  .xl\:bottom-8 {
+    bottom: 2rem;
+  }
+
+  .xl\:left-8 {
+    left: 2rem;
+  }
+
+  .xl\:top-9 {
+    top: 2.25rem;
+  }
+
+  .xl\:right-9 {
+    right: 2.25rem;
+  }
+
+  .xl\:bottom-9 {
+    bottom: 2.25rem;
+  }
+
+  .xl\:left-9 {
+    left: 2.25rem;
+  }
+
+  .xl\:top-10 {
+    top: 2.5rem;
+  }
+
+  .xl\:right-10 {
+    right: 2.5rem;
+  }
+
+  .xl\:bottom-10 {
+    bottom: 2.5rem;
+  }
+
+  .xl\:left-10 {
+    left: 2.5rem;
+  }
+
+  .xl\:top-12 {
+    top: 3rem;
+  }
+
+  .xl\:right-12 {
+    right: 3rem;
+  }
+
+  .xl\:bottom-12 {
+    bottom: 3rem;
+  }
+
+  .xl\:left-12 {
+    left: 3rem;
+  }
+
+  .xl\:top-14 {
+    top: 3.5rem;
+  }
+
+  .xl\:right-14 {
+    right: 3.5rem;
+  }
+
+  .xl\:bottom-14 {
+    bottom: 3.5rem;
+  }
+
+  .xl\:left-14 {
+    left: 3.5rem;
+  }
+
+  .xl\:top-16 {
+    top: 4rem;
+  }
+
+  .xl\:right-16 {
+    right: 4rem;
+  }
+
+  .xl\:bottom-16 {
+    bottom: 4rem;
+  }
+
+  .xl\:left-16 {
+    left: 4rem;
+  }
+
+  .xl\:top-18 {
+    top: 4.5rem;
+  }
+
+  .xl\:right-18 {
+    right: 4.5rem;
+  }
+
+  .xl\:bottom-18 {
+    bottom: 4.5rem;
+  }
+
+  .xl\:left-18 {
+    left: 4.5rem;
+  }
+
+  .xl\:top-20 {
+    top: 5rem;
+  }
+
+  .xl\:right-20 {
+    right: 5rem;
+  }
+
+  .xl\:bottom-20 {
+    bottom: 5rem;
+  }
+
+  .xl\:left-20 {
+    left: 5rem;
+  }
+
+  .xl\:top-24 {
+    top: 6rem;
+  }
+
+  .xl\:right-24 {
+    right: 6rem;
+  }
+
+  .xl\:bottom-24 {
+    bottom: 6rem;
+  }
+
+  .xl\:left-24 {
+    left: 6rem;
+  }
+
+  .xl\:top-26 {
+    top: 6.5rem;
+  }
+
+  .xl\:right-26 {
+    right: 6.5rem;
+  }
+
+  .xl\:bottom-26 {
+    bottom: 6.5rem;
+  }
+
+  .xl\:left-26 {
+    left: 6.5rem;
+  }
+
+  .xl\:top-28 {
+    top: 7rem;
+  }
+
+  .xl\:right-28 {
+    right: 7rem;
+  }
+
+  .xl\:bottom-28 {
+    bottom: 7rem;
+  }
+
+  .xl\:left-28 {
+    left: 7rem;
+  }
+
+  .xl\:top-30 {
+    top: 7.5rem;
+  }
+
+  .xl\:right-30 {
+    right: 7.5rem;
+  }
+
+  .xl\:bottom-30 {
+    bottom: 7.5rem;
+  }
+
+  .xl\:left-30 {
+    left: 7.5rem;
+  }
+
+  .xl\:top-32 {
+    top: 8rem;
+  }
+
+  .xl\:right-32 {
+    right: 8rem;
+  }
+
+  .xl\:bottom-32 {
+    bottom: 8rem;
+  }
+
+  .xl\:left-32 {
+    left: 8rem;
+  }
+
+  .xl\:top-36 {
+    top: 9rem;
+  }
+
+  .xl\:right-36 {
+    right: 9rem;
+  }
+
+  .xl\:bottom-36 {
+    bottom: 9rem;
+  }
+
+  .xl\:left-36 {
+    left: 9rem;
+  }
+
+  .xl\:top-40 {
+    top: 10rem;
+  }
+
+  .xl\:right-40 {
+    right: 10rem;
+  }
+
+  .xl\:bottom-40 {
+    bottom: 10rem;
+  }
+
+  .xl\:left-40 {
+    left: 10rem;
+  }
+
+  .xl\:top-44 {
+    top: 11rem;
+  }
+
+  .xl\:right-44 {
+    right: 11rem;
+  }
+
+  .xl\:bottom-44 {
+    bottom: 11rem;
+  }
+
+  .xl\:left-44 {
+    left: 11rem;
+  }
+
+  .xl\:top-48 {
+    top: 12rem;
+  }
+
+  .xl\:right-48 {
+    right: 12rem;
+  }
+
+  .xl\:bottom-48 {
+    bottom: 12rem;
+  }
+
+  .xl\:left-48 {
+    left: 12rem;
+  }
+
+  .xl\:top-56 {
+    top: 14rem;
+  }
+
+  .xl\:right-56 {
+    right: 14rem;
+  }
+
+  .xl\:bottom-56 {
+    bottom: 14rem;
+  }
+
+  .xl\:left-56 {
+    left: 14rem;
+  }
+
+  .xl\:top-60 {
+    top: 15rem;
+  }
+
+  .xl\:right-60 {
+    right: 15rem;
+  }
+
+  .xl\:bottom-60 {
+    bottom: 15rem;
+  }
+
+  .xl\:left-60 {
+    left: 15rem;
+  }
+
+  .xl\:top-64 {
+    top: 16rem;
+  }
+
+  .xl\:right-64 {
+    right: 16rem;
+  }
+
+  .xl\:bottom-64 {
+    bottom: 16rem;
+  }
+
+  .xl\:left-64 {
+    left: 16rem;
+  }
+
+  .xl\:top-72 {
+    top: 18rem;
+  }
+
+  .xl\:right-72 {
+    right: 18rem;
+  }
+
+  .xl\:bottom-72 {
+    bottom: 18rem;
+  }
+
+  .xl\:left-72 {
+    left: 18rem;
+  }
+
+  .xl\:top-80 {
+    top: 20rem;
+  }
+
+  .xl\:right-80 {
+    right: 20rem;
+  }
+
+  .xl\:bottom-80 {
+    bottom: 20rem;
+  }
+
+  .xl\:left-80 {
+    left: 20rem;
+  }
+
+  .xl\:top-88 {
+    top: 22rem;
+  }
+
+  .xl\:right-88 {
+    right: 22rem;
+  }
+
+  .xl\:bottom-88 {
+    bottom: 22rem;
+  }
+
+  .xl\:left-88 {
+    left: 22rem;
+  }
+
+  .xl\:top-96 {
+    top: 24rem;
+  }
+
+  .xl\:right-96 {
+    right: 24rem;
+  }
+
+  .xl\:bottom-96 {
+    bottom: 24rem;
+  }
+
+  .xl\:left-96 {
+    left: 24rem;
+  }
+
+  .xl\:top-100 {
+    top: 25rem;
+  }
+
+  .xl\:right-100 {
+    right: 25rem;
+  }
+
+  .xl\:bottom-100 {
+    bottom: 25rem;
+  }
+
+  .xl\:left-100 {
+    left: 25rem;
+  }
+
+  .xl\:top-110 {
+    top: 27.5rem;
+  }
+
+  .xl\:right-110 {
+    right: 27.5rem;
+  }
+
+  .xl\:bottom-110 {
+    bottom: 27.5rem;
+  }
+
+  .xl\:left-110 {
+    left: 27.5rem;
+  }
+
+  .xl\:top-120 {
+    top: 30rem;
+  }
+
+  .xl\:right-120 {
+    right: 30rem;
+  }
+
+  .xl\:bottom-120 {
+    bottom: 30rem;
+  }
+
+  .xl\:left-120 {
+    left: 30rem;
+  }
+
+  .xl\:top-130 {
+    top: 32.5rem;
+  }
+
+  .xl\:right-130 {
+    right: 32.5rem;
+  }
+
+  .xl\:bottom-130 {
+    bottom: 32.5rem;
+  }
+
+  .xl\:left-130 {
+    left: 32.5rem;
+  }
+
+  .xl\:top-140 {
+    top: 35rem;
+  }
+
+  .xl\:right-140 {
+    right: 35rem;
+  }
+
+  .xl\:bottom-140 {
+    bottom: 35rem;
+  }
+
+  .xl\:left-140 {
+    left: 35rem;
+  }
+
+  .xl\:top-160 {
+    top: 40rem;
+  }
+
+  .xl\:right-160 {
+    right: 40rem;
+  }
+
+  .xl\:bottom-160 {
+    bottom: 40rem;
+  }
+
+  .xl\:left-160 {
+    left: 40rem;
+  }
+
+  .xl\:top-180 {
+    top: 45rem;
+  }
+
+  .xl\:right-180 {
+    right: 45rem;
+  }
+
+  .xl\:bottom-180 {
+    bottom: 45rem;
+  }
+
+  .xl\:left-180 {
+    left: 45rem;
+  }
+
+  .xl\:top-200 {
+    top: 50rem;
+  }
+
+  .xl\:right-200 {
+    right: 50rem;
+  }
+
+  .xl\:bottom-200 {
+    bottom: 50rem;
+  }
+
+  .xl\:left-200 {
+    left: 50rem;
   }
 
   .xl\:resize-none {
@@ -192852,8 +200400,6 @@ video {
             animation: bounce 1s infinite;
   }
 }
-
-
 
 
 

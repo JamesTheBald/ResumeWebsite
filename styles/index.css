@@ -13,6 +13,52 @@
 
 /* html {scroll-behavior: smooth;}  */
 
+.responsiveRoleBlock {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.responsiveDate {
+  display: flex;
+  flex-direction: row;
+  order: 3;
+}
+
+@media only screen and (min-width: 700px) {
+  .responsiveRoleBlock {
+    flex-direction: row;
+  }
+
+  .responsiveDate {
+    position: absolute;
+    right: 0; 
+    flex-direction: column;
+    order: 2;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .responsiveDate {
+    flex-direction: row;
+  }
+}
+
+.listIndent-sm {
+  text-indent: -0.6rem;
+  margin-left: 0.6rem
+}
+
+.listIndent-lg {
+  text-indent: -3.5rem;
+  margin-left: 3.5rem
+}
+
+
+
+
+
 
 /* Tooltip code */
 .tooltipBase {
