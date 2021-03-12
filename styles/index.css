@@ -18,32 +18,27 @@
   flex-direction: column;
   flex-wrap: wrap;
   position: relative;
+  padding-top: 0.25rem;
 }
 
 .responsiveDate {
-  display: flex;
-  flex-direction: row;
   order: 3;
 }
 
-@media only screen and (min-width: 700px) {
-  .responsiveRoleBlock {
-    flex-direction: row;
-  }
+@media only screen and (min-width: 850px) { 
+  
+  .responsiveRoleBlock { flex-direction: row; padding-top: 0rem; }
 
   .responsiveDate {
     position: absolute;
     right: 0; 
-    flex-direction: column;
     order: 2;
   }
 }
 
-@media only screen and (min-width: 850px) {
-  .responsiveDate {
-    flex-direction: row;
-  }
-}
+@media only screen and (min-width: 850px) { .responsiveDate { flex-direction: row; }}
+
+
 
 .listIndent-sm {
   text-indent: -0.6rem;
