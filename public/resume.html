@@ -38,12 +38,9 @@
       <div class="flex flex-col items-center w-full">
 
         <!-- Highlights -->
-        <div class="px-8 py-7  w-11/12 xs:w-5/6 sm:w-3/4 max-w-xl  
-                  bg-backgnd-card  border border-bord-std  rounded-lg shadow-lg">
-
-          <div class="font-soft_sans font-500 text-md md:text-lg lg:text-xl">Highlights</div>
-
-          <ul class="pt-1 pl-4 sm:pl-7  text-2xs sm:text-xs lg:text-sm"
+        <div class="pt-8  card_narrow">
+          <div class="cardTitle">Highlights</div>
+          <ul class="pt-1 pl-3 sm:pl-4 md:pl-6  text-2xs sm:text-xs lg:text-sm"
               style="list-style-type:circle">
             <li class="mt-2">1 year of full-time coding experience</li>
             <li class="mt-2">Demonstrated ability to write complete apps using Javascript, React, Node.js and MongoDB</li>
@@ -51,86 +48,203 @@
             <li class="mt-2">Masters degree and 12 years of engineering experience</li>
             <li class="mt-2">22 US patents</li>
           </ul>
+          <div class="h-8 md:h-10"></div>    <!-- Bottom margin spacer -->
+
         </div>
+
 
         <div class=spacer_sm></div>
 
 
+        <!-- Coding Experience -->
+        <div class="pt-8  text-2xs md:text-xs xl:text-vsm  card_medium">
+          <div class="cardTitle">Coding Experience</div>
 
-       <!-- Coding Experience -->
-      <div class="px-5 xs:px-6 md:px-8  pt-7  w-full xs:w-11/12 sm:w-5/6 max-w-2xl  relative
-                  text-2xs md:text-xs xl:text-vsm 
-                bg-backgnd-card  border border-bord-std  rounded-lg shadow-lg"
-      >
-        <div class="font-soft_sans font-500 text-md md:text-lg lg:text-xl">Coding Experience</div>
-
-        <div class="pt-2 sm:pt-3 md:pt-4  responsiveRoleBlock">
-          <div class="mr-8 font-600 text-2xs md:text-vsm xl:text-sm ">Full Stack Developer Bootcamp</div>
- 
-          <div class="responsiveDate pl-1">Sep 2020 - Feb 2021</div>
-
-          <div class="pl-1 pr-3">
-            <a class="underline" href="https://www.evolveu.ca/">EvolveU</a>
-            <span>, Calgary, Alberta</span>
-            <span class="hidden md:inline md:invisible">&nbsp &nbsp Sep 2020 - Feb 2021</span>
-          </div>
-        </div>
-
-        <!-- Project List -->
-        <div class="pl-2 md:pl-4 lg:pl-6  text-2xs md:text-xs xl:text-vsm">
-          <p class="pt-3 listIndent-lg">Project 1: &nbsp Resume Website &nbsp – &nbsp HTML, CSS, TailwindCSS </p>
-
-          <div class="flex flex-col md:flex-row">
-            <p class="pt-4 listIndent-lg">Project 1B: &nbsp Style Guide &nbsp</p>
-            <p class="pl-8 md:pl-0 md:pt-4 listIndent-sm">–&nbsp HTML, TailwindCSS, Vue.js</p>
-          </div>
-          <p class="pl-8 md:pl-16 listIndent-sm">– Applied the UI principles of “Refactoring UI”</p>
-          <p class="pt-4 listIndent-lg">Project 2: &nbsp Catalog of EvolveU Student Projects &nbsp – &nbsp  Javascript and React</p>
-          <p class="pt-4 listIndent-lg">Project 3: &nbsp ‘2½-Dimensional' Mindmap</p>
-          
-          <div class="pl-8 md:pl-12  listIndent-sm">
-            <p class="">–  Wrote thousands of lines of Javascript and React</p>
-            <p class="">–  Node.js, Express, Axios and MongoDB backend</p>
-            <p class="">–  Agile/Scrum process flow, Git version control</p>
-          </div>
-        </div>
-          
-
-        <div class="pt-6 md:pt-10  responsiveRoleBlock">
-          <div class="mr-8 font-600 text-2xs md:text-vsm xl:text-sm ">Embedded Developer</div>
- 
-          <div class="responsiveDate pl-1">
-            2013 - 2015
+          <!-- Role, organziation, dates, bullet points -->
+          <div class="pt-2 sm:pt-3 md:pt-4  responsiveRoleBlock">
+            <div class="mr-8 font-600 text-2xs md:text-vsm xl:text-sm ">Full Stack Developer Bootcamp</div>
+            <div class="responsiveDate pl-1">Sep 2020 - Feb 2021</div>
+            <div class="pl-1 pr-3">
+              <a class="underline" href="https://www.evolveu.ca/">EvolveU</a>
+              <span>, Calgary, AB</span>
+              <span class="hidden md:inline md:invisible">&nbsp &nbsp Sep 2020 - Feb 2021</span>
+            </div>
           </div>
 
-          <div class="pl-1 pr-3"> 
-            <span>The Delphi Group, Calgary, Alberta</span>
-            <span class="hidden md:inline md:invisible">&nbsp &nbsp 2013 - 2015</span>
+          <!-- Project List -->
+          <div class="pl-2 md:pl-4 lg:pl-6  text-2xs md:text-xs xl:text-vsm">
+            <p class="pt-3 listIndent-lg">Project 1: &nbsp Resume Website &nbsp – &nbsp HTML, CSS, TailwindCSS </p>
+            <div class="flex flex-col lg:flex-row">
+              <p class="pt-4 listIndent-lg flex-shrink-0">Project 1B: &nbsp Style Guide &nbsp</p>
+              <p class="pl-8 lg:pl-0 lg:pt-4 listIndent-sm">–&nbsp HTML, TailwindCSS, Vue.js</p>
+            </div>
+            <p class="pl-8 md:pl-8 lg:pl-12 listIndent-sm">– Applied the UI principles of “Refactoring UI”</p>
+            <p class="pt-4 listIndent-lg">Project 2: &nbsp Catalog of EvolveU Student Projects &nbsp – &nbsp  Javascript and React</p>
+            <p class="pt-4 listIndent-lg">Project 3: &nbsp ‘2½-Dimensional' Mindmap</p>
+            <div class="pl-8 lg:pl-12  listIndent-sm">
+              <p class="">–  Wrote thousands of lines of Javascript and React</p>
+              <p class="">–  Node.js, Express, Axios and MongoDB backend</p>
+              <p class="">–  Scrum Master for Agile/Scrum work flow, managed Git repo</p>
+            </div>
           </div>
-
-
-
-        </div>
-
-        <div class="pt-3 pl-4">6-month full-time coding project within a large Calgary-based energy company</div>
-
-          <ul class="pt-1 pl-4 sm:pl-7"
-            style="list-style-type:circle">
-            <li class="mt-2">Learned Visual Basic for Excel. Used it to create a detailed model of supply and demand in the New England renewable energy credit market.</li>
+            
+          <div class="pt-6 md:pt-10  responsiveRoleBlock">
+            <div class="mr-8 font-600 text-2xs md:text-vsm xl:text-sm ">Embedded Developer</div>
+            <div class="responsiveDate pl-1">2013 - 2015</div>
+            <div class="pl-1 pr-3"> 
+              <span>The Delphi Group, Calgary, AB</span>
+              <span class="hidden md:inline md:invisible">&nbsp &nbsp 2013 - 2015</span>
+            </div>
+          </div>
+          <div class="pt-2 pl-4">6-month full-time coding project within a large Calgary-based energy company</div>
+          <ul class="pl-4 sm:pl-7" style="list-style-type:circle">
+            <li class="mt-2">Learned Visual Basic for Excel. Used it to create a detailed model of supply and demand in the New England 
+              renewable energy credit market.
+            </li>
           </ul>
 
-          <div class="h-10 md:h-12"></div>    <!-- Bottom margin spacer -->
+          <div class="h-7 md:h-9"></div>    <!-- Bottom margin spacer -->
+
+        </div>
+
+
+        <div class=spacer_sm></div>
+
+
+        <!-- Other Experience -->
+        <div class="pt-8  text-2xs md:text-xs xl:text-vsm  card_wide">
+          <div class="cardTitle">Other Experience (Highlights Only)</div>
+          
+          <!-- Role, organziation, dates, bullet points -->
+          <div class="pt-2 sm:pt-4 md:pt-5  responsiveRoleBlock">
+            <div class="mr-8 font-600 text-2xs md:text-vsm xl:text-sm ">Mechanical Engineer</div>
+            <div class="responsiveDate pl-1">2019</div>
+            <div class="pl-1 pr-3"> 
+              <span>Dynamic Air Shelters, Calgary, AB</span>
+              <span class="hidden md:inline md:invisible">&nbsp &nbsp 2019</span>
+            </div>
+          </div>
+          <ul class="pl-4 sm:pl-7" style="list-style-type:circle">
+            <li class="mt-1">Implemented 2 numerical methods for calculating the strength of air-inflated beams.</li>
+            <li class="mt-1">Managed a team of 7 to assemble load fixtures and perform load tests. Mentored a junior engineer throughout.</li>
+          </ul>
+
+          <!-- Role, organziation, dates, bullet points -->
+          <div class="pt-4 md:pt-8  responsiveRoleBlock">
+            <div class="mr-8 font-600 text-2xs md:text-vsm xl:text-sm ">Chemical Engineer</div>
+            <div class="responsiveDate pl-1">2015 – 2016</div>
+            <div class="pl-1 pr-3"> 
+              <span>Carbon Engineering (CE), Calgary, AB</span>
+              <span class="hidden md:inline md:invisible">&nbsp &nbsp 2015 – 2016</span>
+            </div>
+          </div>
+          <ul class="pl-4 sm:pl-7" style="list-style-type:circle">
+            <li class="mt-1">Designed CE’s fuel synthesis system. Built a detailed computer model of this system and wrote a feasibility assessment, resulting in CE being awarded $3.75 million in funding.</li>
+          </ul>
+
+          <!-- Role, organziation, dates, bullet points -->
+          <div class="pt-4 md:pt-8  responsiveRoleBlock">
+            <div class="mr-8 font-600 text-2xs md:text-vsm xl:text-sm ">Management Consultant</div>
+            <div class="responsiveDate pl-1">2013 – 2015</div>
+            <div class="pl-1 pr-3"> 
+              <span>The Delphi Group, Calgary, AB</span>
+              <span class="hidden md:inline md:invisible">&nbsp &nbsp 2013 – 2015</span>
+            </div>
+          </div>
+          <ul class="pl-4 sm:pl-7" style="list-style-type:circle">
+            <li class="mt-1">Created software tools using Excel VBA, assessed energy technologies and projects, and wrote energy policy briefs. Clients ranged from start-ups to large oil & gas companies.</li>
+          </ul>
+
+          <!-- Role, organziation, dates, bullet points -->
+          <div class="pt-4 md:pt-8  responsiveRoleBlock">
+            <div class="mr-8 font-600 text-2xs md:text-vsm xl:text-sm ">R&D Engineer</div>
+            <div class="responsiveDate pl-1">1997 – 2004</div>
+            <div class="pl-1 pr-3"> 
+              <span>Seagate Technology, Longmont, CO</span>
+              <span class="hidden md:inline md:invisible">&nbsp &nbsp 1997 – 2004</span>
+            </div>
+          </div>
+          <ul class="pl-4 sm:pl-7" style="list-style-type:circle">
+            <li class="mt-1">Invented and developed new hard drive head-disk technologies. Three of these inventions are now used in millions of drives worldwide.</li>
+          </ul>
+
+          <div class="h-7 md:h-9"></div>    <!-- Bottom margin spacer -->
+        </div>  
+
+
+        <div class=spacer_sm></div>
+
+
+        <!-- Education -->
+        <div class="pt-7  text-2xs md:text-xs xl:text-vsm  card_wide">
+          <div class="cardTitle">Education</div>
+          
+          <!-- Role, organziation, dates, bullet points -->
+          <div class="pt-2 sm:pt-3 md:pt-4  responsiveRoleBlock">
+            <div class="mr-8 font-600 text-2xs md:text-vsm xl:text-sm ">Masters of Science – Resources & Environment</div>
+            <div class="responsiveDate pl-1">2009 – 2012</div>
+            <div class="pl-1 pr-3"> 
+              <span>U. British Columbia</span>
+              <span class="hidden md:inline md:invisible">&nbsp &nbsp 2009 – 2012</span>
+            </div>
+          </div>
+
+          <!-- Role, organziation, dates, bullet points -->
+          <div class="pt-4 md:pt-8  responsiveRoleBlock">
+            <div class="mr-8 font-600 text-2xs md:text-vsm xl:text-sm ">Masters of Engineering (Mechanical)</div>
+            <div class="responsiveDate pl-1">2015 – 2016</div>
+            <div class="pl-1 pr-3"> 
+              <span>U. Colorado, Boulder</span>
+              <span class="hidden md:inline md:invisible">&nbsp &nbsp 1998 – 2001</span>
+            </div>
+          </div>
+          <ul class="pl-4 sm:pl-7" style="list-style-type:circle">
+            <li class="mt-1">Completed studies while working full-time. Earned ‘A’s in all classes.</li>
+          </ul>
+
+          <!-- Role, organziation, dates, bullet points -->
+          <div class="pt-4 md:pt-8  responsiveRoleBlock">
+            <div class="mr-8 font-600 text-2xs md:text-vsm xl:text-sm ">Bachelor of Engineering (Mechanical)</div>
+            <div class="responsiveDate pl-1 pr-2">Eons Ago</div>
+            <div class="pl-1 pr-3"> 
+              <span>U. Queensland, Australia</span>
+              <span class="hidden md:inline md:invisible">&nbsp &nbsp Eons Ago</span>
+            </div>
+          </div>
+          <ul class="pl-4 sm:pl-7" style="list-style-type:circle">
+            <li class="mt-1">Awards for top student in Mech. Engineering, Best Thesis in Engineering, and top 1% of university graduates.</li>
+          </ul>
+          <div class="h-7 md:h-9"></div>    <!-- Bottom margin spacer -->
+        </div>  
+
+        <div class=spacer_sm></div>
+
+        <!-- Patents and Training -->
+        <div class="pt-7  text-2xs md:text-xs xl:text-vsm  card_narrow">
+          <div class="cardTitle">Patents and Training</div>
+          <ul class="pt-1 md:pt-2  pl-4 sm:pl-6" style="list-style-type:circle">
+            <li class="mt-1">22 US Patents awarded. First inventor for 13 of these.</li>
+              <p class="listIndent-sm">e.g. USPTO # 6388842, 6157522</p>
+            <li class="mt-2">'Brown Belt' in Six Sigma statistics</li>
+          </ul>
+          <div class="h-7 md:h-9"></div>    <!-- Bottom margin spacer -->
+        </div>
+
+        <div class=spacer_sm></div>
+
+        <!-- Patents and Training -->
+        <div class="pt-7  text-2xs md:text-xs xl:text-vsm  card_narrow">
+          <div class="cardTitle">Languages and Citizenship</div>
+          <ul class="pt-1 md:pt-2  pl-4 sm:pl-6" style="list-style-type:circle">
+            <li class="mt-1">French: Beginner</li>
+            <li class="mt-1">Spanish: Intermediate Fluency</li>
+            <li class="mt-1">Citizen of Canada, USA and Australia</li>
+          </ul>
+          <div class="h-7 md:h-9"></div>    <!-- Bottom margin spacer -->
+        </div>  
 
       </div>
 
-      <div class=spacer_sm></div>
-
-
-
-
-
-      </div>
-      
       <div class="spacer_lg"></div>
       <footer w3-include-html="footer.html"></footer>
 

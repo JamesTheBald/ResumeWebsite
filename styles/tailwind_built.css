@@ -670,6 +670,107 @@ video {
   padding-bottom: 0.75rem
 }
 
+.card_narrow {
+  width: 91.666667%;
+  max-width: 32rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: relative;
+  --bg-opacity: 1;
+  background-color: #f9f9f9;
+  background-color: rgba(249, 249, 249, var(--bg-opacity));
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #718096;
+  border-color: rgba(113, 128, 150, var(--border-opacity));
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
+}
+
+@media (min-width: 450px) { .card_narrow { width: 75%; padding-left: 1.5rem; padding-right: 1.5rem
+  }
+}
+
+@media (min-width: 600px) { .card_narrow { width: 66.666667%
+  }
+}
+
+@media (min-width: 600px) { .card_narrow { padding-left: 2rem; padding-right: 2rem
+  }
+}
+
+.card_medium {
+  width: 91.666667%;
+  max-width: 36rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: relative;
+  --bg-opacity: 1;
+  background-color: #f9f9f9;
+  background-color: rgba(249, 249, 249, var(--bg-opacity));
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #718096;
+  border-color: rgba(113, 128, 150, var(--border-opacity));
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
+}
+
+@media (min-width: 450px) { .card_medium { width: 83.333333%; padding-left: 1.5rem; padding-right: 1.5rem
+  }
+}
+
+@media (min-width: 600px) { .card_medium{ width: 75%
+  }
+}
+
+@media (min-width: 800px) { .card_medium{ padding-left: 2rem; padding-right: 2rem
+  }
+}
+
+.card_wide {
+  width: 100%;
+  max-width: 42rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: relative;
+  --bg-opacity: 1;
+  background-color: #f9f9f9;
+  background-color: rgba(249, 249, 249, var(--bg-opacity));
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #718096;
+  border-color: rgba(113, 128, 150, var(--border-opacity));
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
+}
+
+@media (min-width: 450px) { .card_wide { width: 91.666667%; padding-left: 1.5rem; padding-right: 1.5rem
+  }
+}
+
+@media (min-width: 600px) { .card_wide { width: 83.333333%
+  }
+}
+
+@media (min-width: 800px) { .card_wide { padding-left: 2rem; padding-right: 2rem
+  }
+}
+
+.cardTitle {
+  font-family: "Proxima Soft", Nunito, Roboto, "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1rem
+}
+
+@media (min-width: 800px) { .cardTitle { font-size: 1.125rem
+  }
+}
+
+@media (min-width: 1000px) { .cardTitle { font-size: 1.31rem
+  }
+}
+
 .heroButton {
   padding-left: 0.25rem;
   padding-right: 0.25rem;

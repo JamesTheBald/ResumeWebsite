@@ -10,7 +10,10 @@
     "postcss-cli": "^8.1.0",
     "tailwindcss": "^1.9.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-plugin-vue": "^7.9.0"
+  },
   "scripts": {
     "build": "postcss ./styles/tailwind.css -o ./styles/tailwind_built.css",
     "watch": "postcss ./styles/tailwind.css -o ./styles/tailwind_built.css --watch"
