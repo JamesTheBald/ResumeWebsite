@@ -20,6 +20,8 @@ const onloadFunction = (param) => {
 
 const toggle_nav_pulldown = () => {
    const x = document.getElementById("my_links");
+   console.log("toggle_nav_pulldown() x.style.display=", x.style.display)
+
    if (x.style.display === "none") {
    x.style.display = "block";
    } else {
