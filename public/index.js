@@ -6,7 +6,7 @@ const vibrantBlue = "#0939c2";
 const chosenHighlightColor = vibrantBlue;
 
 
-    // Styling for link to current page
+    // Styling for highlighting current page's navbar link
 const onloadFunction = (param) => {             
    document.getElementById(param).style.color = chosenHighlightColor;
    document.getElementById(param).style.fontWeight = "500";
