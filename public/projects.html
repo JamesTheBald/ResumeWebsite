@@ -30,35 +30,35 @@
 
 
           <!-- Start of Summary Card -->
-          <div class="mt-6 sm:mt-12 mx-6  w-64 md:w-96  flex flex-col justify-between items-center
+          <div class="mt-6 sm:mt-12 mx-6  w-80 md:w-96  flex flex-col justify-between items-center
                     bg-backgnd-card rounded-lg shadow-lg  border border-bord-std" 
             v-for="alias in sum_card_data"
           >
-            <div class="w-full mt-5 mb-2 px-3 text-md md:text-lg font-600 text-center break-normal">{{ alias.title }} </div>
+            <div class="w-full mt-5 px-3 text-lg md:text-xl font-600 text-center break-normal">{{ alias.title }} </div>
 
-            <div class="px-3  flex flex-col md:flex-row items-center">
-              <div class="w-32 object-contain  mx-4 my-3 border border-gray-600 rounded-lg shadow-lg">
+            <div class="mt-3 flex flex-col md:flex-row items-center">
+              <div class="mx-2 md:ml-8 md:mr-1 my-3  w-32 sm:w-36 md:w-40 object-contain  border border-gray-600 rounded-lg shadow-lg">
                 <img class="rounded-lg" :src="alias.image_url" :alt="alias.altText">
               </div>
 
-              <div class="px-4 py-2 flex flex-col justify-start w-56 md:w-48">
+              <div class="px-8 pt-3 flex flex-col justify-start w-full md:w-2/3">
                 <p class="text-xs sm:text-sm"> {{ alias.description }} </p>
                 <p class="text-3xs sm:text-2xs pt-3 text-bord-std"> {{ alias.languages}} </p>
               </div>
             </div>
 
-            <div class="flex justify-center font-400 mt-5 mb-8 text-xs md:text-sm text-center">  <!-- Link buttons -->
-              <a href="">    <!-- Todo: Add link to jump to project detail card below! -->
+            <div class="mt-6 mb-7 md:mb-8 flex justify-center font-400 text-xs md:text-sm text-center">  <!-- Link buttons -->
+              <a :href="alias.link1">
                 <button class="cardButton">
                   {{ alias.link1Text }}
                 </button>        
               </a>
 
-              <a href="">   <!--   Todo: Add link to run this app somehow! -->
+              <!-- <a vbind:href="alias.link2">
                 <button class="cardButton">
                     {{ alias.link2Text }}
-                </button>   
-              </a>
+                </button>
+              </a> -->
 
             </div>
 
@@ -78,37 +78,40 @@
         <div class="flex flex-col items-center w-full"
              v-for="alias in sum_card_data">  <!-- Start Vue loop through sum_card_data array in main.js -->
 
-          <div class="p-6 md:p-10  w-11/12 xs:w-5/6 sm:w-3/4 max-w-4xl  bg-backgnd-card
+          <div class="px-6 md:px-10 py-5 md:py-10  w-11/12 xs:w-5/6 sm:w-3/4 max-w-4xl  bg-backgnd-card
           border border-bord-std   rounded-lg shadow-lg">
           
-            <div class="px-2 mb-8  w-full text-lg  md:text-xl lg:text-2xl  font-600">{{ alias.title }} </div>
+            <div class="px-2 mb-8  w-full text-lg  md:text-xl lg:text-2xl  font-600" :id="alias.id">{{ alias.title }} </div>
 
             <div class="flex flex-col items-center">
 
               <img class="w-full sm:w-11/12 md:5/6 lg:w-3/4  object-contain  rounded-lg border border-gray-600 shadow-lg" 
                   :src="alias.image_url" :alt="alias.altText">
 
-              <div class="mt-4 italic text-gray-600  text-2xs sm:text-xs lg:text-sm">
+              <!-- <div class="mt-4 italic text-gray-600  text-2xs sm:text-xs lg:text-sm">
                 {{ alias.caption }}
                 <div class="invisible"> {{ alias.caption }} </div>
-              </div>
+              </div> -->
+              <div class="w-10 h-5"></div>
 
               <div class="md:px-2 pb-2  text-xs sm:text-sm lg:text-md">
                 <p class="mt-3"> {{ alias.description }} </p>
-                <p class="mt-4"> {{ alias.features }}</p>
-                <p class="mt-3 md:px-2  text-center  text-xs md:text-sm text-gray-600"> {{ alias.languages }} </p>
+                <!-- <p class="mt-4"> {{ alias.features }}</p> -->
+                <p class="mt-4 md:px-2  text-center  text-2xs md:text-xs text-gray-600"> {{ alias.languages }} </p>
               </div>
             </div>
 
-            <div class="mt-6 flex justify-center font-400  text-xs md:text-sm">
-              <a href="">
+            <div class="mt-6   flex justify-center font-400  text-xs md:text-sm">
+              <a :href="alias.link1">
                 <button class="cardButton">
-              Link to GitHub</button>           <!-- Todo: Add link to jump to project detail card below! -->
+                  {{ alias.link1Text }}
+                </button>
               </a>
 
-              <a href="">
+              <a :href="alias.link2">
                   <button class="cardButton">
-                Run It!</button>               <!-- Todo: Add link to run this app somehow! -->
+                    {{ alias.link2Text }}
+                  </button>
               </a>
             </div>
               

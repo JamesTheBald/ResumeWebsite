@@ -779,14 +779,14 @@ video {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   --text-opacity: 1;
-  color: #2d3748;
-  color: rgba(45, 55, 72, var(--text-opacity));
+  color: #1a202c;
+  color: rgba(26, 32, 44, var(--text-opacity));
   letter-spacing: 0.025em;
   border-radius: 0.25rem;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   --bg-opacity: 1;
-  background-color: #cbd5e0;
-  background-color: rgba(203, 213, 224, var(--bg-opacity));
+  background-color: #e2e8f0;
+  background-color: rgba(226, 232, 240, var(--bg-opacity));
   --bg-opacity: 0.75;
   border-width: 1px;
   --border-opacity: 1;

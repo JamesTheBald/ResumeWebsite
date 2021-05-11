@@ -35,8 +35,8 @@
 
 
   .heroButton {@apply 
-    px-1 py-0 mx-2  text-gray-800 tracking-wide rounded shadow-lg
-    bg-gray-400 bg-opacity-75  border border-gray-800
+    px-1 py-0 mx-2  text-gray-900 tracking-wide rounded shadow-lg
+    bg-gray-300 bg-opacity-75  border border-gray-800
   }
   .heroButton:hover {@apply bg-gray-100 text-gray-900 transition duration-300 }
 
