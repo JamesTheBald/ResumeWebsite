@@ -25,7 +25,7 @@
   order: 3;
 }
 
-@media only screen and (min-width: 900px) { 
+@media only screen and (min-width: 800px) { 
   
   .responsiveRoleBlock { flex-direction: row; padding-top: 0rem; }
 
@@ -36,8 +36,7 @@
   }
 }
 
-@media only screen and (min-width: 900px) { .responsiveDate { flex-direction: row; }}
-
+@media only screen and (min-width: 800px) { .responsiveDate { flex-direction: row; }}
 
 
 .listIndent-sm {
